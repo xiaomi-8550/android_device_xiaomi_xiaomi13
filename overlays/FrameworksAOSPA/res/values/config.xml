@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/fastchg_mode</string>
+
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Xiaomi/fuxi_global/missi:13/TKQ1.220905.001/V14.0.9.0.TMCMIXM:user/release-keys</string>
 </resources>
