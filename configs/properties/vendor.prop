@@ -61,3 +61,6 @@ ro.vendor.nfc.dispatch_optim=1
 ro.vendor.nfc.repair=1
 ro.vendor.se.chip.model=SN110T
 ro.vendor.se.type=HCE,UICC
+
+# Telephony
+persist.vendor.radio.redir_party_num=0
