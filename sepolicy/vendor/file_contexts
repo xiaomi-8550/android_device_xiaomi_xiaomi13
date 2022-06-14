@@ -1,0 +1,8 @@
+# Battery
+/vendor/bin/batterysecret                               u:object_r:batterysecret_exec:s0
+
+# Touchfeature
+/odm/etc/init.panel_info.sh                             u:object_r:vendor_touch_init_shell_exec:s0
+
+# Thermal
+/vendor/bin/mi_thermald                                 u:object_r:mi_thermald_exec:s0

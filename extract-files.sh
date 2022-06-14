@@ -58,9 +58,6 @@ function blob_fixup() {
         odm/etc/camera/enhance_motiontuning.xml | odm/etc/camera/night_motiontuning.xml | odm/etc/camera/motiontuning.xml)
             sed -i 's/<?xml=/<?xml /g' "${2}"
             ;;
-        odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc | vendor/etc/init/hw/init.batterysecret.rc | vendor/etc/init/hw/init.mi_thermald.rc)
-            sed -i '/seclabel/d' "${2}"
-            ;;
         odm/lib64/libailab_rawhdr.so)
             "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784d/bin/llvm-strip --strip-debug "${2}"
             ;;
