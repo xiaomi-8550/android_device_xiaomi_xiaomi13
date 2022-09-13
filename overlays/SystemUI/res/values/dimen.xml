@@ -4,7 +4,7 @@
     <dimen name="rounded_corner_content_padding">49.0px</dimen>
 
     <!-- The width/height of the unlock icon view on keyguard. -->
-    <dimen name="keyguard_indication_margin_bottom">4dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1040px</dimen>
