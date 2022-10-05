@@ -46,6 +46,8 @@
         <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
         <boolean name="carrier_b2c_enriched_calling_supported_bool" value="false" />
         <boolean name="carrier_call_progress_notification" value="true" />
+        <!-- PA: Use 4G icon for LTE by popular request -->
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
