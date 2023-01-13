@@ -7,4 +7,5 @@
 runtime_resource_overlay {
     name: "FuxiCarrierConfigResMiui",
     product_specific: true,
+    aaptflags: ["--keep-raw-values"],
 }
