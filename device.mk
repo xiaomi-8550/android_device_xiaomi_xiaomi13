@@ -228,6 +228,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FuxiFrameworks \
     FuxiSecureElement \
+    FuxiSettings \
     FuxiSettingsProvider \
     FuxiSystemUI \
     FuxiWifiRes \
