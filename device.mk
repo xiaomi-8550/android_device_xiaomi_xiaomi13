@@ -253,7 +253,6 @@ PRODUCT_PACKAGES += \
     FuxiSettings \
     FuxiSettingsProvider \
     FuxiSystemUI \
-    FuxiSystemUIAOSPA \
     FuxiWifiRes \
     FuxiWifiResTarget \
     FuxiWifiResTarget_spf
