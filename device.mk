@@ -274,6 +274,7 @@ PRODUCT_PACKAGES += \
     Xiaomi13Frameworks \
     Xiaomi13FrameworksAOSPA \
     Xiaomi13FrameworksNuwa \
+    Xiaomi13Nfc \
     Xiaomi13Settings \
     Xiaomi13SettingsAOSPA \
     Xiaomi13SettingsCN \

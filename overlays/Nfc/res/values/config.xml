@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_skuSupportsSecureNfc">
+        <item>fuxi</item>
+        <item>nuwa</item>
+    </string-array>
+</resources>
