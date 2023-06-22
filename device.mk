@@ -21,7 +21,8 @@ $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
