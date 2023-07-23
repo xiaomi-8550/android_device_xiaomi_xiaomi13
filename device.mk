@@ -224,6 +224,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FuxiFrameworks \
+    FuxiSystemUI \
+    FuxiWifiRes \
+    FuxiWifiResTarget \
+    FuxiWifiResTarget_spf
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3.vendor
