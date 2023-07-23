@@ -204,6 +204,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-V1-ndk_platform.vendor
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FuxiFrameworks \
+    FuxiSystemUI \
+    FuxiWifiRes \
+    FuxiWifiResTarget \
+    FuxiWifiResTarget_spf
+
 # Perf
 PRODUCT_PACKAGES += \
     libpsi.vendor \
