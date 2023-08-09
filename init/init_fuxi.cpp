@@ -28,6 +28,10 @@ static const string source_partitions[] = {
     "system_ext.", "vendor.", "vendor_dlkm."
 };
 
+bool IsRecoveryMode() {
+    return access("/system/bin/recovery", F_OK) == 0;
+}
+
 void property_override(char const prop[], char const value[]) {
     auto pi = (prop_info*) __system_property_find(prop);
 
@@ -53,5 +57,10 @@ void vendor_load_properties() {
         set_ro_build_prop("model", "2211133C");
     } else { // Global
         set_ro_build_prop("model", "2211133G");
+    }
+
+    // Override first api level for safetynet
+    if (!IsRecoveryMode()) {
+        property_override("ro.product.first_api_level", "32");
     }
 }
