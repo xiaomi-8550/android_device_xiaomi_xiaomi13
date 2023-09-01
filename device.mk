@@ -54,7 +54,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
-    adreno \
     alarm \
     audio \
     av \
@@ -66,7 +65,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     keymaster \
     media \
     overlay \
-    perf \
     qseecomd \
     telephony \
     usb \
@@ -115,10 +113,6 @@ PRODUCT_PACKAGES += \
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-
-# Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \

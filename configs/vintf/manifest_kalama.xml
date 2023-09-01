@@ -114,6 +114,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
             <instance>dspservice</instance>
         </interface>
     </hal>
+    <!--
     <hal format="hidl">
        <name>android.hardware.gatekeeper</name>
        <transport>hwbinder</transport>
@@ -124,6 +125,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
            <instance>default</instance>
        </interface>
     </hal>
+    -->
     <!-- NFC HAL service -->
     <hal format="hidl">
         <name>android.hardware.nfc</name>

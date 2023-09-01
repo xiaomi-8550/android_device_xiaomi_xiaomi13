@@ -864,8 +864,10 @@ vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
 vendor/etc/camera/129_Vivid.png
 vendor/etc/camera/130_Natural.png
-vendor/etc/camera/131_Monochrom.png
-vendor/etc/camera/132_MonochromHighContrast.png
+vendor/etc/camera/131_Monochrome.png
+vendor/etc/camera/132_MonochromeHighContrast.png
+vendor/etc/camera/133_MonochromeBrown.png
+vendor/etc/camera/134_MonochromeBlue.png
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/af_class_all.dlc
 vendor/etc/camera/af_class_human.dlc
@@ -1305,7 +1307,6 @@ vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libvideoutils.so
 
 # Computer Vision (Firmware)
 odm/firmware/evass.b00
@@ -1536,8 +1537,6 @@ vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
@@ -1657,7 +1656,6 @@ vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_api_wds.so
 vendor/lib64/libloc_core.so
 vendor/lib64/libloc_eng_hub.so
-vendor/lib64/libloc_qwes_iface.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/libloc_util.so
 vendor/lib64/liblocation_api.so
@@ -1726,8 +1724,7 @@ vendor/lib64/libqtiidentitycredential.so
 vendor/etc/init/ipa_fws.rc
 
 # IR
-vendor/bin/consumerird
-vendor/lib64/hw/consumerir.qcom.so
+odm/lib64/hw/consumerir.qcom.so
 
 # IRQ Balance
 vendor/bin/msm_irqbalance
@@ -1777,8 +1774,6 @@ vendor/etc/seccomp_policy/c2audio.vendor.ext-arm.policy
 vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_kalama.xml
 vendor/etc/media_codecs_kalama_vendor.xml
@@ -1819,7 +1814,9 @@ vendor/lib64/libqcodec2_streaminteg_filter.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/libstagefrighthw.so
+vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvideotxr.so
+vendor/lib64/libvideoutils.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 
 # Media (Dolby Vision)
@@ -1970,39 +1967,68 @@ vendor/lib64/libFlacSwDec.so
 vendor/lib64/libdsd2pcm.so
 
 # Perf
-vendor/bin/hw/vendor.qti.hardware.perf-hal-service
-vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
-vendor/etc/perf/avcsysnodesconfigs.xml
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfboostselection.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetavcsysnodesconfigs.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/perf/targetsysnodesconfigs.xml
-vendor/etc/perf/testcommonresourceconfigs.xml
-vendor/etc/perf/testtargetresourceconfigs.xml
-vendor/etc/perf/thermal-boost.conf
-vendor/etc/perf/thermalbreakboostconfig.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
-vendor/lib64/liblearningmodule.so
-vendor/lib64/libmeters.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/libskewknob.so
-
-# Perf LM
+system/framework/QPerformance.jar
+system/framework/QXPerformance.jar
+system/framework/UxPerformance.jar
+system_ext/app/PerformanceMode/PerformanceMode.apk
+system_ext/app/PowerSaveMode/PowerSaveMode.apk
+system_ext/app/workloadclassifier/workloadclassifier.apk
+system_ext/bin/perfservice
+system_ext/bin/qspmsvc
+system_ext/etc/init/perfservice.rc
+system_ext/etc/init/qspmsvc.rc
+system_ext/etc/perf/wlc_model.tflite
+system_ext/etc/seccomp_policy/perfservice.policy
+system_ext/lib/libbeluga.so
+system_ext/lib/libcomposerextn.qti.so
+system_ext/lib/libdolphin.so
+system_ext/lib/liblayerext.qti.so
+system_ext/lib/libpenguin.so
+system_ext/lib/libpenguin_impl.so
+system_ext/lib/libqape.qti.so
+system_ext/lib/libqspmsvc.so
+system_ext/lib/libqti-at.so
+system_ext/lib/libqti-iopd-client_system.so
+system_ext/lib/libqti-perfd-client_system.so
+system_ext/lib/libqti_performance.so
+system_ext/lib/libqti_workloadclassifiermodel.so
+system_ext/lib/libskewknob_system.so
+system_ext/lib/libsmomoconfig.qti.so
+system_ext/lib/vendor.qti.hardware.iop@2.0.so
+system_ext/lib/vendor.qti.hardware.limits@1.0.so
+system_ext/lib/vendor.qti.hardware.limits@1.1.so
+system_ext/lib/vendor.qti.hardware.perf@2.0.so
+system_ext/lib/vendor.qti.hardware.perf@2.1.so
+system_ext/lib/vendor.qti.hardware.perf@2.2.so
+system_ext/lib/vendor.qti.hardware.perf@2.3.so
+system_ext/lib/vendor.qti.qspmhal@1.0.so
+system_ext/lib64/libbeluga.so
+system_ext/lib64/libcomposerextn.qti.so
+system_ext/lib64/libdolphin.so
+system_ext/lib64/liblayerext.qti.so
+system_ext/lib64/libpenguin.so
+system_ext/lib64/libpenguin_impl.so
+system_ext/lib64/libqape.qti.so
+system_ext/lib64/libqspmsvc.so
+system_ext/lib64/libqti-at.so
+system_ext/lib64/libqti-iopd-client_system.so
+system_ext/lib64/libqti-perfd-client_system.so
+system_ext/lib64/libqti_performance.so
+system_ext/lib64/libqti_workloadclassifiermodel.so
+system_ext/lib64/libskewknob_system.so
+system_ext/lib64/libsmomoconfig.qti.so
+system_ext/lib64/vendor.qti.hardware.iop@2.0.so
+system_ext/lib64/vendor.qti.hardware.limits@1.0.so
+system_ext/lib64/vendor.qti.hardware.limits@1.1.so
+system_ext/lib64/vendor.qti.hardware.perf@2.0.so
+system_ext/lib64/vendor.qti.hardware.perf@2.1.so
+system_ext/lib64/vendor.qti.hardware.perf@2.2.so
+system_ext/lib64/vendor.qti.hardware.perf@2.3.so
+system_ext/lib64/vendor.qti.qspmhal@1.0.so
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
-vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service
+vendor/bin/hw/vendor.qti.hardware.perf-hal-service
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
-vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
 vendor/etc/lm/prekill/prekill_2GB.data
 vendor/etc/lm/prekill/prekill_4GB.data
 vendor/etc/lm/prekill/prekill_6GB.data
@@ -2017,25 +2043,63 @@ vendor/etc/lm/QGPE.xml
 vendor/etc/lm/QGPEActionMap.xml
 vendor/etc/lm/SilkyScrollsFeature.xml
 vendor/etc/lm/sPLHFeature.xml
-vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml
-vendor/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so
+vendor/etc/perf/avcsysnodesconfigs.xml
+vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/commonsysnodesconfigs.xml
+vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/perfboostselection.xml
+vendor/etc/perf/perfconfigstore.xml
+vendor/etc/perf/targetavcsysnodesconfigs.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
+vendor/etc/perf/targetsysnodesconfigs.xml
+vendor/etc/perf/testcommonresourceconfigs.xml
+vendor/etc/perf/testtargetresourceconfigs.xml
+vendor/etc/perf/thermal-boost.conf
+vendor/etc/perf/thermalbreakboostconfig.xml
+vendor/etc/pwr/AODPowerOptFeature.xml
+vendor/etc/pwr/PSMPowerOptFeature.xml
+vendor/etc/pwr/PowerFeatureConfig.xml
+vendor/etc/pwr/StandbyFeature.xml
+vendor/etc/pwr/VideoPowerOptFeature.xml
+vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
+vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
 vendor/lib64/libadaptlaunch.so
+vendor/lib64/libaodoptfeature.so
 vendor/lib64/libapengine.so
 vendor/lib64/libappclassifier.so
+vendor/lib64/liblearningmodule.so
 vendor/lib64/liblightninglaunches.so
 vendor/lib64/liblmutils-ns.so
 vendor/lib64/libmemperfd.so
 vendor/lib64/libmeters-ns.so
-vendor/lib64/libpasrutils.so
+vendor/lib64/libmeters.so
+vendor/lib64/libperfconfig.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libperfioctl.so
+vendor/lib64/libprefapps.so
 vendor/lib64/libprekill.so
 vendor/lib64/libprocomp.so
+vendor/lib64/libpsmoptfeature.so
 vendor/lib64/libqapesdk.so
 vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
+vendor/lib64/libqti-perfd-client.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-qesdk-secure.so
+vendor/lib64/libqti-util.so
+vendor/lib64/libqti-utils.so
 vendor/lib64/libsilkyscrolls.so
+vendor/lib64/libskewknob.so
 vendor/lib64/libsplh.so
+vendor/lib64/libstandbyfeature.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/vendor.qti.hardware.perf@2.3.so
+vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
@@ -2053,11 +2117,6 @@ vendor/etc/pwr/PSMPowerOptFeature.xml
 vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/StandbyFeature.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
-vendor/lib64/libpsmoptfeature.so
-vendor/lib64/libstandbyfeature.so
-vendor/lib64/libvideooptfeature.so
-vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so
 
 # Poweropt
 vendor/bin/poweropt-service
@@ -2254,7 +2313,6 @@ vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
-vendor/etc/seccomp_policy/qms.policy
 vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
@@ -2616,15 +2674,10 @@ odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
 # Trusted Execution Environment connector
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted User Interface
 vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti
@@ -2842,12 +2895,10 @@ vendor/etc/init/vmmgr.rc
 vendor/etc/vmmgr.conf
 
 # VPP
-vendor/bin/hw/qconfigservice
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/qconfig.rc
 vendor/etc/init/vppservice.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml
 vendor/lib64/libqconfigclient.so
 vendor/lib64/libvppclient.so
@@ -2857,7 +2908,6 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
-vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
