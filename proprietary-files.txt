@@ -259,12 +259,6 @@ vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
 # Audio (FX modules)
-system_ext/lib/soundfx/libozoprocessing.so
-system_ext/lib/libav_ozoencoder.so
-system_ext/lib/libozoaudio.so
-system_ext/lib64/soundfx/libozoprocessing.so
-system_ext/lib64/libav_ozoencoder.so
-system_ext/lib64/libozoaudio.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdlbvol.so
 vendor/lib/soundfx/libdynproc.so
