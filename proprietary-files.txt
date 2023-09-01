@@ -1547,7 +1547,6 @@ vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libops.so
 vendor/lib64/libqisl.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
@@ -2348,7 +2347,6 @@ vendor/lib64/qcrilNr_aidl_IRadioNetwork.so
 vendor/lib64/qcrilNr_aidl_IRadioSim.so
 vendor/lib64/qcrilNr_aidl_IRadioVoice.so
 vendor/lib64/qcrilNr_aidl_common.so
-vendor/lib64/qcril_client.so
 vendor/lib64/qcrild_libqcrilnr.so
 vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qtiPeripheralMgr.so
