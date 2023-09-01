@@ -143,19 +143,6 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 
-# Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
-system_ext/lib/vendor.qti.hardware.alarm@1.0.so
-system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
-vendor/bin/poweroffm64
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.alarm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
-
 # ANT
 lib/com.dsi.ant@1.0.so
 lib64/com.dsi.ant@1.0.so
