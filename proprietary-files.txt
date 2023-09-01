@@ -351,12 +351,10 @@ vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so
 
 # Bluetooth (A2DP)
-system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 system_ext/lib/vendor.qti.hardware.bluetooth_audio@2.1.so
 system_ext/lib/vendor.qti.hardware.btconfigstore@1.0.so
 system_ext/lib/vendor.qti.hardware.btconfigstore@2.0.so
-system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
 system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so
 system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so
@@ -369,7 +367,6 @@ vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbluetooth_audio_session_aidl.so
 vendor/lib/libbluetooth_audio_session_aidl_qti.so
