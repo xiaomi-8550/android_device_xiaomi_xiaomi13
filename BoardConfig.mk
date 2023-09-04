@@ -78,7 +78,7 @@ DEVICE_MANIFEST_FILE += \
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
-    androidboot.usbcontroller=4e00000.dwc3
+    androidboot.usbcontroller=a600000.dwc3
 
 BOARD_KERNEL_CMDLINE := \
     disable_dma32=on \
