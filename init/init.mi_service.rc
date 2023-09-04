@@ -21,6 +21,14 @@ on boot
     chmod 0660 /sys/class/power_supply/battery/input_suspend
     chmod 0660 /sys/class/qcom-battery/input_suspend
 
+# Connection Security
+service ssgqmigd /vendor/bin/ssgqmigd64
+    override
+    class late_start
+    user radio
+    group radio gps system
+    socket ssgqmig seqpacket 0660 radio inet
+
 # Sensors
 service citsensor-hal-2-0 /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
     class late_start

@@ -1960,7 +1960,6 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Connection Security
 vendor/bin/qwesd
-vendor/bin/ssgqmigd
 vendor/bin/ssgqmigd64
 vendor/bin/ssgtzd
 vendor/etc/init/qwesd.rc
@@ -2613,8 +2612,6 @@ vendor/etc/init/init.qti.qcv.rc
 vendor/bin/qesdk-manager
 vendor/etc/init/qesdk-manager.rc
 vendor/etc/seccomp_policy/qesdk.policy
-vendor/lib/libqesdk2_0.so
-vendor/lib/libqesdk_manager.so
 vendor/lib64/libqesdk2_0.so
 vendor/lib64/libqesdk_manager.so
 vendor/lib64/libqti-qesdk-secure.so
