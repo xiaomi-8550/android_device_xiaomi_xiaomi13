@@ -132,8 +132,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.mi_thermald.rc \
     init.batterysecret.rc \
-    ueventd.xiaomi.rc \
-    kernel_loggy.sh
+    ueventd.xiaomi.rc
 
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/fuxi-kernel
