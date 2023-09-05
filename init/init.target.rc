@@ -523,7 +523,8 @@ on property:ro.boot.ramdump=enable
 on boot && property:ro.product.system.manufacturer=Android
     setprop debug.sf.set_idle_timer_ms 0
 
-service kernel_loggy /vendor/bin/sh /vendor/bin/kernel_loggy.sh
-    class main
+service kernel_loggy /vendor/bin/kernel_loggy.sh
+    class core
     user root
+    group root
     oneshot
