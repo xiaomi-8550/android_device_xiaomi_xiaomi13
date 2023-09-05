@@ -47,6 +47,3 @@ ro.incremental.enable=yes
 
 # Media
 ro.mediaserver.64b.enable=true
-
-# SoC
-ro.soc.manufacturer=QTI
