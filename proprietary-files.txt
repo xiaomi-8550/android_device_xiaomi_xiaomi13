@@ -1359,6 +1359,17 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
+# Diag
+system_ext/lib/vendor.qti.diaghal@1.0.so
+system_ext/lib64/libdiag_system.so
+system_ext/lib64/libdiag_system.qti.so
+system_ext/lib64/vendor.qti.diaghal@1.0.so
+vendor/bin/diag-router
+vendor/etc/init/vendor.qti.diag_userdebug.rc
+vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
+vendor/lib64/libdiag.so
+vendor/lib64/vendor.qti.diaghal@1.0.so
+
 # Display
 vendor/bin/init.qti.display_boot.sh
 vendor/etc/init/init.qti.display_boot.rc
@@ -2149,7 +2160,6 @@ vendor/etc/init/init.qccvendor.rc
 vendor/etc/init/init.qdmastats.rc
 vendor/etc/init/qmipriod.rc
 vendor/etc/sec_config
-vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
@@ -2235,7 +2245,6 @@ vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
-vendor/bin/diag-router
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdaemon
 vendor/bin/netmgrd
