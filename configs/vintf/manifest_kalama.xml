@@ -449,6 +449,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
         </interface>
     </hal>
     <!--ANT-->
+    <!--
     <hal format="hidl">
         <name>com.dsi.ant</name>
         <transport>hwbinder</transport>
@@ -458,6 +459,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
             <instance>default</instance>
         </interface>
     </hal>
+    -->
     <!--ANT-->
     <!--TuiComm-->
     <hal format="hidl">
