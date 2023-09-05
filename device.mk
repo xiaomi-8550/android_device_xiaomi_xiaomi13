@@ -75,6 +75,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
+TARGET_USE_AIDL_QTI_HEALTH := true
+
 # Shipping API level
 BOARD_API_LEVEL := 33
 BOARD_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
@@ -116,11 +118,6 @@ PRODUCT_PACKAGES += \
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-
-# Health
-PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti \
-    android.hardware.health-service.qti_recovery
 
 # Identity
 PRODUCT_PACKAGES += \
