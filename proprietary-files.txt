@@ -2097,6 +2097,7 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/bin/pm_ioctl_app
 vendor/lib64/libperipheral_client.so
+vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libspcom.so
 
 # Power
