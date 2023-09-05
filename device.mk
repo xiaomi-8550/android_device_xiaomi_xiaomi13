@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
-    vendor.qti.hardware.camera.aon@1.0.vendor \
+    vendor.qti.hardware.camera.aon@1.3.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Display
