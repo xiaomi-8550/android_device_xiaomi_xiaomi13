@@ -10,6 +10,7 @@ camera.disable_zsl_mode=true
 ro.camera.enableCamera1MaxZsl=1
 
 # Display
+persist.sys.sf.native_mode=258
 ro.vendor.display.ai_disp.enable=true
 ro.vendor.display.mi_calib.enable=true
 ro.vendor.display.nature_mode.enable=true
