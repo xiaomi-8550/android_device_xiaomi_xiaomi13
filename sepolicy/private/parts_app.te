@@ -3,8 +3,10 @@ app_domain(parts_app)
 binder_use(parts_app)
 
 hal_client_domain(parts_app, hal_aospa_xiaomitouch)
+hal_client_domain(parts_app, vendor_hal_displayfeature_xiaomi)
 
 binder_call(parts_app, hal_aospa_xiaomitouch)
+binder_call(parts_app, vendor_hal_displayfeature_xiaomi)
 
 allow parts_app {
   activity_service
@@ -16,6 +18,10 @@ allow parts_app {
   sensorservice_service
   vendor_perf_service
 }:service_manager find;
+
+allow parts_app {
+  vendor_hal_displayfeature_xiaomi_hwservice
+}:hwservice_manager find;
 
 allow parts_app system_app_data_file:dir create_dir_perms;
 allow parts_app system_app_data_file:{
