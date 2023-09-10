@@ -66,6 +66,9 @@ TARGET_SCREEN_DENSITY := 420
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += $(DEVICE_PATH)/configs/config.fs
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/framework_matrix_xiaomi.xml
