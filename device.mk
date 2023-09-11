@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FuxiFrameworks \
+    FuxiFrameworksAOSPA \
     FuxiSecureElement \
     FuxiSettings \
     FuxiSettingsProvider \
