@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FuxiFrameworks \
+    FuxiFrameworksAOSPA \
     FuxiSettings \
     FuxiSettingsProvider \
     FuxiSystemUI \
