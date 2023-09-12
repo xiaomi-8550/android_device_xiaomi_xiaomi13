@@ -1447,6 +1447,16 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
+# Connection Security
+vendor/bin/qwesd
+vendor/bin/ssgqmigd
+vendor/bin/ssgqmigd64
+vendor/bin/ssgtzd
+vendor/etc/init/qwesd.rc
+vendor/etc/init/ssgtzd.rc
+vendor/etc/seccomp_policy/qwesd@2.0.policy
+vendor/etc/ssg/tz_whitelist.json
+
 # Diag
 system_ext/lib64/libdiag_system.qti.so
 system_ext/lib64/libdiag_system.so
@@ -2365,8 +2375,6 @@ vendor/bin/qtigetprop
 vendor/bin/qtisetprop
 vendor/bin/rmt_storage
 vendor/bin/shsusrd
-vendor/bin/ssgqmigd
-vendor/bin/ssgtzd
 vendor/bin/tftp_server
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
@@ -2380,7 +2388,6 @@ vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrilNrd.rc
 vendor/etc/init/qms.rc
-vendor/etc/init/ssgtzd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml
@@ -2409,7 +2416,6 @@ vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qti-systemd.policy
-vendor/etc/ssg/tz_whitelist.json
 vendor/etc/vintf/manifest/android.hardware.radio.config.xml
 vendor/etc/vintf/manifest/android.hardware.radio.data.xml
 vendor/etc/vintf/manifest/android.hardware.radio.messaging.xml
