@@ -1972,36 +1972,6 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
 
-# Mlipay
-odm/bin/mlipayd@1.1
-odm/bin/mtd@1.3
-odm/bin/tidad@1.2
-odm/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
-odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc
-odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml
-odm/lib64/libmfido.so
-odm/lib64/libmlipay.so
-odm/lib64/libmlipay@1.1.so
-odm/lib64/libmt.so
-odm/lib64/libmt@1.3.so
-odm/lib64/libtida@1.2.so
-odm/lib64/libwvkeybox.so
-odm/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so
-odm/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so
-odm/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
-odm/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so
-
 # Modem Manager
 vendor/bin/modemManager
 vendor/etc/init/modemManager.rc
