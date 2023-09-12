@@ -1725,6 +1725,10 @@ vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/loc-launcher.rc
+vendor/etc/seccomp_policy/gnss@2.0-base.policy
+vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy
+vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
+vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
