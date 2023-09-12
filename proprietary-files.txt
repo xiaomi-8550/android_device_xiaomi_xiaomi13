@@ -2217,13 +2217,6 @@ vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
-# Power
-vendor/etc/pwr/AODPowerOptFeature.xml
-vendor/etc/pwr/PSMPowerOptFeature.xml
-vendor/etc/pwr/PowerFeatureConfig.xml
-vendor/etc/pwr/StandbyFeature.xml
-vendor/etc/pwr/VideoPowerOptFeature.xml
-
 # Poweropt
 vendor/bin/poweropt-service
 vendor/etc/init/poweropt-service.rc
