@@ -1,7 +1,0 @@
-# Camera
-persist.vendor.camera.privapp.list=com.android.camera
-ro.com.google.lens.oem_camera_package=com.android.camera
-ro.hardware.camera=xiaomi
-ro.miui.notch=1
-ro.product.mod_device=fuxi_global
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
