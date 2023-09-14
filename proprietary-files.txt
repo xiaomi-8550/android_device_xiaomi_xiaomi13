@@ -215,10 +215,6 @@ odm/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml
 odm/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml
 odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml
 odm/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml
-odm/etc/audio_policy_engine_configuration_mi.xml:odm/etc/audio_policy_engine_configuration.xml
-odm/etc/audio_policy_engine_default_stream_volumes.xml
-odm/etc/audio_policy_engine_product_strategies.xml
-odm/etc/audio_policy_engine_stream_volumes.xml
 odm/etc/backend_conf.xml
 vendor/etc/audio/sku_kalama/adsp_sleep_monitor.conf
 vendor/etc/audio/sku_kalama/audio_effects.conf
@@ -233,8 +229,6 @@ vendor/etc/audio/sku_kalama/resourcemanager_kalama_cdp.xml
 vendor/etc/audio/sku_kalama/resourcemanager_kalama_grd.xml
 vendor/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml
 vendor/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml
-vendor/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml
-vendor/etc/audio_diag.cfg
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/batching.conf
 vendor/etc/card-defs.xml
