@@ -1,0 +1,4 @@
+# Camera
+ro.hardware.camera=xiaomi
+ro.miui.notch=1
+ro.product.mod_device=fuxi_global
