@@ -44,3 +44,14 @@ prebuilt_etc {
     src: "ueventd.xiaomi.rc",
     device_specific: true,
 }
+
+cc_library_static {
+    name: "libinit_fuxi",
+    srcs: ["init_fuxi.cpp"],
+    recovery_available: true,
+    whole_static_libs: ["libbase"],
+    include_dirs: [
+        "system/libbase/include",
+        "system/core/init"
+    ]
+}
