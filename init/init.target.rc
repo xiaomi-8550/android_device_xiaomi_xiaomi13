@@ -63,6 +63,7 @@
 import /vendor/etc/init/hw/init.qti.kernel.rc
 import /vendor/etc/init/hw/init.mi_thermald.rc
 import /vendor/etc/init/hw/init.mi_udfps.rc
+import /vendor/etc/init/hw/init.mi_touch.rc
 import /vendor/etc/init/hw/init.batterysecret.rc
 
 on property:sys.boot_completed=1

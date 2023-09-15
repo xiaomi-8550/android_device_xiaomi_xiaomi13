@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.mi_thermald.rc \
     init.mi_udfps.rc \
+    init.mi_touch.rc \
     init.batterysecret.rc \
     ueventd.xiaomi.rc
 
@@ -252,6 +253,10 @@ PRODUCT_PACKAGES += \
     FuxiWifiRes \
     FuxiWifiResTarget \
     FuxiWifiResTarget_spf
+
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Perf
 PRODUCT_PACKAGES += \
