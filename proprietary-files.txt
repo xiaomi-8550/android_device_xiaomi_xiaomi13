@@ -2545,6 +2545,7 @@ vendor/lib64/vendor.qti.imsrtpservice@3.1.so
 vendor/etc/ssg/ta_config.json
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket_vendor.so
+vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Secure Element
