@@ -4,7 +4,7 @@
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">15</integer>
-    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">8.54597E-4</item>
+    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.000854597</item>
 
     <!-- Default screen brightness setting set.
          -2 is invalid so setting will resort to int value specified above.
@@ -21,7 +21,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">8.54597E-4</item>
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.000854597</item>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
