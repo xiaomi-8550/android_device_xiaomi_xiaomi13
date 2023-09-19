@@ -7,6 +7,9 @@
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar">113</integer>
 
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">false</bool>
+
     <!-- Type of a sensor that provides a low-power estimate of the desired display
          brightness, suitable to listen to while the device is asleep (e.g. during
          always-on display) -->
