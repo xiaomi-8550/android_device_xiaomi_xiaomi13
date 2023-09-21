@@ -92,6 +92,8 @@ BOARD_KERNEL_CMDLINE := \
     disable_dma32=on \
     mtdoops.fingerprint=$(AOSPA_VERSION)
 
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
+
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
