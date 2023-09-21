@@ -90,8 +90,6 @@ BOARD_KERNEL_CMDLINE := \
     mtdoops.fingerprint=$(AOSPA_VERSION) \
     video=vfb:640x400,bpp=32,memsize=3072000
 
-BOARD_BOOTCONFIG += androidboot.selinux=permissive
-
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
