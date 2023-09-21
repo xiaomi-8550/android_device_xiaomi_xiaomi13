@@ -75,6 +75,10 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest_kalama.xml \
     $(DEVICE_PATH)/configs/vintf/manifest_xiaomi.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_fuxi
+TARGET_RECOVERY_DEVICE_MODULES := libinit_fuxi
+
 # Kernel
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
@@ -92,15 +96,14 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_fuxi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_fuxi
-
 # Kernel Modules
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PREBUILT_DIR)/modules.load.recovery))
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
+
+# OTA
+TARGET_OTA_ASSERT_DEVICE := 2211133G,2211133C
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 201326592
