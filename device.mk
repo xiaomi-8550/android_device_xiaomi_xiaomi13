@@ -278,6 +278,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Powershare
+PRODUCT_PACKAGES += \
+    vendor.aospa.powershare-service
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
