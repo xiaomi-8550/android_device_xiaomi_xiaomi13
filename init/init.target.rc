@@ -524,6 +524,9 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service_64
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     onrestart restart audioserver
 
+on property:vendor.audio.ssr.trigger=1
+    write /sys/kernel/boot_adsp/ssr 1
+
 service citsensor-hal-2-0 /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
     class late_start
     user system
