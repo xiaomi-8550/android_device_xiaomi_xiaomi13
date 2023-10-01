@@ -1,0 +1,3 @@
+type hal_slaservice_qti, domain;
+type hal_slaservice_qti_exec, exec_type, file_type, vendor_file_type;
+type hal_slaservice_hwservice, hwservice_manager_type;

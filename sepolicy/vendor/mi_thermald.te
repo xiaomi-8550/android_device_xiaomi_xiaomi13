@@ -1,2 +1,2 @@
-type mi_thermald, domain;
-type mi_thermald_exec, exec_type, vendor_file_type, file_type;
+type mi_thermald, domain, mlstrustedsubject;
+type mi_thermald_exec, exec_type, file_type, vendor_file_type;
