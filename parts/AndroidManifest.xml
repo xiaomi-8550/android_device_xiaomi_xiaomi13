@@ -41,6 +41,11 @@
         </service>
 
         <service
+            android:name=".doze.AodBrightnessService"
+            android:exported="true">
+        </service>
+
+        <service
             android:name=".touch.AlwaysOnFingerprintService"
             android:exported="true">
         </service>
