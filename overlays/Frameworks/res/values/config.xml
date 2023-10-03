@@ -414,7 +414,7 @@
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
