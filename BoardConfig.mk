@@ -151,6 +151,7 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 80
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SELinux
+include device/xiaomi/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Sensors
