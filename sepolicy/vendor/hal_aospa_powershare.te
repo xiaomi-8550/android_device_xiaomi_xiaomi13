@@ -1,0 +1,1 @@
+allow hal_aospa_powershare_default vendor_sysfs_qcom_battery:dir r_dir_perms;
