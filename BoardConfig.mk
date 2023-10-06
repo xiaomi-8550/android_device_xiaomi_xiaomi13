@@ -69,6 +69,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/configs/vintf/framework_matrix_fuxi.xml \
     $(DEVICE_PATH)/configs/vintf/framework_matrix_xiaomi.xml
 
 DEVICE_MANIFEST_FILE += \
