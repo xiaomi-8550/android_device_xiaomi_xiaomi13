@@ -181,7 +181,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.mi_thermald.rc \
     init.mi_udfps.rc \
-    init.mi_touch.rc \
     init.batterysecret.rc \
     ueventd.xiaomi.rc
 

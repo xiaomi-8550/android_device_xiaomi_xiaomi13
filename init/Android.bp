@@ -32,13 +32,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mi_touch.rc",
-    src: "init.mi_touch.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.batterysecret.rc",
     src: "init.batterysecret.rc",
     sub_dir: "init/hw",
