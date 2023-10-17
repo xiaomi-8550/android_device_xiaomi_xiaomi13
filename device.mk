@@ -178,7 +178,7 @@ PRODUCT_COPY_FILES += \
 
 # Identity
 PRODUCT_PACKAGES += \
-    android.hardware.identity-V3-ndk_platform.vendor
+    android.hardware.identity-V3-ndk.vendor
 
 # Init
 PRODUCT_PACKAGES += \
@@ -234,7 +234,7 @@ PRODUCT_COPY_FILES += \
 
 # Neural Networks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks-V1-ndk_platform.vendor
+    android.hardware.neuralnetworks-V1-ndk.vendor
 
 # NFC
 $(call inherit-product, vendor/nxp/opensource/commonsys/packages/apps/Nfc/nfc_system_product.mk)
