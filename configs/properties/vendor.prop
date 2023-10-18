@@ -48,6 +48,9 @@ persist.sys.fuse.passthrough.enable=true
 # Incremental FS
 ro.incremental.enable=yes
 
+# Keystore
+ro.hardware.keystore_desede=true
+
 # Media
 media.stagefright.enable-aac=true
 media.stagefright.enable-fma2dp=true
