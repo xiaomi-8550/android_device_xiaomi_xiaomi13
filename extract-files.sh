@@ -59,10 +59,10 @@ function blob_fixup() {
             sed -i 's/<?xml=/<?xml /g' "${2}"
             ;;
         odm/lib64/libailab_rawhdr.so)
-            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784d/bin/llvm-strip --strip-debug "${2}"
+            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
             ;;
         odm/lib64/libxmi_high_dynamic_range_cdsp.so)
-            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784d/bin/llvm-strip --strip-debug "${2}"
+            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
             ;;
     esac
 }
