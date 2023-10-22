@@ -1443,15 +1443,6 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
-# Display
-vendor/bin/init.qti.display_boot.sh
-vendor/etc/init/init.qti.display_boot.rc
-vendor/lib64/libdisplaydebug.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqservice.so
-
 # Display (Calibration)
 odm/etc/display/qdcm_calib_data_xiaomi_m3_38_0c_0a_sec_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml
@@ -1534,7 +1525,6 @@ vendor/lib64/libhdrvivid.so
 vendor/lib64/libpichdralgo.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
@@ -1549,9 +1539,6 @@ vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
 vendor/lib64/libqdcm-mode-parser.so
 vendor/lib64/libqdutils.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmdal.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
