@@ -6,5 +6,5 @@
 
 runtime_resource_overlay {
     name: "FuxiFrameworks",
-    device_specific: true,
+    product_specific: true,
 }

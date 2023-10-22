@@ -6,5 +6,5 @@
 
 runtime_resource_overlay {
     name: "FuxiWifiResTarget_spf",
-    vendor: true,
+    product_specific: true,
 }
