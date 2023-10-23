@@ -89,8 +89,7 @@ BOARD_BOOTCONFIG := \
 BOARD_KERNEL_CMDLINE := \
     kasan=off \
     disable_dma32=on \
-    mtdoops.fingerprint=$(AOSPA_VERSION) \
-    video=vfb:640x400,bpp=32,memsize=3072000
+    mtdoops.fingerprint=$(AOSPA_VERSION)
 
 BOARD_BOOTCONFIG += androidboot.selinux=permissive
 
