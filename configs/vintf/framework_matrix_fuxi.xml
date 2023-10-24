@@ -5,9 +5,9 @@
 <compatibility-matrix version="5.0" type="framework">
     <!-- XiaomiTouch -->
     <hal format="aidl" optional="true">
-        <name>vendor.aospa.touchfeature</name>
+        <name>vendor.aospa.xiaomitouch</name>
         <interface>
-            <name>ITouchFeature</name>
+            <name>IXiaomiTouch</name>
             <instance>default</instance>
         </interface>
     </hal>
