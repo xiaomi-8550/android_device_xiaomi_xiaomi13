@@ -260,7 +260,7 @@ vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
 vendor/lib64/libdapparamstorage.so
-vendor/lib64/libdlbdsservice.so
+vendor/lib64/libdlbdsservice.so|bf9b15b79072ceef7e027de6aa06949aa4b71d55
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
