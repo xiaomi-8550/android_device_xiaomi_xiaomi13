@@ -4,9 +4,6 @@
     vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
-    <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar">113</integer>
-
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">false</bool>
 
