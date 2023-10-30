@@ -252,6 +252,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FuxiCarrierConfigRes \
+    FuxiCarrierConfigResMiui \
     FuxiFrameworks \
     FuxiFrameworksAOSPA \
     FuxiSettings \
