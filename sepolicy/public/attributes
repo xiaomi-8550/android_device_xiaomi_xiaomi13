@@ -1,0 +1,7 @@
+# XiaomiTouch
+attribute hal_aospa_xiaomitouch;
+expandattribute hal_aospa_xiaomitouch true;
+attribute hal_aospa_xiaomitouch_client;
+expandattribute hal_aospa_xiaomitouch_client true;
+attribute hal_aospa_xiaomitouch_server;
+expandattribute hal_aospa_xiaomitouch_server false;

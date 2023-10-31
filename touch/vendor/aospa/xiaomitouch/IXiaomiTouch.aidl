@@ -6,6 +6,7 @@
 
 package vendor.aospa.xiaomitouch;
 
+@VintfStability
 interface IXiaomiTouch {
     oneway void setModeValue(int mode, int value);
 }

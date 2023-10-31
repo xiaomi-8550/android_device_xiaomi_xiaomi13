@@ -15,8 +15,7 @@ namespace aidl::vendor::aospa::xiaomitouch {
 
 class XiaomiTouch : public BnXiaomiTouch {
     public:
-    XiaomiTouch(void);
-    ::ndk::ScopedAStatus setModeValue(int mode, int value) override;
+        ndk::ScopedAStatus setModeValue(int mode, int value) override;
 };
 
 }

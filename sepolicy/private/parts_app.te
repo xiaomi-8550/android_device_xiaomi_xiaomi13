@@ -1,13 +1,19 @@
-type parts_app, domain;
-typeattribute parts_app mlstrustedsubject;
-
 app_domain(parts_app)
+
+binder_use(parts_app)
+
+hal_client_domain(parts_app, hal_aospa_xiaomitouch)
+
+binder_call(parts_app, hal_aospa_xiaomitouch)
 
 allow parts_app {
   activity_service
   content_capture_service
   game_service
+  hal_aospa_xiaomitouch_service
   netstats_service
+  trust_service
+  sensorservice_service
   vendor_perf_service
 }:service_manager find;
 
