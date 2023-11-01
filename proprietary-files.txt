@@ -1756,31 +1756,6 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss-V4-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 
-# Graphics (Adreno)
-vendor/app/com.qualcomm.qti.gpudrivers.kalama.api33/com.qualcomm.qti.gpudrivers.kalama.api33.apk
-vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_32.bin
-vendor/gpu/kbc/unified_kbcs_64.bin
-vendor/gpu/kbc/unified_ksqs.bin
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libgpudataproducer.so
-vendor/lib64/libgsl.so
-vendor/lib64/libkcl.so
-vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
-
 # Graphics (Adreno Firmware)
 odm/firmware/a740_zap.b00
 odm/firmware/a740_zap.b01
@@ -1790,9 +1765,6 @@ odm/firmware/a740_zap.mbn
 odm/firmware/a740_zap.mdt
 vendor/firmware/a740_sqe.fw
 vendor/firmware/gmu_gen70200.bin
-
-# Graphics (Vulkan)
-vendor/lib64/hw/vulkan.adreno.so
 
 # Hotword Enrollment
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
