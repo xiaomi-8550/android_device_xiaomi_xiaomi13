@@ -27,6 +27,14 @@
             <instance>hci1</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true" updatable-via-apex="true">
+        <name>android.hardware.camera.provider</name>
+        <version>1-2</version>
+        <interface>
+            <name>ICameraProvider</name>
+            <regex-instance>[^/]+/[0-9]+</regex-instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.gnss</name>
         <version>1.0-1</version>
