@@ -65,10 +65,10 @@ function blob_fixup() {
             "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
             ;;
         vendor/bin/hw/android.hardware.security.keymint-service-qti)
-            "${PATCHELF}" --add-needed android.hardware.security.rkp-V1-ndk.so "${2}"
+            "${PATCHELF}" --add-needed android.hardware.security.rkp-V3-ndk.so "${2}"
             ;;
          vendor/lib64/libqtikeymint.so)
-            "${PATCHELF}" --add-needed android.hardware.security.rkp-V1-ndk.so "${2}"
+            "${PATCHELF}" --add-needed android.hardware.security.rkp-V3-ndk.so "${2}"
             ;;
     esac
 }
