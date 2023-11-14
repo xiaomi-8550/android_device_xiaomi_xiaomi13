@@ -2246,6 +2246,9 @@ vendor/lib64/libesesbprovision.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# eUICC - from lynx-user 14 UP1A.231005.007
+product/priv-app/EuiccGoogle/EuiccGoogle.apk|b0e13914a001dd3907294cb582a5c9c4b5be474b;PRESIGNED
+
 # Fingerprint
 odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 odm/lib64/libgf_hal.so
