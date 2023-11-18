@@ -1,4 +1,4 @@
-# Unpinned blobs from fuxi_global-user 13 TKQ1.221114.001 V14.0.5.0.UMCMIXM release-keys
+# Unpinned blobs from fuxi_global-user 13 TKQ1.221114.001 V14.0.6.0.UMCMIXM release-keys
 
 # ACDB
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
@@ -297,7 +297,7 @@ vendor/etc/init/hw/init.batterysecret.rc
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
+vendor/etc/init/android.hardware.bluetooth@1.1-service-qti-debug.rc:vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc
 vendor/etc/vintf/manifest/bluetooth_audio.xml
 vendor/etc/vintf/manifest/bttpi-saidl.xml
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so
