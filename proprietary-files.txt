@@ -2045,12 +2045,6 @@ vendor/bin/pm_ioctl_app
 vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libperipheral_client.so
 
-# Poweropt
-vendor/bin/poweropt-service
-vendor/etc/init/poweropt-service.rc
-vendor/lib64/libpowercallback.so
-vendor/lib64/libpowercore.so
-
 # Psiclient
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
