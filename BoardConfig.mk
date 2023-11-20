@@ -64,6 +64,10 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+SOONG_CONFIG_NAMESPACES += dolby_vision
+SOONG_CONFIG_dolby_vision += override
+SOONG_CONFIG_dolby_vision_override := true
+
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
