@@ -1,3 +1,7 @@
+# Copyright (C) 2023 Paranoid Android
+#
+# SPDX-License-Identifier: Apache-2.0
+
 on early-boot
     chown system graphics /sys/bus/platform/devices/soc:xiaomi_fingerprint/fingerdown
     chmod 0664 /sys/bus/platform/devices/soc:xiaomi_fingerprint/fingerdown

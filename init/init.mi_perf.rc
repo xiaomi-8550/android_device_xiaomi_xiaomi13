@@ -1,0 +1,10 @@
+# Copyright (C) 2023 Paranoid Android
+#
+# SPDX-License-Identifier: Apache-2.0
+
+on property:vendor.post_boot.parsed=1
+    # IRQ Tuning
+    # IRQ 253: msm_drm0
+    # IRQ 208: kgsl_3d0_irq
+    write /proc/irq/208/smp_affinity_list 1
+    write /proc/irq/253/smp_affinity_list 2

@@ -188,9 +188,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.target.rc \
-    init.mi_thermald.rc \
+    init.mi_perf.rc \
+    init.mi_service.rc \
     init.mi_udfps.rc \
-    init.batterysecret.rc \
     ueventd.xiaomi.rc
 
 PRODUCT_COPY_FILES += \
