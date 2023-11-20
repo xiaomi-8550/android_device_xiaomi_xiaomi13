@@ -13,6 +13,7 @@ import android.os.UserHandle;
 import android.util.Log;
 
 import com.xiaomi.settings.display.ColorModeService;
+import com.xiaomi.settings.display.DcDimmingService;
 import com.xiaomi.settings.doze.AodBrightnessService;
 import com.xiaomi.settings.touch.AlwaysOnFingerprintService;
 import com.xiaomi.settings.touch.TouchPollingRateService;
@@ -35,6 +36,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Display
         context.startServiceAsUser(new Intent(context, ColorModeService.class),
+                UserHandle.CURRENT);
+        context.startServiceAsUser(new Intent(context, DcDimmingService.class),
                 UserHandle.CURRENT);
 
         // Touchscreen

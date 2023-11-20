@@ -3,6 +3,10 @@
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/fastchg_mode</string>
 
+    <!-- Defines the sysfs attribute path used by the device
+         to enable/disable DC dimming. -->
+    <string name="config_deviceDcDimmingSysfsNode">/dev/null</string>
+
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Xiaomi/fuxi_global/missi:13/TKQ1.220905.001/V14.0.9.0.TMCMIXM:user/release-keys</string>
 </resources>

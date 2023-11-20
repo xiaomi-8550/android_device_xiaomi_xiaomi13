@@ -41,6 +41,11 @@
         </service>
 
         <service
+            android:name=".display.DcDimmingService"
+            android:exported="true">
+        </service>
+
+        <service
             android:name=".doze.AodBrightnessService"
             android:exported="true">
         </service>
