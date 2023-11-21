@@ -1977,6 +1977,7 @@ vendor/lib64/libQnnGpuProfilingReader.so
 vendor/lib64/libQnnHtp.so
 vendor/lib64/libQnnHtpNetRunExtensions.so
 vendor/lib64/libQnnHtpPrepare.so
+vendor/lib64/libQnnHtpProfilingReader.so
 vendor/lib64/libQnnHtpV73CalculatorStub.so
 vendor/lib64/libQnnHtpV73Stub.so
 vendor/lib64/libQnnSaver.so
