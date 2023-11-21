@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
     FuxiFrameworks \
     FuxiFrameworksAOSPA \
     FuxiSettings \
+    FuxiSettingsAOSPA \
     FuxiSettingsCN \
     FuxiSettingsProvider \
     FuxiSystemUI \
