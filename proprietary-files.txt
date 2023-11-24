@@ -1483,16 +1483,27 @@ odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_1.txt
 odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_2.txt
 odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_3.txt
 odm/etc/df_default.xml
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+vendor/bin/displayfeature
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature@1.0-service.xml
+vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
+vendor/lib64/libdisplayfeature.so
+vendor/lib64/libdisplayfeatureservice.so
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+
+# Display (Displayfeature HOUJI) - from houji
 odm/lib64/hw/displayfeature.default.so
 odm/lib64/libMiDispDevManager.so
 odm/lib64/libcolortempmode.so
 odm/lib64/libdisplaycount.so
 odm/lib64/libdisplaylog.so
 odm/lib64/libdither.so
+odm/lib64/libeyecare.so
 odm/lib64/libflatmode.so
 odm/lib64/libfpsmonitor.so
-odm/lib64/libhdrmode.so
 odm/lib64/libhistprocess.so
+odm/lib64/libmi-stc-HW-modulate.so
 odm/lib64/libmiBrightness.so
 odm/lib64/libmiSensorCtrl.so
 odm/lib64/libmiXmlParser.so
@@ -1503,16 +1514,6 @@ odm/lib64/libsdr2hdr.so
 odm/lib64/libsre.so
 odm/lib64/libtruetone.so
 odm/lib64/libvideomode.so
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/bin/displayfeature
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature@1.0-service.xml
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdisplayfeature.so
-vendor/lib64/libdisplayfeatureservice.so
-vendor/lib64/libeyecare.so
-vendor/lib64/libmi-stc-HW-modulate.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Display (HDR)
 vendor/lib64/libhdr_backlight_adapter.so
