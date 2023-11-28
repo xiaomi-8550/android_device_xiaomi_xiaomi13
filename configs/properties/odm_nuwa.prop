@@ -1,0 +1,8 @@
+# Bluetooth
+bluetooth.device.default_name=Xiaomi 13 Pro
+
+# Display
+ro.vendor.touchfeature.type=183
+
+# USB
+vendor.usb.product_string=Xiaomi 13 Pro
