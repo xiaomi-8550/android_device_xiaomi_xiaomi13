@@ -35,6 +35,10 @@ vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd
 
+# ACDB (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:odm/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb|54d0cde5b2cbae64652fd622e28f66d592e48145
+odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:odm/overlay/nuwa/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp|c3885155fa5cd8b81ec5f893aab3074f7c49037c
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/loadalgo
@@ -162,6 +166,13 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
+# ADSP (Modules - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/audio/misound_res_headphone.bin:odm/overlay/nuwa/odm/etc/audio/misound_res_headphone.bin|b16e04914255f943830f8b820bae06c5f029572c
+odm/etc/audio/misound_res_spk.bin:odm/overlay/nuwa/odm/etc/audio/misound_res_spk.bin|7eaaec369ed20598f96f344f79e3019b3d035878
+odm/etc/audio/misound_res_spk4ch.bin:odm/overlay/nuwa/odm/etc/audio/misound_res_spk4ch.bin|91c6ff04a8da339df07b539833684d5aa6c677d0
+odm/etc/audio/misound_res_spk_power_game.bin:odm/overlay/nuwa/odm/etc/audio/misound_res_spk_power_game.bin|f77ddd4ff7c2b5f049e93bf0652b912258daf2a9
+odm/etc/audio/misound_res_spk_power_video.bin:odm/overlay/nuwa/odm/etc/audio/misound_res_spk_power_video.bin|f77ddd4ff7c2b5f049e93bf0652b912258daf2a9
+
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
@@ -254,6 +265,9 @@ vendor/etc/microphone_characteristics.xml
 vendor/etc/usb_compositions.conf
 vendor/etc/usecaseKvManager.xml
 
+# Audio (Configs - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:odm/overlay/nuwa/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml|4bb3cc393677f1f98c5c8fb995198e74574f6bd0
+
 # Audio (Dolby)
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
@@ -275,6 +289,19 @@ odm/firmware/T-handset.txt
 odm/firmware/T-music.txt
 odm/firmware/cs35l41-dsp1-spk-cali.wmfw
 odm/firmware/cs35l41-dsp1-spk-prot.wmfw
+
+# Audio (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/firmware/B-cs35l41-dsp1-spk-cali.bin:odm/overlay/nuwa/odm/firmware/B-cs35l41-dsp1-spk-cali.bin|ad1afb25c9ba9d505b278a4f3a0887bd114ad5f0
+odm/firmware/B-cs35l41-dsp1-spk-prot.bin:odm/overlay/nuwa/odm/firmware/B-cs35l41-dsp1-spk-prot.bin|fffaae8fbefc8b9888813bc6bdacd91eb369b036
+odm/firmware/B-handfree.txt:odm/overlay/nuwa/odm/firmware/B-handfree.txt|6d9494ddecdf37d617b129074241bc09f06e3532
+odm/firmware/B-music.txt:odm/overlay/nuwa/odm/firmware/B-music.txt|5b32421185303644dfac9ddc6cb6a79051fc27e1
+odm/firmware/T-cs35l41-dsp1-spk-cali.bin:odm/overlay/nuwa/odm/firmware/T-cs35l41-dsp1-spk-cali.bin|8ea7df7901d124647efcb303e50fbd3994360621
+odm/firmware/T-cs35l41-dsp1-spk-prot.bin:odm/overlay/nuwa/odm/firmware/T-cs35l41-dsp1-spk-prot.bin|79fd760bab4ef1c4b0cbf80ac77ca07851303194
+odm/firmware/T-handfree.txt:odm/overlay/nuwa/odm/firmware/T-handfree.txt|271882ca05b59acf90dd0c14ca2a929119d183fe
+odm/firmware/T-handset.txt:odm/overlay/nuwa/odm/firmware/T-handset.txt|133cf18d432f5e6a35980a727ab82650c5f7793a
+odm/firmware/T-music.txt:odm/overlay/nuwa/odm/firmware/T-music.txt|9e5c4fc1eb6e84a5a36424eca226f73919aaf678
+odm/firmware/cs35l41-dsp1-spk-cali.wmfw:odm/overlay/nuwa/odm/firmware/cs35l41-dsp1-spk-cali.wmfw|931c14fbf152905dda7a8b3f168f7562e393df79
+odm/firmware/cs35l41-dsp1-spk-prot.wmfw:odm/overlay/nuwa/odm/firmware/cs35l41-dsp1-spk-prot.wmfw|931c14fbf152905dda7a8b3f168f7562e393df79
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libasphere.so
@@ -809,7 +836,6 @@ odm/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml
 odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 odm/etc/vintf/manifest/vendor.qti.camera.provider.xml
 odm/etc/cit_camera_resolution.json
-odm/etc/cit_param_config.json
 odm/lib64/camera/components/com.bots.node.vendortagwrite.so
 odm/lib64/camera/components/com.mi.node.aiasd.so
 odm/lib64/camera/components/com.mi.node.dlengine.so
@@ -1209,6 +1235,43 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so
 
+# Camera (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/camera/CFR_para_UW_V01_HD.bin:odm/overlay/nuwa/odm/etc/camera/CFR_para_UW_V01_HD.bin|8062566a444024d63e505411d78b511c5506af06
+odm/etc/camera/CFR_para_UW_V01_HDR.bin:odm/overlay/nuwa/odm/etc/camera/CFR_para_UW_V01_HDR.bin|8062566a444024d63e505411d78b511c5506af06
+odm/etc/camera/CFR_para_UW_V01_SN.bin:odm/overlay/nuwa/odm/etc/camera/CFR_para_UW_V01_SN.bin|8062566a444024d63e505411d78b511c5506af06
+odm/etc/camera/ellc.bin:odm/overlay/nuwa/odm/etc/camera/ellc.bin|be315b2d1ebf890d2dea8343f79c1de7dee0cb26
+odm/etc/camera/ellc_params.json:odm/overlay/nuwa/odm/etc/camera/ellc_params.json|1cb2919ee56c2d8c542d6af84ae40cfa22ee9661
+odm/etc/camera/his_gme_tele.yaml:odm/overlay/nuwa/odm/etc/camera/his_gme_tele.yaml|6213262e3afa0ce35d6b0399179c163d36993db5
+odm/etc/camera/his_gme_ultra.yaml:odm/overlay/nuwa/odm/etc/camera/his_gme_ultra.yaml|532114b618ae47abd62ad4db55f98536302b706f
+odm/etc/camera/his_preview_tele.yaml:odm/overlay/nuwa/odm/etc/camera/his_preview_tele.yaml|c4532af57ab8305ceeb780173c8f25c40ccd8897
+odm/etc/camera/his_preview_ultra.yaml:odm/overlay/nuwa/odm/etc/camera/his_preview_ultra.yaml|21ae75ebf6cffda3a58098b2e6eb5abb4f06b115
+odm/etc/camera/his_video_tele.yaml:odm/overlay/nuwa/odm/etc/camera/his_video_tele.yaml|05675c36a209c7ea79dd51a86a4315d072f6cb6a
+odm/etc/camera/his_video_ultra.yaml:odm/overlay/nuwa/odm/etc/camera/his_video_ultra.yaml|8cd3c07e3c147cfbdd8aaf2ccbaf378621612710
+odm/lib64/camera/plugins/com.xiaomi.plugin.mialgoellc.so:odm/overlay/nuwa/odm/lib64/camera/plugins/com.xiaomi.plugin.mialgoellc.so|78e66ec95d3e88b84d192e1124dbae160e05836b
+odm/lib64/camera/com.qti.actuator.nuwa_ofilm_s5kjn1_dw9800v_tele_actuator.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.actuator.nuwa_ofilm_s5kjn1_dw9800v_tele_actuator.so|1a39bfb81287161f3fff96ee406be5c683f127db
+odm/lib64/camera/com.qti.actuator.nuwa_ofilm_s5kjn1_dw9800v_ultra_actuator.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.actuator.nuwa_ofilm_s5kjn1_dw9800v_ultra_actuator.so|87da25c58092a537108018ca3882b49a956f79a2
+odm/lib64/camera/com.qti.actuator.nuwa_semco_imx989_ak7316_wide_actuator.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.actuator.nuwa_semco_imx989_ak7316_wide_actuator.so|3db7c755f305adc257053ff32e0486dcb9ef9aeb
+odm/lib64/camera/com.qti.eeprom.nuwa_ofilm_s5kjn1_gt24p128f_ultra_eeprom.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.eeprom.nuwa_ofilm_s5kjn1_gt24p128f_ultra_eeprom.so|b17eab2d5284276a5375ab60fdceda1d26dcc4b9
+odm/lib64/camera/com.qti.eeprom.nuwa_ofilm_s5kjn1_p24c128f_tele_eeprom.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.eeprom.nuwa_ofilm_s5kjn1_p24c128f_tele_eeprom.so|3a876735fcb4c3d05c6fcf5a783fa938d6db337f
+odm/lib64/camera/com.qti.eeprom.nuwa_semco_imx989_p24c128f_wide_eeprom.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.eeprom.nuwa_semco_imx989_p24c128f_wide_eeprom.so|cd65b547a86130f50be50ed020398112ebbdb3f2
+odm/lib64/camera/com.qti.eeprom.nuwa_sunny_ov32c_gt24p64e_front_eeprom.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.eeprom.nuwa_sunny_ov32c_gt24p64e_front_eeprom.so|4a972a1254de3242aae0bc1137afff62210a9c72
+odm/lib64/camera/com.qti.ois.nuwa_tele_bu24618_ois.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.ois.nuwa_tele_bu24618_ois.so|683442b2b2efd3f3832621f0061b890e1412e8bd
+odm/lib64/camera/com.qti.ois.nuwa_wide_bu24618_ois.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.ois.nuwa_wide_bu24618_ois.so|330ef9e02833589630af66f3040fc8e1db92d70e
+odm/lib64/camera/com.qti.sensor.nuwa_ofilm_s5kjn1_tele.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensor.nuwa_ofilm_s5kjn1_tele.so|7698bb81029ce9d180390214d3496b10dfa5201c
+odm/lib64/camera/com.qti.sensor.nuwa_ofilm_s5kjn1_ultra.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensor.nuwa_ofilm_s5kjn1_ultra.so|2c7cee86515e4de973f49f923b790901c457d7c1
+odm/lib64/camera/com.qti.sensor.nuwa_semco_imx989_wide.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensor.nuwa_semco_imx989_wide.so|8e37d545b4579a65e1fe95939aa62ad73fd43b17
+odm/lib64/camera/com.qti.sensor.nuwa_sunny_ov32c_front.so:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensor.nuwa_sunny_ov32c_front.so|76e637e910c625cd73f370d487c5476bbb0eddc1
+odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin|91eca55886d25a0338a5d343796d747572d1c4fc
+odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_ultra.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_ultra.bin|7b5465e4198e3728d9b041e9fe3543e4489323cd
+odm/lib64/camera/com.qti.sensormodule.nuwa_semco_imx989_wide.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensormodule.nuwa_semco_imx989_wide.bin|460584953086d58ea9646ad3fc365be4f9408a54
+odm/lib64/camera/com.qti.sensormodule.nuwa_sunny_ov32c_front.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.sensormodule.nuwa_sunny_ov32c_front.bin|0609e212c6dff3455eb0386c6d9345ac25c7cbde
+odm/lib64/camera/com.qti.tuned.nuwa_ofilm_s5kjn1_tele.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.tuned.nuwa_ofilm_s5kjn1_tele.bin|ee8074deec36698b7d25d68cb6f0daf661cd8403
+odm/lib64/camera/com.qti.tuned.nuwa_ofilm_s5kjn1_ultra.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.tuned.nuwa_ofilm_s5kjn1_ultra.bin|dd09f864c1a34612d7322e09ab0d50621b69d7f2
+odm/lib64/camera/com.qti.tuned.nuwa_semco_imx989_wide.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.tuned.nuwa_semco_imx989_wide.bin|172758c6160fe07ae1d24e6fdbaa589b419557b6
+odm/lib64/camera/com.qti.tuned.nuwa_sunny_ov32c_front.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.tuned.nuwa_sunny_ov32c_front.bin|da3a4d089bb8d644b70be02778285f0ff1d5a741
+odm/lib64/camera/com.qti.tuned.nuwa_sunny_ov32c_front_global.bin:odm/overlay/nuwa/odm/lib64/camera/com.qti.tuned.nuwa_sunny_ov32c_front_global.bin|c33d789b58dffc340bb77362424105f27fbc4060
+odm/lib64/libmialgo_ellc.so:odm/overlay/nuwa/odm/lib64/libmialgo_ellc.so|487d2ea850a46bde2b2c6384b9baa205a8892e88
+
 # Camera (Firmware)
 odm/firmware/CAMERA_ICP.b00
 odm/firmware/CAMERA_ICP.b01
@@ -1248,6 +1311,14 @@ odm/firmware/fuxi_s5k3k1_bu24721_ois.coeff
 odm/firmware/fuxi_s5k3k1_bu24721_ois.mem
 odm/firmware/fuxi_s5k3k1_bu24721_ois.prog
 
+# Camera (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/firmware/nuwa_tele_bu24618_ois.coeff:odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.coeff|22e12c210f2c45fd8c8902946ca7317e5901e50d
+odm/firmware/nuwa_tele_bu24618_ois.mem:odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.mem|b85810bead663ea122064826c854e1daefd7930b
+odm/firmware/nuwa_tele_bu24618_ois.prog:odm/overlay/nuwa/odm/firmware/nuwa_tele_bu24618_ois.prog|b1f3d032768be0e2fe695d5dfa61928fa796bc14
+odm/firmware/nuwa_wide_bu24618_ois.coeff:odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.coeff|b54194532e2d8216a8b3adb61135aa879618e8b0
+odm/firmware/nuwa_wide_bu24618_ois.mem:odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.mem|f9861c7369ce59bec2f9f626bcc02827ee975dfb
+odm/firmware/nuwa_wide_bu24618_ois.prog:odm/overlay/nuwa/odm/firmware/nuwa_wide_bu24618_ois.prog|3427bef9ed705f78ffd9ff756a5db2bf9b4ab321
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -1265,9 +1336,13 @@ vendor/etc/charger_fw_fstab.qti
 odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
 odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
+odm/etc/cit_param_config.json
 odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
+
+# CIT Sensor (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/cit_param_config.json:odm/overlay/nuwa/odm/etc/cit_param_config.json|6ca763db03dcb93d2c30b84d7e0792a38af9cb24
 
 # CNE
 vendor/app/CneApp/CneApp.apk
@@ -1446,9 +1521,16 @@ vendor/lib64/vendor.qti.diaghal@1.0.so
 odm/etc/display/qdcm_calib_data_xiaomi_m3_38_0c_0a_sec_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml
 
+# Display (Calibration - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json:odm/overlay/nuwa/odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json|0c4f3e00d7b5d85d4df550d35c306278c528e0e6
+odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml:odm/overlay/nuwa/odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml|87b719fe09edb3b75f6b12ab13bdcf7ef8b972a0
+
 # Display (Config)
 product/etc/displayconfig/display_id_4630947006070067843.xml:vendor/etc/displayconfig/display_id_4630947006070067843.xml
 vendor/etc/displayconfig/display_layout_configuration.xml
+
+# Display (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+product/etc/displayconfig/display_id_4630947134992368259.xml:odm/overlay/nuwa/vendor/etc/displayconfig/display_id_4630947134992368259.xml|e6d0aac0b8d15e2c574e05e173042934f0120c24
 
 # Display (Displayfeature)
 odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt
@@ -1513,6 +1595,39 @@ vendor/lib64/libdisplayfeatureservice.so
 vendor/lib64/libeyecare.so
 vendor/lib64/libmi-stc-HW-modulate.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+
+# Display (Displayfeature - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt|3ed44402a0de0e0e0e4c2673ef4b87870d885bfc
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt|e5fa44f2b31c1fb553b6021e7360d07d5d91ff5e
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt|953788c1d28faa0662dac4eb59ae7debe98f35a0
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/clstc_gc_0.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/clstc_gc_0.txt|5f314bf46190a5abee5e61371c8e92de883f1b2a
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/clstc_igc_0.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/clstc_igc_0.txt|a5eb92dfd2a11e2267246b8c022c60c9a3b9f436
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLutInfo.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLutInfo.txt|8eecbb71d418ef8c7d583dd506a994b1bc1c3f7b
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_0.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_0.txt|681bc4a2f672181233ba7810fb72cb3e70c3f463
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_1.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_1.txt|e80209e6a702668f59ba744ac3729c8bd036a06f
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_10.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_10.txt|413011df358e3f179bfc45ad7988539b77385ecf
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_11.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_11.txt|98de2ad8de204b39c02fc2cf9b54fe165af30305
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_12.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_12.txt|166eaf1aa6a1e6dc90964506fe3cdfc2be715948
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_13.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_13.txt|6d59c3838e84784239fb983f4094fbd370a08f8e
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_14.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_14.txt|68c85f0a05286e1917d2761c0bdb265790817285
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_15.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_15.txt|a05f54fcefb146f482d1b02e977b1e0329ab077a
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_16.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_16.txt|8a1aed055773254797684a26fcc2457cef9c2b45
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_17.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_17.txt|7de3cf8620356d788fbb61973e99e78804d0279f
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_18.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_18.txt|7b7cf55b33d93f1946041d1b816a0e3cc3ca76ed
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_19.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_19.txt|85c6693a6995bdf456594547e45887225d7560e7
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_2.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_2.txt|18f01ec1a028ec7e03c277a025884c8a5469d07b
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_20.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_20.txt|a2c0ac2489cb28f5d2977dc47e500f4282a53183
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_3.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_3.txt|3c5aae7376cc75659ec67b9ef1168c5a9eb8957f
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_4.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_4.txt|2a435a568af7fff3f9b322bda90f78cea03d9a22
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_5.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_5.txt|de3fcb2a0721014ae6fb61e0cce924e94bd6858d
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_6.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_6.txt|76c4b84e44c40a9a08412c8c699a7d9528d5b8a3
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_7.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_7.txt|259478f7ef8ff7ba61ca9ff0a2f1411444d8c5e6
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_8.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_8.txt|90495b0f76df065b2c020fa22ba039f8f0e0b36a
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_9.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/miLut_9.txt|43108d2837cd76d701a1145c2adb22dc44ccdcd2
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_0.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_0.txt|ecfd1d3181230e85b82351ccaa300ce859c8a904
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_1.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_1.txt|e6846b2aefc4394cd36ad1e2893720e85cca19f2
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt|0ea2a13c6e15d9087d518369aedda80d295d7aed
+odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt:odm/overlay/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt|e169c7e4716a823312b900d735dbe376c5f708df
 
 # Display (HDR)
 vendor/lib64/libhdr_backlight_adapter.so
@@ -1673,6 +1788,10 @@ vendor/etc/vintf/manifest/fod.xml
 vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+
+# Fingerprint (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/lib64/hw/fingerprint.goodix_fod6.so:odm/overlay/nuwa/vendor/lib64/hw/fingerprint.goodix_fod6.default.so|afd25b445e33a48cb3e5fd57fb9131416884c279
+odm/lib64/libgf_hal6.so:odm/overlay/nuwa/odm/lib64/libgf_hal6.so|36b39dc8fbaa3d0ad27ed0acf07e07eba6861f19
 
 # FM
 vendor/etc/init/init.qti.fm.rc
@@ -1908,6 +2027,10 @@ vendor/lib64/libcodec2_store_dolby.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libdolbyvision.so
+
+# Media (Dolby Vision - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/dolby/dax-default.xml:odm/overlay/nuwa/odm/etc/dolby/dax-default.xml|8ecbf85d20c5159b4edb33e0ee1b8f337065f655
+odm/etc/dolby_vision.cfg:odm/overlay/nuwa/odm/etc/dolby_vision.cfg|1bbba720a19090c57c9f5a6bacf6faaff3aa69ed
 
 # Memtrack
 vendor/bin/hw/vendor.qti.hardware.memtrack-service
@@ -2523,6 +2646,63 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
+# Sensors (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/sensors/config/ak991x_dri_0.json:odm/overlay/nuwa/odm/etc/sensors/config/ak991x_dri_0.json|a446e83dd2d0b40e3fa04898657e8487e13468a0
+odm/etc/sensors/config/lightSensorConfig.json:odm/overlay/nuwa/odm/etc/sensors/config/lightSensorConfig.json|161b5b5ca3adb3e4069cbd6da1f4fb9b32adea59
+odm/etc/sensors/config/lsm6dso_0.json:odm/overlay/nuwa/odm/etc/sensors/config/lsm6dso_0.json|28614f02b040b10442c84daefab96ec31ef76442
+odm/etc/sensors/config/qsh_camera.json:odm/overlay/nuwa/odm/etc/sensors/config/qsh_camera.json|92fe0a0715f434ee3e0e2ec5d0d12de0f66356fb
+odm/etc/sensors/config/sm8550_ak991x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_ak991x_0.json|a55488e595a443e6b61de26818c65401462d73a6
+odm/etc/sensors/config/sm8550_bmp5_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_bmp5_0.json|494274a71bddc78cc8d7ff361c7d3a8ad06a74f0
+odm/etc/sensors/config/sm8550_default_sensors.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_default_sensors.json|0af753a710e77e38ea270d1a2b035019b05d90c5
+odm/etc/sensors/config/sm8550_dynamic_sensors.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_dynamic_sensors.json|e56cfa463fc423a8d68ef08715b3e15e52c776a4
+odm/etc/sensors/config/sm8550_irq.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_irq.json|eee1de763048aa5116a33ccc920c9e5b0cb53fde
+odm/etc/sensors/config/sm8550_lsm6dso_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_lsm6dso_0.json|92a4bbd9b4a75e2fcf6e4442a563c17d554a15ed
+odm/etc/sensors/config/sm8550_power_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_power_0.json|7f00c28040f5782761b57237c78e648feeb7b478
+odm/etc/sensors/config/sm8550_sx933x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_sx933x_0.json|0bdcc50bf0e1d165253bb6909d12a527418bcf3d
+odm/etc/sensors/config/sm8550_sx937x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_sx937x_0.json|620017a57af9f702524ed90aabb87c2e88f4fd4d
+odm/etc/sensors/config/sm8550_tcs3408.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_tcs3408.json|ee36cdf3f3c941808359bec631de586ae2c81720
+odm/etc/sensors/config/sm8550_tcs3720.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_tcs3720.json|6e8ee626716b668d35c029ce11be934f8e066a4b
+odm/etc/sensors/config/sm8550_tcs3720_fb.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_tcs3720_fb.json|783f2c285db38ae873f6aee1ec642e186378f8fd
+odm/etc/sensors/config/sm8550_vl53l1_tof_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sm8550_vl53l1_tof_0.json|d80a4249ab6a533428e05c9f4eab87e62ff33267
+odm/etc/sensors/config/sns_amd.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_amd.json|529b40a7718a329f341b60eaa57cb01cce2e90b9
+odm/etc/sensors/config/sns_amd_sw_disabled.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_amd_sw_disabled.json|3999197aa1c1a21980414696cf0c6ee8e69f9093
+odm/etc/sensors/config/sns_aod.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_aod.json|4e9a8994f2158cb7af8058f34f39ef89497deadf
+odm/etc/sensors/config/sns_ccd_v1_0_amd.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_ccd_v1_0_amd.json|12877287bfa4426b90fc9c22709cb779b961e8aa
+odm/etc/sensors/config/sns_ccd_v3_1_walk.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_ccd_v3_1_walk.json|fb834772c3bfbd667246cadf0f90dac95fc42fc2
+odm/etc/sensors/config/sns_ccd_v4_0_sensors.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_ccd_v4_0_sensors.json|80af8cbc64e4d5f4efc9285873670d2b01b8e498
+odm/etc/sensors/config/sns_ccd_v5.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_ccd_v5.json|e9f5244dfcd5b5d89884eeecee7ef12a0c945e95
+odm/etc/sensors/config/sns_ccd_v5_0_te_cd_regs.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_ccd_v5_0_te_cd_regs.json|acdde3772cf18cd0c16bb7b3550e8f582c1f7cf9
+odm/etc/sensors/config/sns_cm.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_cm.json|04c25b5a5c19d022ed9500c4e0ac74da037b71b2
+odm/etc/sensors/config/sns_dae.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_dae.json|de845327a2152c2ddd08af498b7af766d5164c8c
+odm/etc/sensors/config/sns_dbtap.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_dbtap.json|7beec0032c6d77a04512bd56a0647c1e87520171
+odm/etc/sensors/config/sns_device_orient.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_device_orient.json|b41dc6406028eb30a06b35c820632d53008cb63c
+odm/etc/sensors/config/sns_diag_filter.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_diag_filter.json|27aff6dce3d1477e69bf4404f427c5166c2ee899
+odm/etc/sensors/config/sns_distance_bound.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_distance_bound.json|6b2094a9fca0692e83d9375ce2065aae6b8abccc
+odm/etc/sensors/config/sns_dpc.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_dpc.json|47ef0c794ed36d07af7a221b4015dbc6e0237efe
+odm/etc/sensors/config/sns_fmv.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_fmv.json|40daaeb6f7d75aea2d04ee8225e7d57276ad6193
+odm/etc/sensors/config/sns_geomag_rv.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_geomag_rv.json|5bcf7f8268317f839bffc6a5023ee7fd9d7765fd
+odm/etc/sensors/config/sns_gyro_cal.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_gyro_cal.json|54dd552797e5d81c716aa8384c58b6cbd0d5779b
+odm/etc/sensors/config/sns_hand_detect.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_hand_detect.json|eff964924f6d5bda9a5e848d3db306118fa6e39b
+odm/etc/sensors/config/sns_mag_cal.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_mag_cal.json|42ceac4214fb4efd30a14053882e152321f46db0
+odm/etc/sensors/config/sns_nonui.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_nonui.json|3a521c2bcc66bd22f71cb090281ed4549416fc12
+odm/etc/sensors/config/sns_oem13.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_oem13.json|ff35fb9bb48ac61339416017811546d9217d5288
+odm/etc/sensors/config/sns_oem_pocket.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_oem_pocket.json|c71d0b379b16752dc3303c58cc499aa10c54cc2a
+odm/etc/sensors/config/sns_pedometer.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_pedometer.json|cb7a2e94b498c92e9d824d8500a41736c81df392
+odm/etc/sensors/config/sns_rmd.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_rmd.json|68021e9272fb06c28144ca5603ba4de18a013c5f
+odm/etc/sensors/config/sns_rotv.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_rotv.json|11c499eda6fb59e2159c4e60a6d54cbef208432c
+odm/etc/sensors/config/sns_sar_algo.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_sar_algo.json|11705d6e524d5be6371520147f71abfaac0d0d78
+odm/etc/sensors/config/sns_sar_algo_1.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_sar_algo_1.json|015dac35afc3adea671636675347c46aadb4b0f3
+odm/etc/sensors/config/sns_screen_down.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_screen_down.json|c2375d1384d916993940ba70c68a6a58700d71a3
+odm/etc/sensors/config/sns_smd.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_smd.json|6a4a346f24fc8b137ede60011aa33983a5b61e3c
+odm/etc/sensors/config/sns_tilt.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_tilt.json|159e3b6dbf6222ddcf02971fd3b492f7c60fc667
+odm/etc/sensors/config/sns_tilt_sw_disabled.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_tilt_sw_disabled.json|c11debb08c387724c92c6f876d5c187f7a590427
+odm/etc/sensors/config/sns_tilt_to_wake.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_tilt_to_wake.json|ed5952ce48ce455e1c08c5225ae053d13d967847
+odm/etc/sensors/config/sx933x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sx933x_0.json|940d76d709caf363af3e89141032e356671b78b2
+odm/etc/sensors/config/sx937x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sx937x_0.json|b0dcaf5bd6b8f9f5cd3e9a121a82846f5a272f5c
+odm/etc/sensors/config/sx937x_reg_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sx937x_reg_0.json|fef77e6e9d10ab1718868ebfdb83a8052af2f11f
+odm/etc/sensors/config/tcs3408.json:odm/overlay/nuwa/odm/etc/sensors/config/tcs3408.json|c01a8c4b49c11339e2983a87b8808053a0cc8f6f
+odm/etc/sensors/config/vl53l1_tof_0.json:odm/overlay/nuwa/odm/etc/sensors/config/vl53l1_tof_0.json|58bee2dfa1a2af29d34cf0a8483d9c453762ff29
+
 # SLA
 vendor/bin/hw/vendor.qti.sla.service@1.0-service
 vendor/etc/init/vendor.qti.sla.service@1.0-service.rc
@@ -2587,6 +2767,32 @@ odm/etc/thermal-video.conf:vendor/etc/thermal-video.conf
 odm/etc/thermal-videochat.conf:vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-engine.conf
 
+# Thermal Engine (Config - NUWA)
+odm/etc/thermal-4k.conf:odm/overlay/nuwa/vendor/etc/thermal-4k.conf
+odm/etc/thermal-arvr.conf:odm/overlay/nuwa/vendor/etc/thermal-arvr.conf
+odm/etc/thermal-camera.conf:odm/overlay/nuwa/vendor/etc/thermal-camera.conf
+odm/etc/thermal-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-cclassvideo.conf
+odm/etc/thermal-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-cgame.conf
+odm/etc/thermal-chg-only.conf:odm/overlay/nuwa/vendor/etc/thermal-chg-only.conf
+odm/etc/thermal-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-class0.conf
+odm/etc/thermal-dolbyvision.conf:odm/overlay/nuwa/vendor/etc/thermal-dolbyvision.conf
+odm/etc/thermal-hp-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-mgame.conf
+odm/etc/thermal-hp-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-normal.conf
+odm/etc/thermal-huanji.conf:odm/overlay/nuwa/vendor/etc/thermal-huanji.conf
+odm/etc/thermal-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-mgame.conf
+odm/etc/thermal-navigation.conf:odm/overlay/nuwa/vendor/etc/thermal-navigation.conf
+odm/etc/thermal-nolimits.conf:odm/overlay/nuwa/vendor/etc/thermal-nolimits.conf
+odm/etc/thermal-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-normal.conf
+odm/etc/thermal-per-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cclassvideo.conf
+odm/etc/thermal-per-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cgame.conf
+odm/etc/thermal-per-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-per-class0.conf
+odm/etc/thermal-per-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-per-normal.conf
+odm/etc/thermal-per-video.conf:odm/overlay/nuwa/vendor/etc/thermal-per-video.conf
+odm/etc/thermal-phone.conf:odm/overlay/nuwa/vendor/etc/thermal-phone.conf
+odm/etc/thermal-tgame.conf:odm/overlay/nuwa/vendor/etc/thermal-tgame.conf
+odm/etc/thermal-videochat.conf:odm/overlay/nuwa/vendor/etc/thermal-videochat.conf
+odm/etc/thermal-video.conf:odm/overlay/nuwa/vendor/etc/thermal-video.conf
+
 # Time Services
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
@@ -2596,6 +2802,9 @@ vendor/lib64/libtime_genoff.so
 # Touchscreen (Firmware)
 odm/firmware/st_fts_m3.ftb
 odm/firmware/stm_fts_production_limits.csv
+
+# Touchscreen (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/firmware/st_fts_m2.ftb:odm/overlay/nuwa/odm/firmware/st_fts_m2.ftb|4c2cc3760f70c56c8806a9e1d0087f4c2406a74d
 
 # TouchFeature
 odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service

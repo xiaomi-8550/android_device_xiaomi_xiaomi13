@@ -51,12 +51,22 @@ void set_ro_build_prop(const string &prop, const string &value) {
 
 void vendor_load_properties() {
     // Detect variant and override properties
+    string device = GetProperty("ro.boot.hardware_sku", "");
     string region = GetProperty("ro.boot.hwc", "");
 
-    if (region == "CN") { // China
-        set_ro_build_prop("model", "2211133C");
-    } else { // Global
-        set_ro_build_prop("model", "2211133G");
+    if (device == "nuwa") { // Xiaomi 13 Pro
+        if (region == "CN") { // China
+            set_ro_build_prop("model", "2210132C");
+        } else {              // Global
+            set_ro_build_prop("model", "2210132G");
+        }
+        set_ro_build_prop("mod_device", "nuwa_global");
+    } else {                // Xiaomi 13
+        if (region == "CN") { // China
+            set_ro_build_prop("model", "2211133C");
+        } else {              // Global
+            set_ro_build_prop("model", "2211133G");
+        }
     }
 
     // Override first api level for safetynet
