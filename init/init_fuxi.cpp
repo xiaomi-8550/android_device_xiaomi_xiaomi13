@@ -41,6 +41,10 @@ void property_override(char const prop[], char const value[]) {
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
+void set_build_prop(const string &prop, const string &value) {
+    property_override(prop.c_str(), value.c_str());
+}
+
 void set_ro_build_prop(const string &prop, const string &value) {
     string prop_name;
     for (const string &source : source_partitions) {
@@ -52,15 +56,26 @@ void set_ro_build_prop(const string &prop, const string &value) {
 void vendor_load_properties() {
     // Detect variant and override properties
     string region = GetProperty("ro.boot.hwc", "");
+    string sku = GetProperty("ro.boot.hardware.sku", "");
 
-    if (region == "CN") { // China
-        set_ro_build_prop("model", "2211133C");
-    } else { // Global
-        set_ro_build_prop("model", "2211133G");
+    if (sku == "nuwa") { // Xiaomi 13 Pro
+        set_build_prop("ro.product.device", "nuwa");
+        set_build_prop("ro.product.name", "nuwa");
+        if (region == "CN") { // China
+            set_ro_build_prop("model", "2210132C");
+        } else {              // Global
+            set_ro_build_prop("model", "2210132G");
+        }
+    } else {                // Xiaomi 13
+        if (region == "CN") { // China
+            set_ro_build_prop("model", "2211133C");
+        } else {              // Global
+            set_ro_build_prop("model", "2211133G");
+        }
     }
 
     // Override first api level for safetynet
     if (!IsRecoveryMode()) {
-        property_override("ro.product.first_api_level", "32");
+        set_build_prop("ro.product.first_api_level", "32");
     }
 }
