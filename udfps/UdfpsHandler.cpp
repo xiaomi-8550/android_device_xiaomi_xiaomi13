@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022 The LineageOS Project
+ *               2023 Paranoid Android
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -117,10 +118,10 @@ class XiaomiSm8550UdfpsHander : public UdfpsHandler {
         if (result == FINGERPRINT_ACQUIRED_GOOD) {
             setFingerDown(false);
             setFodStatus(FOD_STATUS_OFF);
-        } else if (vendorCode == 20 || vendorCode == 22) {
+        } else if (vendorCode >= 20 && vendorCode <= 23) {
             /*
-             * vendorCode = 20 waiting for fingerprint authentication
-             * vendorCode = 22 waiting for fingerprint enroll
+             * vendorCode = 20/21 waiting for fingerprint authentication
+             * vendorCode = 22/23 waiting for fingerprint enroll
              */
             setFodStatus(FOD_STATUS_ON);
         }
