@@ -281,8 +281,12 @@ PRODUCT_PACKAGES += \
     Xiaomi13SystemUIAOSPA \
     Xiaomi13SystemUINuwa \
     Xiaomi13WifiRes \
+    Xiaomi13WifiResMainline \
     Xiaomi13WifiResNuwa \
+    Xiaomi13WifiResNuwaMainline \
     Xiaomi13WifiResTarget \
+    Xiaomi13WifiResTargetMainline \
+    Xiaomi13WifiResTargetMainline_spf \
     Xiaomi13WifiResTarget_spf
 
 # Parts
