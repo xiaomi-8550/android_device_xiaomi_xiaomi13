@@ -18,6 +18,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.mi_overlay.rc",
+    src: "init.mi_overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mi_perf.rc",
     src: "init.mi_perf.rc",
     sub_dir: "init/hw",
