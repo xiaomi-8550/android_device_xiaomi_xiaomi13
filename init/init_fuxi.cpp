@@ -41,6 +41,10 @@ void property_override(char const prop[], char const value[]) {
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
+void set_build_prop(const string &prop, const string &value) {
+    property_override(prop.c_str(), value.c_str());
+}
+
 void set_ro_build_prop(const string &prop, const string &value) {
     string prop_name;
     for (const string &source : source_partitions) {
@@ -60,6 +64,9 @@ void vendor_load_properties() {
         } else {              // Global
             set_ro_build_prop("model", "2210132G");
         }
+        set_build_prop("bluetooth.device.default_name", "Xiaomi 13 Pro");
+        set_build_prop("ro.vendor.touchfeature.type", "183");
+        set_build_prop("vendor.usb.product_string", "Xiaomi 13 Pro");
         set_ro_build_prop("mod_device", "nuwa_global");
     } else {                // Xiaomi 13
         if (region == "CN") { // China

@@ -269,11 +269,13 @@ PRODUCT_PACKAGES += \
     FuxiCarrierConfigResMiui \
     FuxiFrameworks \
     FuxiFrameworksAOSPA \
+    FuxiFrameworksNuwa \
     FuxiSettings \
     FuxiSettingsAOSPA \
     FuxiSettingsAOSPANuwa \
     FuxiSettingsCN \
     FuxiSettingsProvider \
+    FuxiSettingsProviderNuwa \
     FuxiSystemUI \
     FuxiSystemUIAOSPA \
     FuxiWifiRes \
