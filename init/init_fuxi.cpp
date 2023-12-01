@@ -65,6 +65,7 @@ void vendor_load_properties() {
             set_ro_build_prop("model", "2210132G");
         }
         set_build_prop("ro.product.mod_device", "nuwa_global");
+        set_build_prop("vendor.display.lcd_density", "560");
     } else {                // Xiaomi 13
         if (region == "CN") { // China
             set_ro_build_prop("model", "2211133C");
