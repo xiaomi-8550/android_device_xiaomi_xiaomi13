@@ -12,7 +12,7 @@ ro.surface_flinger.set_idle_timer_ms=80
 persist.vendor.sensors.enable.mag_filter=true
 
 # SKUs
-import /odm/etc/build_${ro.boot.hardware_sku}.prop
+import /odm/etc/build_${ro.boot.hardware.sku}.prop
 
 # SPU
 vendor.gatekeeper.disable_spu=true

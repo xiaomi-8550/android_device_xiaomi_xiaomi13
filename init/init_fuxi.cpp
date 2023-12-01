@@ -51,7 +51,7 @@ void set_ro_build_prop(const string &prop, const string &value) {
 
 void vendor_load_properties() {
     // Detect variant and override properties
-    string device = GetProperty("ro.boot.hardware_sku", "");
+    string device = GetProperty("ro.boot.hardware.sku", "");
     string region = GetProperty("ro.boot.hwc", "");
 
     if (device == "nuwa") { // Xiaomi 13 Pro

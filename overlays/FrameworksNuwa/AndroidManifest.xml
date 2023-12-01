@@ -7,6 +7,6 @@
         android:isStatic="true"
         android:priority="801"
         android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.boot.hardware_sku"
+        android:requiredSystemPropertyName="ro.boot.hardware.sku"
         android:requiredSystemPropertyValue="nuwa" />
 </manifest>

@@ -5,7 +5,7 @@
 # Xiaomi has some stuff that still isn't unified for their variants.
 # Instead of making a seperate target we can put the diff in /odm and overlay it.
 
-on init && property:ro.boot.hardware_sku=nuwa
+on init && property:ro.boot.hardware.sku=nuwa
     mount overlay overlay /odm/bin lowerdir=/odm/overlay/nuwa/odm/etc:/odm/bin
     mount overlay overlay /odm/etc lowerdir=/odm/overlay/nuwa/odm/etc:/odm/etc
     mount overlay overlay /odm/firmware lowerdir=/odm/overlay/nuwa/odm/firmware:/odm/firmware
