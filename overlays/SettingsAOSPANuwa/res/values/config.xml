@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether to show custom screen resolution settings -->
+    <bool name="config_show_custom_screen_resolution_switch">true</bool>
+</resources>
