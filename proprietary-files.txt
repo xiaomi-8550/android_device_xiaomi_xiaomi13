@@ -3222,31 +3222,31 @@ odm/etc/thermal-video.conf:vendor/etc/thermal-video.conf
 odm/etc/thermal-videochat.conf:vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-engine.conf
 
-# Thermal Engine (Config - NUWA)
-odm/etc/thermal-4k.conf:odm/overlay/nuwa/vendor/etc/thermal-4k.conf
-odm/etc/thermal-arvr.conf:odm/overlay/nuwa/vendor/etc/thermal-arvr.conf
-odm/etc/thermal-camera.conf:odm/overlay/nuwa/vendor/etc/thermal-camera.conf
-odm/etc/thermal-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-cclassvideo.conf
-odm/etc/thermal-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-cgame.conf
-odm/etc/thermal-chg-only.conf:odm/overlay/nuwa/vendor/etc/thermal-chg-only.conf
-odm/etc/thermal-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-class0.conf
-odm/etc/thermal-dolbyvision.conf:odm/overlay/nuwa/vendor/etc/thermal-dolbyvision.conf
-odm/etc/thermal-hp-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-mgame.conf
-odm/etc/thermal-hp-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-normal.conf
-odm/etc/thermal-huanji.conf:odm/overlay/nuwa/vendor/etc/thermal-huanji.conf
-odm/etc/thermal-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-mgame.conf
-odm/etc/thermal-navigation.conf:odm/overlay/nuwa/vendor/etc/thermal-navigation.conf
-odm/etc/thermal-nolimits.conf:odm/overlay/nuwa/vendor/etc/thermal-nolimits.conf
-odm/etc/thermal-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-normal.conf
-odm/etc/thermal-per-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cclassvideo.conf
-odm/etc/thermal-per-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cgame.conf
-odm/etc/thermal-per-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-per-class0.conf
-odm/etc/thermal-per-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-per-normal.conf
-odm/etc/thermal-per-video.conf:odm/overlay/nuwa/vendor/etc/thermal-per-video.conf
-odm/etc/thermal-phone.conf:odm/overlay/nuwa/vendor/etc/thermal-phone.conf
-odm/etc/thermal-tgame.conf:odm/overlay/nuwa/vendor/etc/thermal-tgame.conf
-odm/etc/thermal-video.conf:odm/overlay/nuwa/vendor/etc/thermal-video.conf
-odm/etc/thermal-videochat.conf:odm/overlay/nuwa/vendor/etc/thermal-videochat.conf
+# Thermal Engine (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/etc/thermal-4k.conf:odm/overlay/nuwa/vendor/etc/thermal-4k.conf|3ad13a2f1c83237c2176af06e1cae16f7f020bb9
+odm/etc/thermal-arvr.conf:odm/overlay/nuwa/vendor/etc/thermal-arvr.conf|f3b2d4b5f8f00098f7833affc6331291448c71fb
+odm/etc/thermal-camera.conf:odm/overlay/nuwa/vendor/etc/thermal-camera.conf|bc658c56002a4749620282254009f99395e945d9
+odm/etc/thermal-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-cclassvideo.conf|48537adeffc45d5b7e5d176e5b8d2bab18d51e55
+odm/etc/thermal-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-cgame.conf|404257f0f05499c8b9802fe23af25f046f843d03
+odm/etc/thermal-chg-only.conf:odm/overlay/nuwa/vendor/etc/thermal-chg-only.conf|6b2683797993fe9065ff0ddf2cc0663cef860936
+odm/etc/thermal-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-class0.conf|55451bde9b793862a2022fc3045b3ef0259a7ec9
+odm/etc/thermal-dolbyvision.conf:odm/overlay/nuwa/vendor/etc/thermal-dolbyvision.conf|c0d773184b0487ed9126f5f6f8a30fb1952186e0
+odm/etc/thermal-hp-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-mgame.conf|c7d7aaaba314a0a4aeb1fa9534101204c2c0d840
+odm/etc/thermal-hp-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-hp-normal.conf|aec870858e61a413f946f4e79484a6f04eab88c5
+odm/etc/thermal-huanji.conf:odm/overlay/nuwa/vendor/etc/thermal-huanji.conf|45ff50357195be7d06acaeabd993261c6497fec8
+odm/etc/thermal-mgame.conf:odm/overlay/nuwa/vendor/etc/thermal-mgame.conf|bd6bf51713bb4674dbaf0fce206d1fbc2cd27503
+odm/etc/thermal-navigation.conf:odm/overlay/nuwa/vendor/etc/thermal-navigation.conf|505e618097660b2265538befa0aa8b5f7cf74ba0
+odm/etc/thermal-nolimits.conf:odm/overlay/nuwa/vendor/etc/thermal-nolimits.conf|7d52a29cee0e414a4cff779e04f3c67c2e4cf261
+odm/etc/thermal-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-normal.conf|e49400c694ea9afbd68e395aa0fc6fd2303246cc
+odm/etc/thermal-per-cclassvideo.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cclassvideo.conf|e44a1ce3a5e99dedb9a8bc8ff578a032507ef125
+odm/etc/thermal-per-cgame.conf:odm/overlay/nuwa/vendor/etc/thermal-per-cgame.conf|61493976df353965cae51310defdc3b6b01b0dcb
+odm/etc/thermal-per-class0.conf:odm/overlay/nuwa/vendor/etc/thermal-per-class0.conf|da6898b0b5355b560f54035b6c05c05c2078edb7
+odm/etc/thermal-per-normal.conf:odm/overlay/nuwa/vendor/etc/thermal-per-normal.conf|b78901efedb2afd1cb5b911dce0e331bc25397da
+odm/etc/thermal-per-video.conf:odm/overlay/nuwa/vendor/etc/thermal-per-video.conf|d754018a292090c4e393a9b99b15728892887899
+odm/etc/thermal-phone.conf:odm/overlay/nuwa/vendor/etc/thermal-phone.conf|e44b37ca9a8939d81aaf72e2d9c83ed6dd362526
+odm/etc/thermal-tgame.conf:odm/overlay/nuwa/vendor/etc/thermal-tgame.conf|5f31982ecd47d4812eb010fc7cd29003cb21f0af
+odm/etc/thermal-video.conf:odm/overlay/nuwa/vendor/etc/thermal-video.conf|c59e518130708481f6eaec79cf07c048c988c897
+odm/etc/thermal-videochat.conf:odm/overlay/nuwa/vendor/etc/thermal-videochat.conf|2d1f18a9678e5f44741c4a760e999647cb662982
 
 # Time Services
 vendor/app/TimeService/TimeService.apk
@@ -3270,10 +3270,10 @@ odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
 # TouchFeature (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
-odm/bin/touch_raw:odm/overlay/nuwa/odm/bin/touch_raw
-odm/bin/touch_report:odm/overlay/nuwa/odm/bin/touch_report
-odm/bin/toucheventcheck:odm/overlay/nuwa/odm/bin/toucheventcheck
-odm/bin/touchsensor:odm/overlay/nuwa/odm/bin/touchsensor
+odm/bin/touch_raw:odm/overlay/nuwa/odm/bin/touch_raw|ecf6172dd33d2839f23ba4303673c5228fd9ff10
+odm/bin/touch_report:odm/overlay/nuwa/odm/bin/touch_report|8e5a1ea5283b0d5ed48a12dfaf455046d214a0a4
+odm/bin/toucheventcheck:odm/overlay/nuwa/odm/bin/toucheventcheck|7ed75aadbecb6fa260abea1a33ac15a97d233a89
+odm/bin/touchsensor:odm/overlay/nuwa/odm/bin/touchsensor|79b123df1f95c699eebda6e788bb3c637a094188
 
 # Trusted Execution Environment Connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
