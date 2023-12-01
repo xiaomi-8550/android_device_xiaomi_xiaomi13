@@ -298,6 +298,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.aospa.powershare-service
 
+# Properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/properties/odm_fuxi.prop:$(TARGET_COPY_OUT_ODM)/etc/build_fuxi.prop \
+    $(LOCAL_PATH)/configs/properties/odm_nuwa.prop:$(TARGET_COPY_OUT_ODM)/etc/build_nuwa.prop
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
