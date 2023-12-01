@@ -6,7 +6,7 @@
 # Instead of making a seperate target we can put the diff in /odm and overlay it.
 
 on init && property:ro.boot.hardware.sku=nuwa
-    mount overlay overlay /odm/bin lowerdir=/odm/overlay/nuwa/odm/etc:/odm/bin
+    mount overlay overlay /odm/bin lowerdir=/odm/overlay/nuwa/odm/bin:/odm/bin
     mount overlay overlay /odm/etc lowerdir=/odm/overlay/nuwa/odm/etc:/odm/etc
     mount overlay overlay /odm/firmware lowerdir=/odm/overlay/nuwa/odm/firmware:/odm/firmware
     mount overlay overlay /odm/lib64 lowerdir=/odm/overlay/nuwa/odm/lib64:/odm/lib64
