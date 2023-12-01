@@ -5,11 +5,11 @@
 # Xiaomi has some stuff that still isn't unified for their variants.
 # Instead of making a seperate target we can put the diff in /odm and overlay it.
 
-on init && property:ro.boot.hardware.sku=nuwa
-    mount overlay overlay /odm/bin lowerdir=/odm/overlay/nuwa/odm/bin:/odm/bin
-    mount overlay overlay /odm/etc lowerdir=/odm/overlay/nuwa/odm/etc:/odm/etc
-    mount overlay overlay /odm/firmware lowerdir=/odm/overlay/nuwa/odm/firmware:/odm/firmware
-    mount overlay overlay /odm/lib64 lowerdir=/odm/overlay/nuwa/odm/lib64:/odm/lib64
-    mount overlay overlay /vendor/etc lowerdir=/odm/overlay/nuwa/vendor/etc:/vendor/etc
-    mount overlay overlay /vendor/firmware lowerdir=/odm/overlay/nuwa/vendor/firmware:/vendor/firmware
-    mount overlay overlay /vendor/lib64 lowerdir=/odm/overlay/nuwa/vendor/etc:/vendor/lib64
+on init
+    mount overlay overlay /odm/bin lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/bin:/odm/bin
+    mount overlay overlay /odm/etc lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/etc:/odm/etc
+    mount overlay overlay /odm/firmware lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/firmware:/odm/firmware
+    mount overlay overlay /odm/lib64 lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/lib64:/odm/lib64
+    mount overlay overlay /vendor/etc lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/etc:/vendor/etc
+    mount overlay overlay /vendor/firmware lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/firmware:/vendor/firmware
+    mount overlay overlay /vendor/lib64 lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/etc:/vendor/lib64
