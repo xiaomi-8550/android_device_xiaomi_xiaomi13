@@ -3269,6 +3269,12 @@ odm/etc/init.panel_info.sh
 odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
+# TouchFeature (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
+odm/bin/touch_raw:odm/overlay/nuwa/odm/bin/touch_raw
+odm/bin/touch_report:odm/overlay/nuwa/odm/bin/touch_report
+odm/bin/toucheventcheck:odm/overlay/nuwa/odm/bin/toucheventcheck
+odm/bin/touchsensor:odm/overlay/nuwa/odm/bin/touchsensor
+
 # Trusted Execution Environment Connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/lib64/libGPMTEEC_vendor.so
