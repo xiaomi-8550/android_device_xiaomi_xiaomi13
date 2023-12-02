@@ -3274,6 +3274,10 @@ odm/bin/touch_raw:odm/overlay/nuwa/odm/bin/touch_raw|ecf6172dd33d2839f23ba430367
 odm/bin/touch_report:odm/overlay/nuwa/odm/bin/touch_report|8e5a1ea5283b0d5ed48a12dfaf455046d214a0a4
 odm/bin/toucheventcheck:odm/overlay/nuwa/odm/bin/toucheventcheck|7ed75aadbecb6fa260abea1a33ac15a97d233a89
 odm/bin/touchsensor:odm/overlay/nuwa/odm/bin/touchsensor|79b123df1f95c699eebda6e788bb3c637a094188
+odm/firmware/film_model.tflite:odm/overlay/nuwa/odm/firmware/film_model.tflite|51c754d721deb4d268f9c7947ef412c21dd8d55b
+odm/firmware/glove_model.tflite:odm/overlay/nuwa/odm/firmware/glove_model.tflite|f53b029ac7616203013fb9d6a4b6706e86d49c9b
+odm/firmware/water_check.tflite:odm/overlay/nuwa/odm/firmware/water_check.tflite|af69a3dae54ec69689e13eb7f801c1158a6a42c8
+odm/lib64/libtensorflowlite_c.so:odm/overlay/nuwa/odm/lib64/libtensorflowlite_c.so|71ddf71ec8ebc2575657b84b11d3e7a2e04ec8d0
 
 # Trusted Execution Environment Connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
