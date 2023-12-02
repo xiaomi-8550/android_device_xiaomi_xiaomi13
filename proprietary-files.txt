@@ -1785,6 +1785,7 @@ vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 # CIT Sensor (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
 odm/etc/cit_param_config.json:odm/overlay/nuwa/odm/etc/cit_param_config.json|6ca763db03dcb93d2c30b84d7e0792a38af9cb24
+odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:odm/overlay/nuwa/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so|c7660435f6a89cffd07e6f23e19e1ec194cf3dec
 
 # CNE
 vendor/app/CneApp/CneApp.apk
