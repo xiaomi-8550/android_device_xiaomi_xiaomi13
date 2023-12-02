@@ -2445,8 +2445,10 @@ vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so
 
 # Sensors
 odm/etc/sensors/config/ak991x_dri_0.json
+odm/etc/sensors/config/kailua_qsh_ble_0.json
 odm/etc/sensors/config/lightSensorConfig.json
 odm/etc/sensors/config/lsm6dso_0.json
+odm/etc/sensors/config/qsh_ble.json
 odm/etc/sensors/config/qsh_camera.json
 odm/etc/sensors/config/sm8550_ak991x_0.json
 odm/etc/sensors/config/sm8550_bmi26x_0.json
@@ -2484,6 +2486,7 @@ odm/etc/sensors/config/sns_nonui.json
 odm/etc/sensors/config/sns_oem13.json
 odm/etc/sensors/config/sns_oem_pocket.json
 odm/etc/sensors/config/sns_pedometer.json
+odm/etc/sensors/config/sns_pointing_light_source.json
 odm/etc/sensors/config/sns_rmd.json
 odm/etc/sensors/config/sns_rotv.json
 odm/etc/sensors/config/sns_sar_algo.json
