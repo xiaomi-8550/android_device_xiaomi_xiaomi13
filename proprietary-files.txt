@@ -3103,6 +3103,7 @@ vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
 odm/etc/sensors/config/ak991x_dri_0.json:odm/overlay/nuwa/odm/etc/sensors/config/ak991x_dri_0.json|a446e83dd2d0b40e3fa04898657e8487e13468a0
+odm/etc/sensors/config/kailua_qsh_ble_0.json:odm/overlay/nuwa/odm/etc/sensors/config/kailua_qsh_ble_0.json|b2be61241f99b4fa097e1433080e70bea571d752
 odm/etc/sensors/config/lightSensorConfig.json:odm/overlay/nuwa/odm/etc/sensors/config/lightSensorConfig.json|161b5b5ca3adb3e4069cbd6da1f4fb9b32adea59
 odm/etc/sensors/config/lsm6dso_0.json:odm/overlay/nuwa/odm/etc/sensors/config/lsm6dso_0.json|28614f02b040b10442c84daefab96ec31ef76442
 odm/etc/sensors/config/qsh_camera.json:odm/overlay/nuwa/odm/etc/sensors/config/qsh_camera.json|92fe0a0715f434ee3e0e2ec5d0d12de0f66356fb
@@ -3143,6 +3144,7 @@ odm/etc/sensors/config/sns_nonui.json:odm/overlay/nuwa/odm/etc/sensors/config/sn
 odm/etc/sensors/config/sns_oem13.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_oem13.json|ff35fb9bb48ac61339416017811546d9217d5288
 odm/etc/sensors/config/sns_oem_pocket.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_oem_pocket.json|c71d0b379b16752dc3303c58cc499aa10c54cc2a
 odm/etc/sensors/config/sns_pedometer.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_pedometer.json|cb7a2e94b498c92e9d824d8500a41736c81df392
+odm/etc/sensors/config/sns_pointing_light_source.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_pointing_light_source.json|9011adf2aaf8849023cc8ab3332fd30a734866cb
 odm/etc/sensors/config/sns_rmd.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_rmd.json|68021e9272fb06c28144ca5603ba4de18a013c5f
 odm/etc/sensors/config/sns_rotv.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_rotv.json|11c499eda6fb59e2159c4e60a6d54cbef208432c
 odm/etc/sensors/config/sns_sar_algo.json:odm/overlay/nuwa/odm/etc/sensors/config/sns_sar_algo.json|11705d6e524d5be6371520147f71abfaac0d0d78
