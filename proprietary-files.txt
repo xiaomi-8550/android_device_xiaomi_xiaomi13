@@ -2445,8 +2445,10 @@ vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so
 
 # Sensors
 odm/etc/sensors/config/ak991x_dri_0.json
+odm/etc/sensors/config/kailua_qsh_ble_0.json
 odm/etc/sensors/config/lightSensorConfig.json
 odm/etc/sensors/config/lsm6dso_0.json
+odm/etc/sensors/config/qsh_ble.json
 odm/etc/sensors/config/qsh_camera.json
 odm/etc/sensors/config/sm8550_ak991x_0.json
 odm/etc/sensors/config/sm8550_bmi26x_0.json
@@ -2484,6 +2486,7 @@ odm/etc/sensors/config/sns_nonui.json
 odm/etc/sensors/config/sns_oem13.json
 odm/etc/sensors/config/sns_oem_pocket.json
 odm/etc/sensors/config/sns_pedometer.json
+odm/etc/sensors/config/sns_pointing_light_source.json
 odm/etc/sensors/config/sns_rmd.json
 odm/etc/sensors/config/sns_rotv.json
 odm/etc/sensors/config/sns_sar_algo.json
@@ -2511,6 +2514,7 @@ vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
+vendor/etc/sensors/config/chre_dynamic_sensors.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
