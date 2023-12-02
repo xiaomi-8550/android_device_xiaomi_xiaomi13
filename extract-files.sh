@@ -64,6 +64,9 @@ function blob_fixup() {
         odm/lib64/libailab_rawhdr.so)
             "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
             ;;
+        odm/lib64/libmt@1.3.so)
+            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+            ;;
         odm/lib64/libxmi_high_dynamic_range_cdsp.so)
             "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
             ;;
