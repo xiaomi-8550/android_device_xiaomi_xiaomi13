@@ -3161,6 +3161,7 @@ odm/etc/sensors/config/sx937x_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sx9
 odm/etc/sensors/config/sx937x_reg_0.json:odm/overlay/nuwa/odm/etc/sensors/config/sx937x_reg_0.json|fef77e6e9d10ab1718868ebfdb83a8052af2f11f
 odm/etc/sensors/config/tcs3408.json:odm/overlay/nuwa/odm/etc/sensors/config/tcs3408.json|c01a8c4b49c11339e2983a87b8808053a0cc8f6f
 odm/etc/sensors/config/vl53l1_tof_0.json:odm/overlay/nuwa/odm/etc/sensors/config/vl53l1_tof_0.json|58bee2dfa1a2af29d34cf0a8483d9c453762ff29
+vendor/etc/sensors/config/chre_dynamic_sensors.json:odm/overlay/nuwa/vendor/etc/sensors/config/chre_dynamic_sensors.json
 
 # SLA
 vendor/bin/hw/vendor.qti.sla.service@1.0-service
