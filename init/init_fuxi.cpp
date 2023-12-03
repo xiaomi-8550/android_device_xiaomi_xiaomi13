@@ -59,6 +59,7 @@ void vendor_load_properties() {
     string region = GetProperty("ro.boot.hwc", "");
 
     if (device == "nuwa") { // Xiaomi 13 Pro
+        set_ro_build_prop("device", "nuwa");
         if (region == "CN") { // China
             set_ro_build_prop("model", "2210132C");
         } else {              // Global
