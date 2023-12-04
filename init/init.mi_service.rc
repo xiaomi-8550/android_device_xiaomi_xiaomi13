@@ -2,6 +2,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+# Audio
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service_64
     override
     class hal
@@ -13,6 +14,14 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service_64
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     onrestart restart audioserver
 
+# Charging
+on boot
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/qcom-battery/input_suspend
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chmod 0660 /sys/class/qcom-battery/input_suspend
+
+# Sensors
 service citsensor-hal-2-0 /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
     class late_start
     user system
