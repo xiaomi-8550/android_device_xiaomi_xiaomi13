@@ -5,7 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/fuxi
-KERNEL_PREBUILT_DIR := device/xiaomi/fuxi-kernel
 
 # A/B
 AB_OTA_UPDATER := true
@@ -94,10 +93,6 @@ BOARD_KERNEL_CMDLINE := \
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
-
-# Kernel Modules
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PREBUILT_DIR)/modules.load.recovery))
-
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
