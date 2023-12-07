@@ -68,7 +68,6 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/configs/vintf/framework_matrix_fuxi.xml \
     $(DEVICE_PATH)/configs/vintf/framework_matrix_xiaomi.xml
 
 DEVICE_MANIFEST_FILE += \
@@ -150,7 +149,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 include device/xiaomi/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Sensors
 SOONG_CONFIG_NAMESPACES += SENSORS_XIAOMI
