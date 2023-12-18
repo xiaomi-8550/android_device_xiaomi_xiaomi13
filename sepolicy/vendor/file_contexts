@@ -18,19 +18,19 @@
 /(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service u:object_r:hal_nfc_default_exec:s0
 
 # OverlayFS
-/odm/overlay/nuwa/(odm|vendor)/bin(/.*)? u:object_r:vendor_file:s0
-/odm/overlay/nuwa/(odm|vendor)/etc(/.*)? u:object_r:vendor_configs_file:s0
-/odm/overlay/nuwa/(odm|vendor)/firmware(/.*)? u:object_r:vendor_file:s0
-/odm/overlay/nuwa/(odm|vendor)/lib64(/.*)? u:object_r:vendor_file:s0
+/odm/overlayfs/nuwa/(odm|vendor)/bin(/.*)? u:object_r:vendor_file:s0
+/odm/overlayfs/nuwa/(odm|vendor)/etc(/.*)? u:object_r:vendor_configs_file:s0
+/odm/overlayfs/nuwa/(odm|vendor)/firmware(/.*)? u:object_r:vendor_file:s0
+/odm/overlayfs/nuwa/(odm|vendor)/lib64(/.*)? u:object_r:vendor_file:s0
 
 # SLA
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service u:object_r:hal_slaservice_qti_exec:s0
 
 # Touchfeature
-/odm/overlay/nuwa/odm/bin/touch_raw u:object_r:touchreport_exec:s0
-/odm/overlay/nuwa/odm/bin/touch_report u:object_r:touchreport_exec:s0
-/odm/overlay/nuwa/odm/bin/toucheventcheck u:object_r:tpevent_exec:s0
-/odm/overlay/nuwa/odm/bin/touchsensor u:object_r:touchreport_exec:s0
+/odm/overlayfs/nuwa/odm/bin/touch_raw u:object_r:touchreport_exec:s0
+/odm/overlayfs/nuwa/odm/bin/touch_report u:object_r:touchreport_exec:s0
+/odm/overlayfs/nuwa/odm/bin/toucheventcheck u:object_r:tpevent_exec:s0
+/odm/overlayfs/nuwa/odm/bin/touchsensor u:object_r:touchreport_exec:s0
 
 # Wifi
 /data/vendor/mac_addr(/.*)? u:object_r:vendor_mac_vendor_data_file:s0
