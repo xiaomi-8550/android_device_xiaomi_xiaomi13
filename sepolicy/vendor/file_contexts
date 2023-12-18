@@ -18,9 +18,10 @@
 /(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service u:object_r:hal_nfc_default_exec:s0
 
 # OverlayFS
-/odm/overlay/nuwa(/.*)? u:object_r:vendor_configs_file:s0
-/odm/overlay/nuwa/odm/firmware(/.*)? u:object_r:vendor_file:s0
-/odm/overlay/nuwa/vendor/firmware(/.*)? u:object_r:vendor_firmware_file:s0
+/odm/overlay/nuwa/(odm|vendor)/bin(/.*)? u:object_r:vendor_file:s0
+/odm/overlay/nuwa/(odm|vendor)/etc(/.*)? u:object_r:vendor_configs_file:s0
+/odm/overlay/nuwa/(odm|vendor)/firmware(/.*)? u:object_r:vendor_file:s0
+/odm/overlay/nuwa/(odm|vendor)/lib64(/.*)? u:object_r:vendor_file:s0
 
 # SLA
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service u:object_r:hal_slaservice_qti_exec:s0

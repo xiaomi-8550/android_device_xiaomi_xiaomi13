@@ -10,6 +10,7 @@ on init
     mount overlay overlay /odm/etc lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/etc:/odm/etc
     mount overlay overlay /odm/firmware lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/firmware:/odm/firmware
     mount overlay overlay /odm/lib64 lowerdir=/odm/overlay/${ro.boot.hardware.sku}/odm/lib64:/odm/lib64
+    mount overlay overlay /vendor/bin lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/bin:/vendor/bin
     mount overlay overlay /vendor/etc lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/etc:/vendor/etc
     mount overlay overlay /vendor/firmware lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/firmware:/vendor/firmware
     mount overlay overlay /vendor/lib64 lowerdir=/odm/overlay/${ro.boot.hardware.sku}/vendor/etc:/vendor/lib64
