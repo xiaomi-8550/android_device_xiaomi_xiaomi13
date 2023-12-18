@@ -3260,6 +3260,7 @@ odm/firmware/stm_fts_production_limits.csv
 
 # Touchscreen (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V14.0.6.0.UMBMIXM release-keys
 odm/firmware/st_fts_m2.ftb:odm/overlayfs/nuwa/odm/firmware/st_fts_m2.ftb|4c2cc3760f70c56c8806a9e1d0087f4c2406a74d
+odm/firmware/stm_fts_production_limits.csv:odm/overlayfs/nuwa/odm/firmware/stm_fts_production_limits.csv|7bfe1695e427c4795df2f855be02606edc30ff8d
 
 # TouchFeature
 odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
