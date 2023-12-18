@@ -28,33 +28,3 @@ service citsensor-hal-2-0 /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-
     group system input
     override
     task_profiles ServiceCapacityLow
-
-# Touchfeature
-on property:ro.vendor.oem.boot_completed=1 && property:ro.boot.hardware.sku=nuwa
-    enable toucheventcheck
-    enable touch_report
-    enable touchsensor
-
-service toucheventcheck /odm/bin/toucheventcheck
-    override
-    class main
-    user root
-    group system
-    oneshot
-    disabled
-
-service touch_report /odm/bin/touch_report
-    override
-    class hal
-    user system
-    group system uhid input
-    capabilities SYS_NICE
-    ioprio rt 4
-    disabled
-
-service touchsensor /odm/bin/touchsensor
-    override
-    class hal
-    user system
-    group system uhid input
-    disabled

@@ -25,6 +25,12 @@
 # SLA
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service u:object_r:hal_slaservice_qti_exec:s0
 
+# Touchfeature
+/odm/overlay/nuwa/odm/bin/touch_raw u:object_r:touchreport_exec:s0
+/odm/overlay/nuwa/odm/bin/touch_report u:object_r:touchreport_exec:s0
+/odm/overlay/nuwa/odm/bin/toucheventcheck u:object_r:tpevent_exec:s0
+/odm/overlay/nuwa/odm/bin/touchsensor u:object_r:touchreport_exec:s0
+
 # Wifi
 /data/vendor/mac_addr(/.*)? u:object_r:vendor_mac_vendor_data_file:s0
 /vendor/bin/nv_mac u:object_r:vendor_wcnss_service_exec:s0
