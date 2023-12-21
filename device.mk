@@ -266,6 +266,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FuxiCarrierConfigRes \
     FuxiCarrierConfigResMiui \
+    FuxiDolbysNuwa \
     FuxiFrameworks \
     FuxiFrameworksAOSPA \
     FuxiFrameworksNuwa \
