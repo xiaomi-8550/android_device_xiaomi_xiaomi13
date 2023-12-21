@@ -280,6 +280,7 @@ PRODUCT_PACKAGES += \
     FuxiSystemUIAOSPA \
     FuxiSystemUINuwa \
     FuxiWifiRes \
+    FuxiWifiResNuwa \
     FuxiWifiResTarget \
     FuxiWifiResTarget_spf
 
