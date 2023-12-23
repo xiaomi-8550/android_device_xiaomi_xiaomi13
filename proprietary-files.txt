@@ -2519,6 +2519,7 @@ vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
 # Mlipay
+mi_ext/product/app/IFAAService/IFAAService.apk:system_ext/app/IFAAService/IFAAService.apk
 odm/bin/fidoca
 odm/bin/mlipayd@1.1
 odm/bin/mtd@1.3
