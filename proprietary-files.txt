@@ -1104,6 +1104,8 @@ odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libellv.so
 odm/lib64/libfastmessage.so
 odm/lib64/libhdr10plus.so
+odm/lib64/libhdr_stub.so
+odm/lib64/libhme.so
 odm/lib64/libipebpsstriping.so
 odm/lib64/libipebpsstriping170.so
 odm/lib64/libipebpsstriping480.so
@@ -1629,6 +1631,8 @@ odm/lib64/libdualcam_video_optical_zoom.so:odm/overlayfs/nuwa/odm/lib64/libdualc
 odm/lib64/libellv.so:odm/overlayfs/nuwa/odm/lib64/libellv.so|09059f2ac043ab2ff7291f9021d765b27b76ca82
 odm/lib64/libfastmessage.so:odm/overlayfs/nuwa/odm/lib64/libfastmessage.so|f86a2b7aca7ad0013d216fa3b1d8621556534788
 odm/lib64/libhdr10plus.so:odm/overlayfs/nuwa/odm/lib64/libhdr10plus.so|0d25f57ed1c5c32b4a21cfe82bea3c2b5911c6a5
+odm/lib64/libhdr_stub.so:odm/overlayfs/nuwa/odm/lib64/libhdr_stub.so|c76f396904062b7ab4060f2cfb74ec9219433102
+odm/lib64/libhme.so:odm/overlayfs/nuwa/odm/lib64/libhme.so|0c8cce298de04f1043eeda840af716193a9fb70b
 odm/lib64/libipebpsstriping.so:odm/overlayfs/nuwa/odm/lib64/libipebpsstriping.so|67ec8896ffc75adcce69634ea6166578f3f43cdc
 odm/lib64/libipebpsstriping170.so:odm/overlayfs/nuwa/odm/lib64/libipebpsstriping170.so|b8db7b9e230399a15eb48ff6f0df0bc3b46e6dc9
 odm/lib64/libipebpsstriping480.so:odm/overlayfs/nuwa/odm/lib64/libipebpsstriping480.so|88f29da2c8901a30e5519d639747d0e0142f15ee
