@@ -35,7 +35,7 @@ vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd
 
-# ACDB (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# ACDB (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:odm/overlayfs/nuwa/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb|54d0cde5b2cbae64652fd622e28f66d592e48145
 odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:odm/overlayfs/nuwa/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp|c3885155fa5cd8b81ec5f893aab3074f7c49037c
 
@@ -166,7 +166,7 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
-# ADSP (Modules - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# ADSP (Modules - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/audio/misound_res_headphone.bin:odm/overlayfs/nuwa/odm/etc/audio/misound_res_headphone.bin|b16e04914255f943830f8b820bae06c5f029572c
 odm/etc/audio/misound_res_spk.bin:odm/overlayfs/nuwa/odm/etc/audio/misound_res_spk.bin|7eaaec369ed20598f96f344f79e3019b3d035878
 odm/etc/audio/misound_res_spk4ch.bin:odm/overlayfs/nuwa/odm/etc/audio/misound_res_spk4ch.bin|91c6ff04a8da339df07b539833684d5aa6c677d0
@@ -267,7 +267,7 @@ vendor/etc/microphone_characteristics.xml
 vendor/etc/usb_compositions.conf
 vendor/etc/usecaseKvManager.xml
 
-# Audio (Configs - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Audio (Configs - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:odm/overlayfs/nuwa/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml|4bb3cc393677f1f98c5c8fb995198e74574f6bd0
 
 # Audio (Dolby)
@@ -292,7 +292,7 @@ odm/firmware/T-music.txt
 odm/firmware/cs35l41-dsp1-spk-cali.wmfw
 odm/firmware/cs35l41-dsp1-spk-prot.wmfw
 
-# Audio (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Audio (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/firmware/B-cs35l41-dsp1-spk-cali.bin:odm/overlayfs/nuwa/odm/firmware/B-cs35l41-dsp1-spk-cali.bin|ad1afb25c9ba9d505b278a4f3a0887bd114ad5f0
 odm/firmware/B-cs35l41-dsp1-spk-prot.bin:odm/overlayfs/nuwa/odm/firmware/B-cs35l41-dsp1-spk-prot.bin|fffaae8fbefc8b9888813bc6bdacd91eb369b036
 odm/firmware/B-handfree.txt:odm/overlayfs/nuwa/odm/firmware/B-handfree.txt|6d9494ddecdf37d617b129074241bc09f06e3532
@@ -1240,7 +1240,7 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so
 
-# Camera (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Camera (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/camera/CFR_para_UW_V01.bin:odm/overlayfs/nuwa/odm/etc/camera/CFR_para_UW_V01.bin|8062566a444024d63e505411d78b511c5506af06
 odm/etc/camera/CFR_para_UW_V01_HD.bin:odm/overlayfs/nuwa/odm/etc/camera/CFR_para_UW_V01_HD.bin|8062566a444024d63e505411d78b511c5506af06
 odm/etc/camera/CFR_para_UW_V01_HDR.bin:odm/overlayfs/nuwa/odm/etc/camera/CFR_para_UW_V01_HDR.bin|8062566a444024d63e505411d78b511c5506af06
@@ -1323,8 +1323,8 @@ odm/etc/camera/miai_psn_config.yaml:odm/overlayfs/nuwa/odm/etc/camera/miai_psn_c
 odm/etc/camera/mialgo_ailab_raw_hdr.bin:odm/overlayfs/nuwa/odm/etc/camera/mialgo_ailab_raw_hdr.bin|e5eecc375fa03f8ab66a6487ce2a30d37433248f
 odm/etc/camera/mialgo_nn_xmi_slmt_4x_1080p.bin:odm/overlayfs/nuwa/odm/etc/camera/mialgo_nn_xmi_slmt_4x_1080p.bin|80bdb0275317759624cd83ff6edd379ff3a90e55
 odm/etc/camera/mialgo_nn_xmi_slmt_4x_720p.bin:odm/overlayfs/nuwa/odm/etc/camera/mialgo_nn_xmi_slmt_4x_720p.bin|25f7f845500abbfcf322d284820b2bf050dbfa53
-odm/etc/camera/mihal_overlap/overlap_config.json:odm/overlayfs/nuwa/odm/etc/camera/mihal_overlap/overlap_config.json|e4e422a63afa8320c513b437afdefc3e853a5862
-odm/etc/camera/mihal_overlap/proj_overlap_config.json:odm/overlayfs/nuwa/odm/etc/camera/mihal_overlap/proj_overlap_config.json|cf8dd2b48ddf29f9d3c30585a92549bf2b89e589
+odm/etc/camera/mihal_overlap/overlap_config.json:odm/overlayfs/nuwa/odm/etc/camera/mihal_overlap/overlap_config.json|883358f7b55e1e9f22c1512f47ab96ce8bd6fc49
+odm/etc/camera/mihal_overlap/proj_overlap_config.json:odm/overlayfs/nuwa/odm/etc/camera/mihal_overlap/proj_overlap_config.json|01879240daf939771467021d56aa5ae85d30743f
 odm/etc/camera/misoverridesettings.txt:odm/overlayfs/nuwa/odm/etc/camera/misoverridesettings.txt|3002670ce8260a2b782c86cd335ad715f49a603a
 odm/etc/camera/model_ai_dxo.dlc:odm/overlayfs/nuwa/odm/etc/camera/model_ai_dxo.dlc|fc66b08520b9d4d6c2953d58f5705eb04a83eb4f
 odm/etc/camera/model_aiie_cap.dlc:odm/overlayfs/nuwa/odm/etc/camera/model_aiie_cap.dlc|6bf4a394839944280cc9ada006b26c35e67a3fcc
@@ -1453,7 +1453,7 @@ odm/lib64/camera/components/com.qti.node.memcpy.so:odm/overlayfs/nuwa/odm/lib64/
 odm/lib64/camera/components/com.qti.node.ml.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.ml.so|dee0c0827c00f438259c408114340b0848060e04
 odm/lib64/camera/components/com.qti.node.muxer.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.muxer.so|09973dd56f259d6bcbe4ac21a6e51a7fc67fd465
 odm/lib64/camera/components/com.qti.node.remosaic.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.remosaic.so|150713c9d03816924dc5ef2c9ffa1f71a0ddd2fa
-odm/lib64/camera/components/com.qti.node.seg.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.seg.so|c3d3ee2eece82e95ca399eba1b1f8fbbf05badf5
+odm/lib64/camera/components/com.qti.node.seg.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.seg.so|1ec4bcf37213be2fa4a96833d5de3a8c0491e3d5
 odm/lib64/camera/components/com.qti.node.stich.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.stich.so|a478ab112c623296ed7c1bf3832bdce194b9f617
 odm/lib64/camera/components/com.qti.node.swaidenoiser.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.swaidenoiser.so|a1c846c7f366bc1a9b25b9ed4fd2e0232df8cdc8
 odm/lib64/camera/components/com.qti.node.swbestats.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.swbestats.so|433aecd956e73ccb1ab4bb71dac31f884b2f3ae9
@@ -1467,10 +1467,10 @@ odm/lib64/camera/components/com.qti.node.swpdpc.so:odm/overlayfs/nuwa/odm/lib64/
 odm/lib64/camera/components/com.qti.node.swpreprocess.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.swpreprocess.so|c35e11e75d4b0360ca154adbfc41cf6f792aae23
 odm/lib64/camera/components/com.qti.node.swregistration.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.swregistration.so|b196daccd8e10f07652d9a86674cab748c3e3349
 odm/lib64/camera/components/com.qti.node.swvrt.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.node.swvrt.so|32b2fdb975eb0b96da994fb2f096b059ed001d09
-odm/lib64/camera/components/com.qti.stats.aec.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.aec.so|a6a011a066d8a2264ddde3a33bca02722f624159
+odm/lib64/camera/components/com.qti.stats.aec.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.aec.so|627e9a4742bb0816dd23a4d71cccf762f05b4dd6
 odm/lib64/camera/components/com.qti.stats.aecwrapper.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.aecwrapper.so|d423139f0fbacc3e55c7685ee9b2d1439e75c3a1
 odm/lib64/camera/components/com.qti.stats.aecxcore.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.aecxcore.so|e0221618162c3a2c711c04b9ff766151412ce936
-odm/lib64/camera/components/com.qti.stats.af.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.af.so|7a5d032bdc8c2851bb39fb73f4a09b64a558bf52
+odm/lib64/camera/components/com.qti.stats.af.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.af.so|e3fd0337b3383b2d5e8927051f9869d433b939ab
 odm/lib64/camera/components/com.qti.stats.afd.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.afd.so|4617ab36c9002d846880f58c165f6daed29d4a5f
 odm/lib64/camera/components/com.qti.stats.afwrapper.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.afwrapper.so|74f07ab3a3a07205e47a4e84e52e650a13765328
 odm/lib64/camera/components/com.qti.stats.asd.so:odm/overlayfs/nuwa/odm/lib64/camera/components/com.qti.stats.asd.so|94b2c179e1f7e3bcceae37bd9beb73178cf83d2c
@@ -1526,52 +1526,52 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so:odm/overlayfs/nuw
 odm/lib64/camx.device-impl.so:odm/overlayfs/nuwa/odm/lib64/camx.device-impl.so|0d521007168f7f2015c44478c43621428b796a37
 odm/lib64/camx.provider-impl.so:odm/overlayfs/nuwa/odm/lib64/camx.provider-impl.so|ce7b7582edde68da8c37d657d56a6818ca7e9000
 odm/lib64/com.qti.camx.chiiqutils.so:odm/overlayfs/nuwa/odm/lib64/com.qti.camx.chiiqutils.so|39bfbe31049ffb5e18433bcfed6907d0ef533461
-odm/lib64/com.qti.chiusecaseselector.so:odm/overlayfs/nuwa/odm/lib64/com.qti.chiusecaseselector.so|0e1118d51a21339a05e313a27fbf7a63ded105b5
-odm/lib64/com.qti.feature2.afbrckt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.afbrckt.so|2cecb13a50715d89e95947d80e29f34f05e3c6ca
-odm/lib64/com.qti.feature2.anchorsync.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.anchorsync.so|5aa1e42bbacd705571f90d143ee574109e970dde
-odm/lib64/com.qti.feature2.demux.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.demux.so|ce869ffbf7d766449c148db98029bc1a46e95b40
-odm/lib64/com.qti.feature2.derivedoffline.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.derivedoffline.so|bb5c1f8e7f1e3f713e81f248dd03c53b1ea1ed4e
-odm/lib64/com.qti.feature2.ellcprocess.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ellcprocess.so|ccc42991c86cb36996006de26d4512afb4e050b1
-odm/lib64/com.qti.feature2.ellcsupernight.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ellcsupernight.so|2b97e4797c0ecbf193d813d045f072a1115b2c80
-odm/lib64/com.qti.feature2.frameselect.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.frameselect.so|731fe384127b32a2f757f54ab8297cc2fa7775b3
-odm/lib64/com.qti.feature2.fusion.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.fusion.so|b9c771f4ef342d8daf9b442547338c3d156f3b0d
-odm/lib64/com.qti.feature2.generic.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.generic.so|a89308ccc84ab0d383a0f784146de5e5d8e81d2c
-odm/lib64/com.qti.feature2.gs.sm8550.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.gs.sm8550.so|4e411a3184f097cc87d12b1db5b4db56cd15b9cb
-odm/lib64/com.qti.feature2.hdr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.hdr.so|19e7b72681845c57a9f98708c36d64122625b516
-odm/lib64/com.qti.feature2.mcreprocrt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mcreprocrt.so|70adab7f6bb62164f0063afde2559b598e3c9130
-odm/lib64/com.qti.feature2.memcpy.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.memcpy.so|f45d4152d1be34f31744ce5df2c9dfd33c528a65
-odm/lib64/com.qti.feature2.mfsr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mfsr.so|0e51f294b5774b664be13b70034cf123d18eefa7
-odm/lib64/com.qti.feature2.ml.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ml.so|798f92c8829a628658566d0b1ae4bd937c20182c
-odm/lib64/com.qti.feature2.mux.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mux.so|e27410274047d39b1a642fb3fa33b676a7d8afdd
-odm/lib64/com.qti.feature2.offlinestatsregeneration.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.offlinestatsregeneration.so|cd43d3c9ee3e6a0b64d8983c6a93526c72e42842
-odm/lib64/com.qti.feature2.qcfa.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.qcfa.so|9db89360d5d3f970c260563db233c13aa7480f30
-odm/lib64/com.qti.feature2.qllimagedump.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.qllimagedump.so|34bd2b2ee6a43c5dac496ec7aa0d6289056e96de
-odm/lib64/com.qti.feature2.rawhdr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rawhdr.so|2988380c39d9b1d8d3582c7f4ec116a69f838990
-odm/lib64/com.qti.feature2.rawsupernight.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rawsupernight.so|a1520d501dec37b716f2412fad5d24f76997561d
-odm/lib64/com.qti.feature2.realtimeserializer.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.realtimeserializer.so|be99dfc0e45edea2a02400a42489ee0692f65c03
-odm/lib64/com.qti.feature2.rt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rt.so|3289820514a625d34aacee5abec35935ebb59be1
-odm/lib64/com.qti.feature2.rtmcx.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rtmcx.so|93a7622a390b4d3fe20252f657fd1c1862536e2d
-odm/lib64/com.qti.feature2.serializer.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.serializer.so|f63444d231f54bf2084a571c41af9c19a9824a47
-odm/lib64/com.qti.feature2.statsregeneration.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.statsregeneration.so|9a1179bb7481c2bce4d1c880f3c2838d16fc1c57
-odm/lib64/com.qti.feature2.stub.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.stub.so|5a0875b346019dc916b93ba460ce85c1c0826693
-odm/lib64/com.qti.feature2.swmf.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.swmf.so|d2b3249d86daf358f93bdf90ef5a9e1fa8cdff21
+odm/lib64/com.qti.chiusecaseselector.so:odm/overlayfs/nuwa/odm/lib64/com.qti.chiusecaseselector.so|c107543ca7a235cb0d735ae5d30108c0cee15d56
+odm/lib64/com.qti.feature2.afbrckt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.afbrckt.so|2a1ff08e94c20a559d771b8007d056a3b6abf221
+odm/lib64/com.qti.feature2.anchorsync.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.anchorsync.so|b9baaec2bed7accdd7da145a96ca374d042045b7
+odm/lib64/com.qti.feature2.demux.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.demux.so|167816c32a234283cc495727f9aca3ea489a23ac
+odm/lib64/com.qti.feature2.derivedoffline.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.derivedoffline.so|49752075448846916cdfc69e8da69385fcf18a84
+odm/lib64/com.qti.feature2.ellcprocess.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ellcprocess.so|e66c3aaa7bbf7a12670c623e57721e2a777f7447
+odm/lib64/com.qti.feature2.ellcsupernight.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ellcsupernight.so|6582580d5f0c48319048724f972c2362de1fd714
+odm/lib64/com.qti.feature2.frameselect.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.frameselect.so|b747fe226feff1af359411400bcc7fb288850873
+odm/lib64/com.qti.feature2.fusion.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.fusion.so|3358c066b89d9c031b2ea9c30f002d04141751b7
+odm/lib64/com.qti.feature2.generic.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.generic.so|f45c9ec6913cc06bc488c57d581dac9514661ce5
+odm/lib64/com.qti.feature2.gs.sm8550.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.gs.sm8550.so|c40572070d18bef5d8bedb9ff2cd8dadb5b9b4dd
+odm/lib64/com.qti.feature2.hdr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.hdr.so|cb4240f5dd04b865ac15b4975b77802c47566fb4
+odm/lib64/com.qti.feature2.mcreprocrt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mcreprocrt.so|dc978549f83b0eddbbf746528f7c65289860b950
+odm/lib64/com.qti.feature2.memcpy.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.memcpy.so|c00c04699830bb971e6ad9a8bb0b59d3ec477ad0
+odm/lib64/com.qti.feature2.mfsr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mfsr.so|a3a2bb485aecd5c7083f14f7b2528c2ca090fb1a
+odm/lib64/com.qti.feature2.ml.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.ml.so|0c4ec139cc403ade2069dcfe9d0617d2ab45c713
+odm/lib64/com.qti.feature2.mux.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.mux.so|82ae60781ea90bf56d3fa4ae84df07bdfc47092e
+odm/lib64/com.qti.feature2.offlinestatsregeneration.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.offlinestatsregeneration.so|e1a61a3773571acc61d3a3f75cd2a28e7f4d8a6a
+odm/lib64/com.qti.feature2.qcfa.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.qcfa.so|98137d06baa91a899dedc143f0d6416a9fd9b221
+odm/lib64/com.qti.feature2.qllimagedump.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.qllimagedump.so|763f715a85aa6064b156cb582a6646433cddf516
+odm/lib64/com.qti.feature2.rawhdr.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rawhdr.so|db8e6fb01a597020c3bff22bbb8de260ecb821b2
+odm/lib64/com.qti.feature2.rawsupernight.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rawsupernight.so|18ec827c746a2e0892c4d24e85f4eff3ae92c422
+odm/lib64/com.qti.feature2.realtimeserializer.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.realtimeserializer.so|bf8a25ba7582cb4c672653c8182eebddfff0fade
+odm/lib64/com.qti.feature2.rt.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rt.so|92f784300fcc7d101160dd341dc9c479ffafc0a0
+odm/lib64/com.qti.feature2.rtmcx.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.rtmcx.so|8e2b07a4db4e9ba29595cf92621a2881c029aa7a
+odm/lib64/com.qti.feature2.serializer.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.serializer.so|65221ecb5d239684fc80eeb4e41a86bc2bc20385
+odm/lib64/com.qti.feature2.statsregeneration.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.statsregeneration.so|1a913bd98bfba8e81862c19c238ffd966a1dad94
+odm/lib64/com.qti.feature2.stub.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.stub.so|eaf7f5e3c35b98cb918d350d2c7be60465ecaed0
+odm/lib64/com.qti.feature2.swmf.so:odm/overlayfs/nuwa/odm/lib64/com.qti.feature2.swmf.so|29adc0ddb652440e10a86f269541c407f60fca63
 odm/lib64/com.qti.qseeaon.so:odm/overlayfs/nuwa/odm/lib64/com.qti.qseeaon.so|1a7b2dea51cd901318efaf4e38e40950ca911dc0
 odm/lib64/com.qti.qseeutils.so:odm/overlayfs/nuwa/odm/lib64/com.qti.qseeutils.so|fa923cf4816454c5f2f6e5265c20b4af09132292
 odm/lib64/com.qti.settings.sm8550.so:odm/overlayfs/nuwa/odm/lib64/com.qti.settings.sm8550.so|3f57dcf33f731c51855647102c3e13ddc4e8ca32
 odm/lib64/com.qti.stats.common.so:odm/overlayfs/nuwa/odm/lib64/com.qti.stats.common.so|b11eea66d5dd3c112de0944368f6c4b4ed309b31
 odm/lib64/com.qualcomm.mcx.distortionmapper.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.distortionmapper.so|1ad0a51c43847fd8c434a4f8a92e70bc1fa41893
-odm/lib64/com.qualcomm.mcx.linearmapper.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.linearmapper.so|5c769a1f3e07146f3bc58b01ca3909e0a45716a1
-odm/lib64/com.qualcomm.mcx.nonlinearmapper.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.nonlinearmapper.so|79affaf658bdfcb236f38c1a2a70aeb638936701
-odm/lib64/com.qualcomm.mcx.policy.mfl.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.policy.mfl.so|1aa738c55486d043ef562584fe94c1653a12ff39
-odm/lib64/com.qualcomm.mcx.policy.xr.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.policy.xr.so|e477197b0945685971532a56b972bfe14a83a346
-odm/lib64/com.qualcomm.qti.mcx.usecase.extension.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.qti.mcx.usecase.extension.so|3b8edcb5985d2f990c9855376a4550c3958a80ee
+odm/lib64/com.qualcomm.mcx.linearmapper.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.linearmapper.so|30084801487619f0a00d06ccdee8b413f1fb84fd
+odm/lib64/com.qualcomm.mcx.nonlinearmapper.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.nonlinearmapper.so|cf4553cfc038b23375bd24362d2de6f7f014936a
+odm/lib64/com.qualcomm.mcx.policy.mfl.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.policy.mfl.so|806a80249973d8f3be443cce6df7c0534d10eea0
+odm/lib64/com.qualcomm.mcx.policy.xr.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.mcx.policy.xr.so|0d0bd318e3722a5ab96518f4b911edf249639170
+odm/lib64/com.qualcomm.qti.mcx.usecase.extension.so:odm/overlayfs/nuwa/odm/lib64/com.qualcomm.qti.mcx.usecase.extension.so|194424c57e9845ac332f3d3b8ca6a502e432372a
 odm/lib64/com.xiaomi.camhal.overlap.so:odm/overlayfs/nuwa/odm/lib64/com.xiaomi.camhal.overlap.so|e036aaf96da5380737661d23f25ac408e422367f
 odm/lib64/com.xiaomi.camhal.submodel.camxfrag.so:odm/overlayfs/nuwa/odm/lib64/com.xiaomi.camhal.submodel.camxfrag.so|b464c1e92f7fccf2cf0dd8d6206c901fe819303e
 odm/lib64/com.xiaomi.camhal.submodel.chifrag.so:odm/overlayfs/nuwa/odm/lib64/com.xiaomi.camhal.submodel.chifrag.so|0b5c4ee22c2fc49b38b3af3462799639b23f5a92
-odm/lib64/hw/camera.qcom.so:odm/overlayfs/nuwa/odm/lib64/hw/camera.qcom.so|f0af24bc08c4477431f862e96f591917e0a2400b
-odm/lib64/hw/camera.xiaomi.so:odm/overlayfs/nuwa/odm/lib64/hw/camera.xiaomi.so|fab363c76280e9e45509b59047ee2732f57c0936
-odm/lib64/hw/com.qti.chi.offline.so:odm/overlayfs/nuwa/odm/lib64/hw/com.qti.chi.offline.so|b5203f3fa3981780b40decffefbc75ae90df2338
-odm/lib64/hw/com.qti.chi.override.so:odm/overlayfs/nuwa/odm/lib64/hw/com.qti.chi.override.so|aed4e240bd7b6d4dab0fa946ae984169280e7b03
+odm/lib64/hw/camera.qcom.so:odm/overlayfs/nuwa/odm/lib64/hw/camera.qcom.so|70ec61f5dff38e6fbd5be3e3d7e785df26f54c37
+odm/lib64/hw/camera.xiaomi.so:odm/overlayfs/nuwa/odm/lib64/hw/camera.xiaomi.so|b939647d9841a221b94ac3b955824041b40ebf1e
+odm/lib64/hw/com.qti.chi.offline.so:odm/overlayfs/nuwa/odm/lib64/hw/com.qti.chi.offline.so|4f9cc059775269849160a80cc753729d9921e8d4
+odm/lib64/hw/com.qti.chi.override.so:odm/overlayfs/nuwa/odm/lib64/hw/com.qti.chi.override.so|3be9eb81d39bb7a86c16692125a83c51dbb21315
 odm/lib64/libAF.so:odm/overlayfs/nuwa/odm/lib64/libAF.so|f305ace964c952e61e18bda9354ce7c22e90227c
 odm/lib64/libHISCppAlgos.so:odm/overlayfs/nuwa/odm/lib64/libHISCppAlgos.so|bda026fe36af6c6ee155bf78797e8a4b49c22932
 odm/lib64/libMiMotion.so:odm/overlayfs/nuwa/odm/lib64/libMiMotion.so|7b14805473bde285123d63408ba5f8d23c9d9bc0
@@ -1593,23 +1593,23 @@ odm/lib64/libarcsoft_super_night_raw.so:odm/overlayfs/nuwa/odm/lib64/libarcsoft_
 odm/lib64/libbeauty_face_interface.so:odm/overlayfs/nuwa/odm/lib64/libbeauty_face_interface.so|1cbbd00f365e596b8cf5c630f9f56193242b6591
 odm/lib64/libbitmlengine.so:odm/overlayfs/nuwa/odm/lib64/libbitmlengine.so|30e201701f96f6b1a1d9c9a12e8b417369d9f1c4
 odm/lib64/libcamera_scene.so:odm/overlayfs/nuwa/odm/lib64/libcamera_scene.so|3eb61c755c1c42dede49418b441c4d5da72d3993
-odm/lib64/libcamerapostproc.so:odm/overlayfs/nuwa/odm/lib64/libcamerapostproc.so|9c2e841749132cdae0860d2c69554241e310f7e2
+odm/lib64/libcamerapostproc.so:odm/overlayfs/nuwa/odm/lib64/libcamerapostproc.so|cc9173d3be45f71e40ee8fce397db9988ce331fa
 odm/lib64/libcamlog.so:odm/overlayfs/nuwa/odm/lib64/libcamlog.so|6e125bc51895d4b6006977d76a4d817f5e7c2aa8
-odm/lib64/libcamxcommonutils.so:odm/overlayfs/nuwa/odm/lib64/libcamxcommonutils.so|b8ccb9b224b56c448711f83cf1cdf8315776a399
+odm/lib64/libcamxcommonutils.so:odm/overlayfs/nuwa/odm/lib64/libcamxcommonutils.so|0e8760d657620654cd02e58b90e7313f626c1c7e
 odm/lib64/libcamxfacialfeatures.so:odm/overlayfs/nuwa/odm/lib64/libcamxfacialfeatures.so|7cb82b406230d5c9e0f3723e7cb15c2c42b8a433
 odm/lib64/libcamxfdalgo.so:odm/overlayfs/nuwa/odm/lib64/libcamxfdalgo.so|da166ac1e85cc20c503bcaf2d65dd96f21b805a1
 odm/lib64/libcamxfdengine.so:odm/overlayfs/nuwa/odm/lib64/libcamxfdengine.so|351f266a9db579b3775aad879eb821817ecd9f22
 odm/lib64/libcamxhwnodecontext.so:odm/overlayfs/nuwa/odm/lib64/libcamxhwnodecontext.so|3d3264fac6e895522cc9e8224b7c6cc37b71faf8
 odm/lib64/libcamxifestriping.so:odm/overlayfs/nuwa/odm/lib64/libcamxifestriping.so|199b701a9104d74798f40343ca80e670ca9b4737
-odm/lib64/libcamximageformatutils.so:odm/overlayfs/nuwa/odm/lib64/libcamximageformatutils.so|4ecf3c4f70b6dbd3cee35e6d0cbaf189c54bd364
+odm/lib64/libcamximageformatutils.so:odm/overlayfs/nuwa/odm/lib64/libcamximageformatutils.so|812faa7ba86afbaf5f43670da29ad401405c04d1
 odm/lib64/libcamxqsatalgo.so:odm/overlayfs/nuwa/odm/lib64/libcamxqsatalgo.so|deaf0d0942e4968cff4d04fa0e8017078a5df7e4
-odm/lib64/libcamxsettingsmanager.so:odm/overlayfs/nuwa/odm/lib64/libcamxsettingsmanager.so|ec6b00fcd0b6582ee396dab98f6a140196802fa0
+odm/lib64/libcamxsettingsmanager.so:odm/overlayfs/nuwa/odm/lib64/libcamxsettingsmanager.so|1f629671e1146c768e0877ad118fca2c59fe88bf
 odm/lib64/libcamxstatscore.so:odm/overlayfs/nuwa/odm/lib64/libcamxstatscore.so|9ab939d1661b389e3b4fd42ef878ab912efe83f9
 odm/lib64/libcamxswispiqmodule.so:odm/overlayfs/nuwa/odm/lib64/libcamxswispiqmodule.so|03dd3313410995f52b5046b9e0517b34784c1426
 odm/lib64/libcamxswprocessalgo.so:odm/overlayfs/nuwa/odm/lib64/libcamxswprocessalgo.so|55432c1fadf83e7d8992b63c6c3a45c7cf945697
 odm/lib64/libcamxtintlessalgo.so:odm/overlayfs/nuwa/odm/lib64/libcamxtintlessalgo.so|96ffe21c0afd963e342c155e2b593990d3f002f8
 odm/lib64/libceres.so:odm/overlayfs/nuwa/odm/lib64/libceres.so|0b40f92133882d6ed72ce49b9cb3af7b29f5decc
-odm/lib64/libchifeature2.so:odm/overlayfs/nuwa/odm/lib64/libchifeature2.so|c781596c8a075158a00683c0da17f58a88e010a1
+odm/lib64/libchifeature2.so:odm/overlayfs/nuwa/odm/lib64/libchifeature2.so|85fe5235203d4a6f1e5ad75d71070e6058980a04
 odm/lib64/libchilog.so:odm/overlayfs/nuwa/odm/lib64/libchilog.so|708ac520ab3dc4774e0c268b6eda20db521eb4dc
 odm/lib64/libcom.qti.chinodeutils.so:odm/overlayfs/nuwa/odm/lib64/libcom.qti.chinodeutils.so|172a781c35be9af89780cc77ca5f8352f6f3d5d8
 odm/lib64/libcom.xiaomi.algomsg.so:odm/overlayfs/nuwa/odm/lib64/libcom.xiaomi.algomsg.so|63442aa3aaf671c898c034b991f875b353d86ae4
@@ -1655,7 +1655,7 @@ odm/lib64/libmialgo_snsc.so:odm/overlayfs/nuwa/odm/lib64/libmialgo_snsc.so|74524
 odm/lib64/libmialgo_utils.so:odm/overlayfs/nuwa/odm/lib64/libmialgo_utils.so|e51f1c606f43a94f0142f403cfa9bdb1afe3627c
 odm/lib64/libmialgo_video_colourkeeping.so:odm/overlayfs/nuwa/odm/lib64/libmialgo_video_colourkeeping.so|317239d57dc804a45878e0f432b41fd54f030ded
 odm/lib64/libmialgo_video_seg_depth.so:odm/overlayfs/nuwa/odm/lib64/libmialgo_video_seg_depth.so|2a082d8410dbdcade598ca55fc23cc51691eaea9
-odm/lib64/libmialgoengine.so:odm/overlayfs/nuwa/odm/lib64/libmialgoengine.so|0967f4256c80e70bbcf042946fed432c6bdb88f2
+odm/lib64/libmialgoengine.so:odm/overlayfs/nuwa/odm/lib64/libmialgoengine.so|5e8592f77430e8b9e8a0839f5f7db1dd94e927dd
 odm/lib64/libmibokeh_845_video.so:odm/overlayfs/nuwa/odm/lib64/libmibokeh_845_video.so|6ca5a053d0363f2a81fe39c6819e60c125cc68a7
 odm/lib64/libmibokeh_mask.so:odm/overlayfs/nuwa/odm/lib64/libmibokeh_mask.so|b46b0dab452019e1e4c8641b546b813e9b14c702
 odm/lib64/libmiface.so:odm/overlayfs/nuwa/odm/lib64/libmiface.so|da30953d82fe9f2865d8c14725e25b4b5675990b
@@ -1686,7 +1686,7 @@ odm/lib64/libmmcamera_pdpc.so:odm/overlayfs/nuwa/odm/lib64/libmmcamera_pdpc.so|e
 odm/lib64/libmorpho_ubwc.so:odm/overlayfs/nuwa/odm/lib64/libmorpho_ubwc.so|5df091ee919633ae92012de4863d2e844d7a436c
 odm/lib64/libmorpho_video_stabilizer.so:odm/overlayfs/nuwa/odm/lib64/libmorpho_video_stabilizer.so|4b0bf76d8d772a0d011141d9b0c323fc7e702e34
 odm/lib64/libmpbase.so:odm/overlayfs/nuwa/odm/lib64/libmpbase.so|e6b51e2d501f434eea15ecdc275011d1498301ae
-odm/lib64/libofflinefeatureintf.so:odm/overlayfs/nuwa/odm/lib64/libofflinefeatureintf.so|3c66448558ea459f69756c8b3bad17fcb93e37c3
+odm/lib64/libofflinefeatureintf.so:odm/overlayfs/nuwa/odm/lib64/libofflinefeatureintf.so|a46d48ee792882529865dc8c44f3dfb829b96eee
 odm/lib64/libomp.so:odm/overlayfs/nuwa/odm/lib64/libomp.so|2b6e3974fd325ef09e27d836dbc4639a61f2f324
 odm/lib64/libopencv.so:odm/overlayfs/nuwa/odm/lib64/libopencv.so|c629750abff764b3f2533d0142bbf851ed997d8b
 odm/lib64/libopencv3a.so:odm/overlayfs/nuwa/odm/lib64/libopencv3a.so|e2f1b3f62bbeb3e09db6b2e5d21c6bd68ec53bd3
@@ -1765,7 +1765,7 @@ odm/firmware/fuxi_s5k3k1_bu24721_ois.coeff
 odm/firmware/fuxi_s5k3k1_bu24721_ois.mem
 odm/firmware/fuxi_s5k3k1_bu24721_ois.prog
 
-# Camera (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Camera (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/firmware/nuwa_tele_bu24618_ois.coeff:odm/overlayfs/nuwa/odm/firmware/nuwa_tele_bu24618_ois.coeff|22e12c210f2c45fd8c8902946ca7317e5901e50d
 odm/firmware/nuwa_tele_bu24618_ois.mem:odm/overlayfs/nuwa/odm/firmware/nuwa_tele_bu24618_ois.mem|b85810bead663ea122064826c854e1daefd7930b
 odm/firmware/nuwa_tele_bu24618_ois.prog:odm/overlayfs/nuwa/odm/firmware/nuwa_tele_bu24618_ois.prog|b1f3d032768be0e2fe695d5dfa61928fa796bc14
@@ -1795,7 +1795,7 @@ odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
-# CIT Sensor (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# CIT Sensor (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/cit_param_config.json:odm/overlayfs/nuwa/odm/etc/cit_param_config.json|688e56486b99173b4c395b0e251b62b546f47ba3
 odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:odm/overlayfs/nuwa/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so|60d9d0cbd1bc502bcbdf3fe34343b8ffe9aee321
 
@@ -1976,7 +1976,7 @@ vendor/lib64/vendor.qti.diaghal@1.0.so
 odm/etc/display/qdcm_calib_data_xiaomi_m3_38_0c_0a_sec_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml
 
-# Display (Calibration - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Display (Calibration - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json:odm/overlayfs/nuwa/odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json|0c4f3e00d7b5d85d4df550d35c306278c528e0e6
 odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml:odm/overlayfs/nuwa/odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml|87b719fe09edb3b75f6b12ab13bdcf7ef8b972a0
 
@@ -1984,7 +1984,7 @@ odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml:odm/overlayfs/nuwa/odm/etc/mdss_dsi_
 product/etc/displayconfig/display_id_4630947006070067843.xml:vendor/etc/displayconfig/display_id_4630947006070067843.xml
 vendor/etc/displayconfig/display_layout_configuration.xml
 
-# Display (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Display (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 product/etc/displayconfig/display_id_4630947134992368259.xml:odm/overlayfs/nuwa/vendor/etc/displayconfig/display_id_4630947134992368259.xml|e6d0aac0b8d15e2c574e05e173042934f0120c24
 
 # Display (Displayfeature)
@@ -2053,7 +2053,7 @@ vendor/lib64/libmi-stc-HW-modulate.so
 vendor/lib64/libmilut.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
-# Display (Displayfeature - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Display (Displayfeature - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt|3ed44402a0de0e0e0e4c2673ef4b87870d885bfc
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt|e5fa44f2b31c1fb553b6021e7360d07d5d91ff5e
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt|953788c1d28faa0662dac4eb59ae7debe98f35a0
@@ -2253,7 +2253,7 @@ vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
-# Fingerprint (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Fingerprint (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/lib64/hw/fingerprint.goodix_fod6.so:odm/overlayfs/nuwa/vendor/lib64/hw/fingerprint.goodix_fod6.default.so|2ac94bb250cff8ebb4fe2b0c823ec2e564ac518a
 odm/lib64/libgf_hal6.so:odm/overlayfs/nuwa/odm/lib64/libgf_hal6.so|c1d32d605b92529822c26bc93d564e102a64be69
 
@@ -2498,7 +2498,7 @@ vendor/lib64/libdeccfg.so
 vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libeglcore.so
 
-# Media (Dolby Vision - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Media (Dolby Vision - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/dolby/dax-default.xml:odm/overlayfs/nuwa/odm/etc/dolby/dax-default.xml|8ecbf85d20c5159b4edb33e0ee1b8f337065f655
 odm/etc/dolby_vision.cfg:odm/overlayfs/nuwa/odm/etc/dolby_vision.cfg|1bbba720a19090c57c9f5a6bacf6faaff3aa69ed
 
@@ -3122,7 +3122,7 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensors (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Sensors (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/sensors/config/ak991x_dri_0.json:odm/overlayfs/nuwa/odm/etc/sensors/config/ak991x_dri_0.json|a446e83dd2d0b40e3fa04898657e8487e13468a0
 odm/etc/sensors/config/kailua_qsh_ble_0.json:odm/overlayfs/nuwa/odm/etc/sensors/config/kailua_qsh_ble_0.json|b2be61241f99b4fa097e1433080e70bea571d752
 odm/etc/sensors/config/lightSensorConfig.json:odm/overlayfs/nuwa/odm/etc/sensors/config/lightSensorConfig.json|161b5b5ca3adb3e4069cbd6da1f4fb9b32adea59
@@ -3248,7 +3248,7 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
-# Thermal Engine (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Thermal Engine (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/thermal-4k.conf:odm/overlayfs/nuwa/vendor/etc/thermal-4k.conf|3ad13a2f1c83237c2176af06e1cae16f7f020bb9
 odm/etc/thermal-arvr.conf:odm/overlayfs/nuwa/vendor/etc/thermal-arvr.conf|f3b2d4b5f8f00098f7833affc6331291448c71fb
 odm/etc/thermal-camera.conf:odm/overlayfs/nuwa/vendor/etc/thermal-camera.conf|bc658c56002a4749620282254009f99395e945d9
@@ -3287,7 +3287,7 @@ vendor/lib64/libtime_genoff.so
 odm/firmware/st_fts_m3.ftb
 odm/firmware/stm_fts_production_limits.csv
 
-# Touchscreen (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Touchscreen (Firmware - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/firmware/st_fts_m2.ftb:odm/overlayfs/nuwa/odm/firmware/st_fts_m2.ftb|5fff99b5828b9ac44078008fae262bb8edb6dcca
 odm/firmware/stm_fts_production_limits.csv:odm/overlayfs/nuwa/odm/firmware/stm_fts_production_limits.csv|7bfe1695e427c4795df2f855be02606edc30ff8d
 
@@ -3299,7 +3299,7 @@ odm/etc/init.panel_info.sh
 odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
-# TouchFeature (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# TouchFeature (NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/bin/touch_raw:odm/overlayfs/nuwa/odm/bin/touch_raw|ecf6172dd33d2839f23ba4303673c5228fd9ff10
 odm/bin/touch_report:odm/overlayfs/nuwa/odm/bin/touch_report|443317dea2880889e1c7b27f2ad46264907fc9fd
 odm/bin/toucheventcheck:odm/overlayfs/nuwa/odm/bin/toucheventcheck|7ed75aadbecb6fa260abea1a33ac15a97d233a89
@@ -3350,7 +3350,7 @@ odm/firmware/2_tick_P_RTP.bin:vendor/firmware/2_tick_P_RTP.bin
 odm/firmware/3_thud_P_RTP.bin:vendor/firmware/3_thud_P_RTP.bin
 odm/firmware/4_pop_P_RTP.bin:vendor/firmware/4_pop_P_RTP.bin
 
-# Vibrator (Effects - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.2.0.UMBCNXM release-keys
+# Vibrator (Effects - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/firmware/0_click_P_RTP.bin:odm/overlayfs/nuwa/vendor/firmware/0_click_P_RTP.bin|6211c03c21ae51805ab09dc33a887795768b749d
 odm/firmware/2_tick_P_RTP.bin:odm/overlayfs/nuwa/vendor/firmware/2_tick_P_RTP.bin|389fa5e1b8a076c19101fa63bf2c4eb2f48b98b5
 odm/firmware/3_thud_P_RTP.bin:odm/overlayfs/nuwa/vendor/firmware/3_thud_P_RTP.bin|335b746cdc84a6dab63c403a2ef36110d19d8077
