@@ -88,7 +88,7 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,mms" />
@@ -1385,7 +1385,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -1449,7 +1449,7 @@
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,ims" />
@@ -1491,7 +1491,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -1556,7 +1556,7 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,mms" />
@@ -1606,7 +1606,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -1668,7 +1668,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1695,7 +1695,7 @@
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1730,7 +1730,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -1795,7 +1795,7 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -1857,7 +1857,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1887,7 +1887,7 @@
         <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="10">
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
@@ -1901,7 +1901,7 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
@@ -1949,7 +1949,7 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
@@ -1986,7 +1986,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
@@ -2053,7 +2053,7 @@
         <boolean name="config_disable_outgoing_callbarring_over_ims" value="true" />
         <boolean name="config_disable_change_password_over_ims" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
-        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="false" />
         <boolean name="config_disable_clir_over_ut" value="true" />
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
