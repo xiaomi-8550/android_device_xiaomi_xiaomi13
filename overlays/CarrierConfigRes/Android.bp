@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiCarrierConfigRes",
+    name: "Xiaomi13CarrierConfigRes",
     product_specific: true,
     aaptflags: ["--keep-raw-values"],
 }

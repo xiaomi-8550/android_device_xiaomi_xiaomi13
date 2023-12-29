@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/xiaomi13/xiaomi13-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -200,7 +200,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
 # Kernel Binary
-KERNEL_PREBUILT_DIR := device/xiaomi/fuxi-kernel
+KERNEL_PREBUILT_DIR := device/xiaomi/xiaomi13-kernel
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -264,26 +264,26 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FuxiCarrierConfigRes \
-    FuxiCarrierConfigResMiui \
-    FuxiDolbysNuwa \
-    FuxiFrameworks \
-    FuxiFrameworksAOSPA \
-    FuxiFrameworksNuwa \
-    FuxiSettings \
-    FuxiSettingsAOSPA \
-    FuxiSettingsCN \
-    FuxiSettingsNuwa \
-    FuxiSettingsNuwaCN \
-    FuxiSettingsProvider \
-    FuxiSettingsProviderNuwa \
-    FuxiSystemUI \
-    FuxiSystemUIAOSPA \
-    FuxiSystemUINuwa \
-    FuxiWifiRes \
-    FuxiWifiResNuwa \
-    FuxiWifiResTarget \
-    FuxiWifiResTarget_spf
+    Xiaomi13CarrierConfigRes \
+    Xiaomi13CarrierConfigResMiui \
+    Xiaomi13DolbysNuwa \
+    Xiaomi13Frameworks \
+    Xiaomi13FrameworksAOSPA \
+    Xiaomi13FrameworksNuwa \
+    Xiaomi13Settings \
+    Xiaomi13SettingsAOSPA \
+    Xiaomi13SettingsCN \
+    Xiaomi13SettingsNuwa \
+    Xiaomi13SettingsNuwaCN \
+    Xiaomi13SettingsProvider \
+    Xiaomi13SettingsProviderNuwa \
+    Xiaomi13SystemUI \
+    Xiaomi13SystemUIAOSPA \
+    Xiaomi13SystemUINuwa \
+    Xiaomi13WifiRes \
+    Xiaomi13WifiResNuwa \
+    Xiaomi13WifiResTarget \
+    Xiaomi13WifiResTarget_spf
 
 # Parts
 PRODUCT_PACKAGES += \

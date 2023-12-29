@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiSettingsNuwaCN",
+    name: "Xiaomi13SettingsNuwaCN",
     product_specific: true,
 }

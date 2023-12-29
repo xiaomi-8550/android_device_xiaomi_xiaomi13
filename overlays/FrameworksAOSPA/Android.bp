@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiFrameworksAOSPA",
+    name: "Xiaomi13FrameworksAOSPA",
     product_specific: true,
 }

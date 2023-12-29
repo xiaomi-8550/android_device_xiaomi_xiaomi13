@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiSystemUI",
+    name: "Xiaomi13SystemUI",
     product_specific: true,
 }

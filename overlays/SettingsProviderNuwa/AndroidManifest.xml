@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.providers.settings.overlay.nuwa">
+    package="com.android.providers.settings.overlay.xiaomi13.nuwa">
 
     <overlay
         android:isStatic="true"

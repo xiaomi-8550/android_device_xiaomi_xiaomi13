@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "UdfpsHandler.fuxi"
+#define LOG_TAG "UdfpsHandler.xiaomi13"
 
 #include <android-base/logging.h>
 #include <android-base/unique_fd.h>

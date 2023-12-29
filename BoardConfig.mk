@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fuxi
+DEVICE_PATH := device/xiaomi/xiaomi13
 
 # A/B
 AB_OTA_UPDATER := true
@@ -78,8 +78,8 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest_xiaomi.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_fuxi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_fuxi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_xiaomi13
+TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi13
 
 # Kernel
 BOARD_BOOTCONFIG := \

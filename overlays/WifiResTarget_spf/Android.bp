@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiWifiResTarget_spf",
+    name: "Xiaomi13WifiResTarget_spf",
     product_specific: true,
 }

@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FuxiSettingsProvider",
+    name: "Xiaomi13SettingsProvider",
     product_specific: true,
 }

@@ -58,19 +58,21 @@ void vendor_load_properties() {
     string region = GetProperty("ro.boot.hwc", "");
     string sku = GetProperty("ro.boot.hardware.sku", "");
 
-    if (sku == "nuwa") { // Xiaomi 13 Pro
-        set_build_prop("ro.product.device", "nuwa");
-        set_build_prop("ro.product.name", "nuwa");
-        if (region == "CN") { // China
-            set_ro_build_prop("model", "2210132C");
-        } else {              // Global
-            set_ro_build_prop("model", "2210132G");
-        }
-    } else {                // Xiaomi 13
+    // Override device specific props
+    set_ro_build_prop("device", sku);
+    set_ro_build_prop("name", sku);
+
+    if (sku == "fuxi") { // Xiaomi 13
         if (region == "CN") { // China
             set_ro_build_prop("model", "2211133C");
         } else {              // Global
             set_ro_build_prop("model", "2211133G");
+        }
+    } else if (sku == "nuwa") { // Xiaomi 13 Pro
+        if (region == "CN") { // China
+            set_ro_build_prop("model", "2210132C");
+        } else {              // Global
+            set_ro_build_prop("model", "2210132G");
         }
     }
 

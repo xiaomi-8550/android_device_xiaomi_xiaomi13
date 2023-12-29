@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.overlay.fuxi.cn">
+    package="com.android.settings.overlay.xiaomi13.cn">
 
     <overlay
         android:isStatic="true"
