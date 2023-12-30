@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00FFFFFF</color>
+
     <!-- Doze: does the single tap sensor need a proximity check? -->
     <bool name="doze_single_tap_proximity_check">true</bool>
 
