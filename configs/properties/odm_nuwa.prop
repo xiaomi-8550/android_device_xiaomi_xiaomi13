@@ -1,9 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=Xiaomi 13 Pro
 
-# Camera
-ro.product.mod_device=nuwa_global
-
 # Display
 ro.sf.lcd_density=530
 ro.vendor.touchfeature.type=183
