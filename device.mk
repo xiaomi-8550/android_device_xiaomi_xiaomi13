@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 Paranoid Android
+# Copyright (C) 2023-2024 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -100,6 +100,10 @@ PRODUCT_COPY_FILES += \
 # Authsecret
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0.vendor
+
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/aospa/bootanimation/1440/bootanimation.zip:$(TARGET_COPY_OUT_ODM)/overlayfs/nuwa/product/media/bootanimation.zip
 
 # Boot Control
 PRODUCT_PACKAGES += \

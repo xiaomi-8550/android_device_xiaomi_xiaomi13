@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Paranoid Android
+# Copyright (C) 2023-2024 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -6,6 +6,7 @@
 # Instead of making a seperate target we can put the diff in /odm and overlay it.
 
 on init
+    mount none /odm/overlayfs/${ro.boot.hardware.sku}/product/media/bootanimation.zip /product/media/bootanimation.zip bind
     mount overlay overlay /odm/bin ro lowerdir=/odm/overlayfs/${ro.boot.hardware.sku}/odm/bin:/odm/bin
     mount overlay overlay /odm/etc ro lowerdir=/odm/overlayfs/${ro.boot.hardware.sku}/odm/etc:/odm/etc
     mount overlay overlay /odm/firmware ro lowerdir=/odm/overlayfs/${ro.boot.hardware.sku}/odm/firmware:/odm/firmware
