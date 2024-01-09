@@ -3,7 +3,7 @@
                  2016 The CyanogenMod Project.
                  2019-2020 The LineageOS Project.
                  2021 The Android Open Source Project.
-                 2022-2023 Paranoid Android.
+                 2022-2024 Paranoid Android.
 
    SPDX-License-Identifier: Apache-2.0
 
@@ -25,7 +25,7 @@ using std::string;
 // List of partitions to override props
 static const string source_partitions[] = {
     "", "bootimage.", "odm.", "product.", "system.",
-    "system_ext.", "vendor.", "vendor_dlkm."
+    "system_dlkm.", "system_ext.", "vendor.", "vendor_dlkm."
 };
 
 bool IsRecoveryMode() {
@@ -59,22 +59,29 @@ void vendor_load_properties() {
     string sku = GetProperty("ro.boot.hardware.sku", "");
 
     // Override device specific props
+    set_build_prop("ro.build.product", sku);
     set_ro_build_prop("device", sku);
-    set_ro_build_prop("name", sku);
 
     if (sku == "fuxi") { // Xiaomi 13
         if (region == "CN") { // China
             set_ro_build_prop("model", "2211133C");
+            set_ro_build_prop("name", "fuxi");
         } else {              // Global
             set_ro_build_prop("model", "2211133G");
+            set_ro_build_prop("name", "fuxi_global");
         }
     } else if (sku == "nuwa") { // Xiaomi 13 Pro
         if (region == "CN") { // China
             set_ro_build_prop("model", "2210132C");
+            set_ro_build_prop("name", "nuwa");
         } else {              // Global
             set_ro_build_prop("model", "2210132G");
+            set_ro_build_prop("name", "nuwa_global");
         }
     }
+
+    // Override hardware revision
+    set_build_prop("ro.boot.hardware.revision", sku);
 
     // Override first api level for safetynet
     if (!IsRecoveryMode()) {
