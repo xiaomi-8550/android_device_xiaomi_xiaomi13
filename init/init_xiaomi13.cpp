@@ -82,9 +82,4 @@ void vendor_load_properties() {
 
     // Override hardware revision
     set_build_prop("ro.boot.hardware.revision", sku);
-
-    // Override first api level for safetynet
-    if (!IsRecoveryMode()) {
-        set_build_prop("ro.product.first_api_level", "32");
-    }
 }
