@@ -5,5 +5,8 @@ bluetooth.device.default_name=Xiaomi 13 Pro
 ro.sf.lcd_density=530
 ro.vendor.touchfeature.type=183
 
+# Marketname
+ro.product.marketname=Xiaomi 13 Pro
+
 # USB
 vendor.usb.product_string=Xiaomi 13 Pro
