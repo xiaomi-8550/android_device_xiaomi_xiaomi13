@@ -8,6 +8,7 @@
 #define LOG_TAG "UdfpsHandler.xiaomi13"
 
 #include <android-base/logging.h>
+#include <android-base/properties.h>
 #include <android-base/unique_fd.h>
 
 #include <poll.h>
@@ -75,6 +76,7 @@ class XiaomiSm8550UdfpsHander : public UdfpsHandler {
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
+        mSku = android::base::GetProperty("ro.boot.hardware.sku", "");
         touch_fd_ = android::base::unique_fd(open(TOUCH_DEV_PATH, O_RDWR));
 
         std::thread([this]() {
@@ -118,7 +120,8 @@ class XiaomiSm8550UdfpsHander : public UdfpsHandler {
         if (result == FINGERPRINT_ACQUIRED_GOOD) {
             setFingerDown(false);
             setFodStatus(FOD_STATUS_OFF);
-        } else if (vendorCode >= 20 && vendorCode <= 23) {
+        } else if ((mSku == "fuxi" && (vendorCode == 20 || vendorCode == 22))
+                || (mSku == "nuwa" && (vendorCode == 21 || vendorCode == 23))) {
             /*
              * vendorCode = 20/21 waiting for fingerprint authentication
              * vendorCode = 22/23 waiting for fingerprint enroll
@@ -135,6 +138,7 @@ class XiaomiSm8550UdfpsHander : public UdfpsHandler {
 
   private:
     fingerprint_device_t* mDevice;
+    std::string mSku;
     android::base::unique_fd touch_fd_;
 
     void setFodStatus(int value) {
