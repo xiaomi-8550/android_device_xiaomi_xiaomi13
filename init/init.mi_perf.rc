@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 
 on property:vendor.post_boot.parsed=1
+    # Set default thermal profile
+    write /sys/class/thermal/thermal_message/sconfig 0
+
     # IRQ Tuning
     # IRQ 253: msm_drm0
     # IRQ 208: kgsl_3d0_irq
