@@ -9,6 +9,7 @@ genfscon sysfs "/devices/virtual/touch/touch_dev/gesture_single_tap_state" u:obj
 genfscon sysfs "/devices/platform/soc/soc:xiaomi_fingerprint/fingerdown" u:object_r:vendor_sysfs_displayfeature:s0
 genfscon sysfs "/devices/platform/soc/soc:fingerprint_goodix/wakeup" u:object_r:sysfs_wakeup:s0
 genfscon sysfs "/devices/virtual/touch/touch_dev/fod_press_status" u:object_r:sysfs_tp_fodstatus:s0
+genfscon sysfs "/devices/virtual/touch/tp_dev/fod_status" u:object_r:sysfs_tp_fodstatus:s0
 
 # Powershare
 genfscon sysfs "/class/qcom-battery/reverse_chg_mode" u:object_r:sysfs_powershare:s0
