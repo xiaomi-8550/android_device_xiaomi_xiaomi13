@@ -1976,6 +1976,22 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
+# Display
+vendor/bin/hw/vendor.qti.hardware.display.composer-service
+vendor/lib64/libdisplayconfig.qti.so
+vendor/lib64/libdisplaydebug.so
+vendor/lib64/libhdr_hbm.so
+vendor/lib64/libhdrdynamic.so
+vendor/lib64/libhdrdynamicootf.so
+vendor/lib64/libhdrvivid.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmdal.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libsdmutils.so
+
 # Display (Calibration)
 odm/etc/display/qdcm_calib_data_xiaomi_m3_38_0c_0a_sec_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml
@@ -1987,43 +2003,13 @@ odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml:odm/overlayfs/nuwa/odm/etc/mdss_dsi_
 # Display (Config)
 product/etc/displayconfig/display_id_4630947006070067843.xml:vendor/etc/displayconfig/display_id_4630947006070067843.xml
 vendor/etc/displayconfig/display_layout_configuration.xml
+vendor/etc/clstc_config_library.xml
+vendor/etc/snapdragon_color_libs_config.xml
 
 # Display (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 product/etc/displayconfig/display_id_4630947134992368259.xml:odm/overlayfs/nuwa/vendor/etc/displayconfig/display_id_4630947134992368259.xml|e6d0aac0b8d15e2c574e05e173042934f0120c24
 
-# Display (Displayfeature)
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/clstc_gc_0.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/clstc_igc_0.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLutInfo.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_0.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_1.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_10.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_11.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_12.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_13.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_14.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_15.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_16.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_17.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_18.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_19.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_2.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_20.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_3.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_4.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_5.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_6.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_7.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_8.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_9.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_0.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_1.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_2.txt
-odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_3.txt
-odm/etc/df_default.xml
+# Displayfeature
 odm/lib64/hw/displayfeature.default.so
 odm/lib64/libMiDispDevManager.so
 odm/lib64/libcolortempmode.so
@@ -2057,7 +2043,44 @@ vendor/lib64/libmi-stc-HW-modulate.so
 vendor/lib64/libmilut.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
-# Display (Displayfeature - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
+# Displayfeature (Config)
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/clstc_gc_0.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/clstc_igc_0.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLutInfo.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_0.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_1.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_10.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_11.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_12.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_13.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_14.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_15.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_16.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_17.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_18.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_19.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_2.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_20.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_3.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_4.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_5.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_6.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_7.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_8.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/miLut_9.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_0.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_1.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_2.txt
+odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_3.txt
+odm/etc/df_default.xml
+vendor/etc/display/LUT0.txt
+vendor/etc/display/LUT1.txt
+vendor/etc/display/LUT2.txt
+
+# Displayfeature (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt|3ed44402a0de0e0e0e4c2673ef4b87870d885bfc
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt|e5fa44f2b31c1fb553b6021e7360d07d5d91ff5e
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/clstc/PicHDRLchIn.txt|953788c1d28faa0662dac4eb59ae7debe98f35a0
@@ -2089,84 +2112,6 @@ odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_0.txt:odm/overlayfs/nuwa/odm/et
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_1.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_1.txt|e6846b2aefc4394cd36ad1e2893720e85cca19f2
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt|0ea2a13c6e15d9087d518369aedda80d295d7aed
 odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt:odm/overlayfs/nuwa/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt|e169c7e4716a823312b900d735dbe376c5f708df
-
-# Display (HDR)
-vendor/lib64/libhdr_backlight_adapter.so
-vendor/lib64/libhdr_hbm.so
-vendor/lib64/libhdr_tm.so
-vendor/lib64/libhdrdynamic.so
-vendor/lib64/libhdrdynamicootf.so
-vendor/lib64/libhdrvivid.so
-
-# Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
-vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libbacklight-calib.so
-vendor/lib64/libdigital-dimming.so
-vendor/lib64/libdisplayconfig.qti.so
-vendor/lib64/libdpps.so
-vendor/lib64/libgame_enhance.so
-vendor/lib64/libhistogram.so
-vendor/lib64/libmemutils.so
-vendor/lib64/libqdcm-algo.so
-vendor/lib64/libqdcm-json-mode-parser.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libqdutils.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmdal.so
-vendor/lib64/libsdmutils.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-
-# Display (Postprocessing)
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/ppd
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.color@1.6.so
-vendor/lib64/vendor.display.color@1.7.so
-vendor/lib64/vendor.display.postproc@1.0.so
-
-# Display (SDM)
-vendor/etc/display/DPU660.xml
-vendor/etc/display/DPU670.xml
-vendor/etc/display/DPU720.xml
-vendor/etc/display/DPU7__.xml
-vendor/etc/display/DPU820.xml
-vendor/etc/display/DPU8__.xml
-vendor/etc/display/DPU9__.xml
-vendor/etc/display/LUT0.txt
-vendor/etc/display/LUT1.txt
-vendor/etc/display/LUT2.txt
-vendor/etc/display/advanced_sf_offsets.xml
-vendor/etc/display/thermallevel_to_fps.xml
-vendor/etc/clstc_config_library.xml
-vendor/lib64/libclstc_algorithm_adapter.so
-vendor/lib64/libclstc_gcp_adapter.so
-vendor/lib64/libclstc_tm.so
-vendor/lib64/libdisplaydebug.so
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libintervmipc.so
-vendor/lib64/libqseed3.so
-vendor/lib64/librcmask.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtestutils.so
-vendor/lib64/libtinyxml2_1.so
-vendor/lib64/libvmfilexfer.so
 
 # DPM
 vendor/bin/dpmQmiMgr
