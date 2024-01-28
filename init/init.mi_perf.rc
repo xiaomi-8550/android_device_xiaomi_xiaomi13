@@ -1,16 +1,12 @@
-# Copyright (C) 2023 Paranoid Android
+# Copyright (C) 2023-2024 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 
 on property:vendor.post_boot.parsed=1
+    exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.mi_perf.sh
+
     # Set default thermal profile
     write /sys/class/thermal/thermal_message/sconfig 0
-
-    # IRQ Tuning
-    # IRQ 253: msm_drm0
-    # IRQ 208: kgsl_3d0_irq
-    write /proc/irq/208/smp_affinity_list 1
-    write /proc/irq/253/smp_affinity_list 2
 
     # CPUFreq
     write /sys/devices/system/cpu/cpufreq/policy0/walt/up_rate_limit_us 500

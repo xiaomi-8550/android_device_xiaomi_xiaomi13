@@ -196,6 +196,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.mi_overlay.rc \
     init.mi_perf.rc \
+    init.mi_perf.sh \
     init.mi_service.rc \
     init.mi_udfps.rc \
     ueventd.xiaomi.rc
