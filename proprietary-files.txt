@@ -3201,7 +3201,7 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
 # Thermal Engine (Config - NUWA) - from nuwa_global-user 13 TKQ1.221114.001 V816.0.1.0.UMBMIXM release-keys
-odm/etc/setting.xml:odm/overlayfs/nuwa/odm/etc/setting.xml|80898bcace37d650e44327cb8591249c1213cb1e
+odm/etc/setting.xml:odm/overlayfs/nuwa/odm/etc/setting.xml|354bb1abb792c7fea7e4ca4f228caa607374b172
 odm/etc/thermal-4k.conf:odm/overlayfs/nuwa/odm/etc/thermal-4k.conf|3ad13a2f1c83237c2176af06e1cae16f7f020bb9
 odm/etc/thermal-arvr.conf:odm/overlayfs/nuwa/odm/etc/thermal-arvr.conf|f3b2d4b5f8f00098f7833affc6331291448c71fb
 odm/etc/thermal-camera.conf:odm/overlayfs/nuwa/odm/etc/thermal-camera.conf|bc658c56002a4749620282254009f99395e945d9
