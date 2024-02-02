@@ -26,7 +26,7 @@ import android.util.Log;
 public class TouchPollingRateService extends Service {
 
     private static final String TAG = "XiaomiPartsTouchPollingRateService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     private static final String SECURE_KEY_POLLING = "touch_polling_enabled";
 

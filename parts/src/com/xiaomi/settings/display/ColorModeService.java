@@ -29,7 +29,7 @@ import com.xiaomi.settings.display.DfWrapper.DfParams;
 
 public class ColorModeService extends Service {
     private static final String TAG = "XiaomiPartsColorModeService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     private static final int DEFAULT_COLOR_MODE = SystemProperties.getInt(
             "persist.sys.sf.native_mode", 0);
@@ -56,7 +56,7 @@ public class ColorModeService extends Service {
     private final ContentObserver mSettingObserver = new ContentObserver(mHandler) {
         @Override
         public void onChange(boolean selfChange) {
-            Log.e(TAG, "SettingObserver: onChange");
+            if (DEBUG) Log.d(TAG, "SettingObserver: onChange");
             setCurrentColorMode();
         }
     };
@@ -64,27 +64,27 @@ public class ColorModeService extends Service {
     private final BroadcastReceiver mScreenStateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.e(TAG, "onReceive: " + intent.getAction());
+            if (DEBUG) Log.d(TAG, "onReceive: " + intent.getAction());
             switch (intent.getAction()) {
                 case Intent.ACTION_SCREEN_ON:
                     if (mIsDozing) {
                         mIsDozing = false;
                         mHandler.removeCallbacksAndMessages(null);
                         mHandler.postDelayed(() -> {
-                            Log.e(TAG, "Was in AOD, restore color mode");
+                            if (DEBUG) Log.d(TAG, "Was in AOD, restore color mode");
                             setCurrentColorMode();
                         }, 100);
                     }
                     break;
                 case Intent.ACTION_SCREEN_OFF:
                     if (!mAmbientConfig.alwaysOnEnabled(UserHandle.USER_CURRENT)) {
-                        Log.e(TAG, "AOD is not enabled");
+                        if (DEBUG) Log.d(TAG, "AOD is not enabled");
                         mIsDozing = false;
                         break;
                     }
                     mIsDozing = true;
                     mHandler.removeCallbacksAndMessages(null);
-                    Log.e(TAG, "Entered AOD, set color mode to standard");
+                    if (DEBUG) Log.d(TAG, "Entered AOD, set color mode to standard");
                     DfWrapper.setDisplayFeature(STANDARD_PARAMS);
                     break;
             }
@@ -94,7 +94,7 @@ public class ColorModeService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.e(TAG, "onCreate");
+        if (DEBUG) Log.d(TAG, "onCreate");
         mAmbientConfig = new AmbientDisplayConfiguration(this);
         getContentResolver().registerContentObserver(Settings.System.getUriFor(DISPLAY_COLOR_MODE),
                     false, mSettingObserver, UserHandle.USER_CURRENT);
@@ -106,13 +106,13 @@ public class ColorModeService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.e(TAG, "onStartCommand");
+        if (DEBUG) Log.d(TAG, "onStartCommand");
         return START_STICKY;
     }
 
     @Override
     public void onDestroy() {
-        Log.e(TAG, "onDestroy");
+        if (DEBUG) Log.d(TAG, "onDestroy");
         getContentResolver().unregisterContentObserver(mSettingObserver);
         unregisterReceiver(mScreenStateReceiver);
         super.onDestroy();
@@ -125,7 +125,7 @@ public class ColorModeService extends Service {
 
     private void setCurrentColorMode() {
         if (mIsDozing) {
-            Log.e(TAG, "setCurrentColorMode: skip in AOD");
+            if (DEBUG) Log.d(TAG, "setCurrentColorMode: skip in AOD");
             return;
         }
         final int colorMode = Settings.System.getIntForUser(getContentResolver(),
@@ -135,7 +135,7 @@ public class ColorModeService extends Service {
             return;
         }
         final DfParams params = COLOR_MAP.get(colorMode);
-        Log.e(TAG, "setCurrentColorMode: " + colorMode + ", params=" + params);
+        if (DEBUG) Log.d(TAG, "setCurrentColorMode: " + colorMode + ", params=" + params);
         if (params.mode == EXPERT_MODE) {
             DfWrapper.setDisplayFeature(EXPERT_PARAMS);
         }

@@ -26,7 +26,7 @@ import android.util.Log;
 public class AlwaysOnFingerprintService extends Service {
 
     private static final String TAG = "XiaomiPartsAlwaysOnFingerprintService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     private static final String SECURE_KEY_TAP = "doze_tap_gesture";
     private static final String SECURE_KEY_UDFPS = "screen_off_udfps_enabled";

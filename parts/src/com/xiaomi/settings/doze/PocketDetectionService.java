@@ -23,7 +23,7 @@ import android.util.Log;
 
 public class PocketDetectionService extends Service {
     private static final String TAG = "XiaomiPartsPocketDetectionService";
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     /* xiaomi.sensor.large_area_detect */
     private static final int TYPE_LARGE_AREA_TOUCH_SENSOR = 33171031;
@@ -37,7 +37,7 @@ public class PocketDetectionService extends Service {
 
     @Override
     public void onCreate() {
-        if (DEBUG) Log.i(TAG, "Creating service");
+        if (DEBUG) Log.d(TAG, "Creating service");
         mPowerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         mKeyguardManager = (KeyguardManager) getSystemService(Context.KEYGUARD_SERVICE);
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -52,13 +52,13 @@ public class PocketDetectionService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if (DEBUG) Log.i(TAG, "Starting service");
+        if (DEBUG) Log.d(TAG, "Starting service");
         return START_STICKY;
     }
 
     @Override
     public void onDestroy() {
-        if (DEBUG) Log.i(TAG, "Destroying service");
+        if (DEBUG) Log.d(TAG, "Destroying service");
         unregisterReceiver(mScreenStateReceiver);
         mSensorManager.unregisterListener(mSensorListener, mTouchSensor);
         super.onDestroy();
@@ -74,18 +74,18 @@ public class PocketDetectionService extends Service {
         public void onReceive(Context context, Intent intent) {
             switch (intent.getAction()) {
                 case Intent.ACTION_SCREEN_ON:
-                    if (DEBUG) Log.i(TAG, "Received ACTION_SCREEN_ON mUserPresent=" + mUserPresent);
+                    if (DEBUG) Log.d(TAG, "Received ACTION_SCREEN_ON mUserPresent=" + mUserPresent);
                     if (mUserPresent) return;
                     mSensorManager.registerListener(mSensorListener,
                             mTouchSensor, SensorManager.SENSOR_DELAY_NORMAL);
                     break;
                 case Intent.ACTION_SCREEN_OFF:
-                    if (DEBUG) Log.i(TAG, "Received ACTION_SCREEN_OFF");
+                    if (DEBUG) Log.d(TAG, "Received ACTION_SCREEN_OFF");
                     mSensorManager.unregisterListener(mSensorListener, mTouchSensor);
                     mUserPresent = false;
                     break;
                 case Intent.ACTION_USER_PRESENT:
-                    if (DEBUG) Log.i(TAG, "Received ACTION_USER_PRESENT");
+                    if (DEBUG) Log.d(TAG, "Received ACTION_USER_PRESENT");
                     // disable when unlocked
                     mSensorManager.unregisterListener(mSensorListener, mTouchSensor);
                     mUserPresent = true;
@@ -104,12 +104,12 @@ public class PocketDetectionService extends Service {
             boolean isOnKeyguard = mKeyguardManager.isKeyguardLocked();
 
             if (DEBUG)
-                Log.i(TAG, "onSensorChanged type=" + event.sensor.getType()
+                Log.d(TAG, "onSensorChanged type=" + event.sensor.getType()
                         + " value=" + event.values[0] + " isTouchDetected="
                         + isTouchDetected + " isOnKeyguard=" + isOnKeyguard);
 
             if (isTouchDetected && isOnKeyguard) {
-                Log.i(TAG, "In pocket, going to sleep");
+                if (DEBUG) Log.d(TAG, "In pocket, going to sleep");
                 mPowerManager.goToSleep(SystemClock.uptimeMillis());
             }
         }

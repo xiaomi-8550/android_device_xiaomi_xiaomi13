@@ -27,7 +27,7 @@ import com.xiaomi.settings.display.DfWrapper;
 public class AodBrightnessService extends Service {
 
     private static final String TAG = "XiaomiPartsAodBrightnessService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     private static final int SENSOR_TYPE_AOD = 33171029; // xiaomi.sensor.aod
     private static final float AOD_SENSOR_EVENT_BRIGHT = 4f;
@@ -50,7 +50,7 @@ public class AodBrightnessService extends Service {
         public void onSensorChanged(SensorEvent event) {
             final float value = event.values[0];
             mIsDozeHbm = (value == AOD_SENSOR_EVENT_BRIGHT);
-            Log.d(TAG, "onSensorChanged: type=" + event.sensor.getType() + " value=" + value);
+            if (DEBUG) Log.d(TAG, "onSensorChanged: type=" + event.sensor.getType() + " value=" + value);
             updateDozeBrightness();
         }
     };
@@ -58,7 +58,7 @@ public class AodBrightnessService extends Service {
     private final BroadcastReceiver mScreenStateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.d(TAG, "onReceive: " + intent.getAction());
+            if (DEBUG) Log.d(TAG, "onReceive: " + intent.getAction());
             switch (intent.getAction()) {
                 case Intent.ACTION_SCREEN_ON:
                     if (mIsDozing) {
@@ -71,7 +71,7 @@ public class AodBrightnessService extends Service {
                     break;
                 case Intent.ACTION_SCREEN_OFF:
                     if (!mAmbientConfig.alwaysOnEnabled(UserHandle.USER_CURRENT)) {
-                        Log.d(TAG, "AOD is not enabled.");
+                        if (DEBUG) Log.d(TAG, "AOD is not enabled.");
                         mIsDozing = false;
                         break;
                     }
@@ -95,7 +95,7 @@ public class AodBrightnessService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d(TAG, "Creating service");
+        if (DEBUG) Log.d(TAG, "Creating service");
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mAodSensor = mSensorManager.getDefaultSensor(SENSOR_TYPE_AOD, true);
         mAmbientConfig = new AmbientDisplayConfiguration(this);
@@ -103,7 +103,7 @@ public class AodBrightnessService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d(TAG, "Starting service");
+        if (DEBUG) Log.d(TAG, "Starting service");
         IntentFilter screenStateFilter = new IntentFilter(Intent.ACTION_DISPLAY_STATE_CHANGED);
         screenStateFilter.addAction(Intent.ACTION_SCREEN_ON);
         screenStateFilter.addAction(Intent.ACTION_SCREEN_OFF);
@@ -113,7 +113,7 @@ public class AodBrightnessService extends Service {
 
     @Override
     public void onDestroy() {
-        Log.d(TAG, "Destroying service");
+        if (DEBUG) Log.d(TAG, "Destroying service");
         unregisterReceiver(mScreenStateReceiver);
         mSensorManager.unregisterListener(mSensorListener, mAodSensor);
         super.onDestroy();
@@ -132,13 +132,13 @@ public class AodBrightnessService extends Service {
                 Settings.System.SCREEN_BRIGHTNESS_MODE,
                         Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL);
         mIsAutoBrightnessEnabled = (brightnessMode == Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC);
-        Log.d(TAG, "setInitialDozeHbmState: brightness=" + brightness + " mIsDozeHbm=" + mIsDozeHbm
+        if (DEBUG) Log.d(TAG, "setInitialDozeHbmState: brightness=" + brightness + " mIsDozeHbm=" + mIsDozeHbm
                 + " mIsAutoBrightnessEnabled=" + mIsAutoBrightnessEnabled);
         updateDozeBrightness();
     }
 
     private void updateDozeBrightness() {
-        Log.d(TAG, "updateDozeBrightness: mIsDozing=" + mIsDozing + " mDisplayState=" + mDisplayState
+        if (DEBUG) Log.d(TAG, "updateDozeBrightness: mIsDozing=" + mIsDozing + " mDisplayState=" + mDisplayState
                 + " mIsDozeHbm=" + mIsDozeHbm);
         final boolean isDozeState = mIsDozing && (mDisplayState == Display.STATE_DOZE
                 || mDisplayState == Display.STATE_DOZE_SUSPEND);

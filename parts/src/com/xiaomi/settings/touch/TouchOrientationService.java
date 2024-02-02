@@ -17,25 +17,25 @@ import android.util.Log;
 public class TouchOrientationService extends Service {
 
     private static final String TAG = "XiaomiPartsTouchOrientationService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d(TAG, "onStartCommand");
+        if (DEBUG) Log.d(TAG, "onStartCommand");
         updateOrientation();
         return START_STICKY;
     }
 
     @Override
     public void onDestroy() {
-        Log.d(TAG, "onDestroy");
+        if (DEBUG) Log.d(TAG, "onDestroy");
         super.onDestroy();
     }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        Log.d(TAG, "onConfigurationChanged");
+        if (DEBUG) Log.d(TAG, "onConfigurationChanged");
         updateOrientation();
     }
 
@@ -46,7 +46,7 @@ public class TouchOrientationService extends Service {
 
     private void updateOrientation() {
         final int rotation = getDisplay().getRotation();
-        Log.d(TAG, "updateTpOrientation: rotation=" + rotation);
+        if (DEBUG) Log.d(TAG, "updateTpOrientation: rotation=" + rotation);
 
         // Lucky for us, Surface.ROTATION_* directly translates into touchpanel values
         TfWrapper.setTouchFeature(

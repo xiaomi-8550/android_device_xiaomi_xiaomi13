@@ -27,11 +27,11 @@ import com.xiaomi.settings.touch.TouchPollingRateService;
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final String TAG = "XiaomiParts";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        if (DEBUG) Log.i(TAG, "Received intent: " + intent.getAction());
+        if (DEBUG) Log.d(TAG, "Received boot completed intent: " + intent.getAction());
         switch (intent.getAction()) {
             case Intent.ACTION_LOCKED_BOOT_COMPLETED:
                 onLockedBootCompleted(context);

@@ -23,7 +23,7 @@ import android.util.Log;
 public class DcDimmingService extends Service {
 
     private static final String TAG = "XiaomiPartsDcDimmingService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     private boolean mIsDcDimmingEnabled;
     private boolean mIsScreenOn;
@@ -33,7 +33,7 @@ public class DcDimmingService extends Service {
     private final ContentObserver mSettingObserver = new ContentObserver(mHandler) {
         @Override
         public void onChange(boolean selfChange) {
-            Log.e(TAG, "SettingObserver: onChange");
+            if (DEBUG) Log.d(TAG, "SettingObserver: onChange");
             updateDcDimming();
         }
     };
@@ -41,21 +41,21 @@ public class DcDimmingService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d(TAG, "Creating service");
+        if (DEBUG) Log.d(TAG, "Creating service");
         getContentResolver().registerContentObserver(Settings.System.getUriFor(DC_DIMMING_STATE),
                     false, mSettingObserver, UserHandle.USER_CURRENT);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d(TAG, "Starting service");
+        if (DEBUG) Log.d(TAG, "Starting service");
         updateDcDimming();
         return START_STICKY;
     }
 
     @Override
     public void onDestroy() {
-        Log.d(TAG, "Destroying service");
+        if (DEBUG) Log.d(TAG, "Destroying service");
         getContentResolver().unregisterContentObserver(mSettingObserver);
         super.onDestroy();
     }
@@ -68,7 +68,7 @@ public class DcDimmingService extends Service {
     private void updateDcDimming() {
         final int enabled = Settings.System.getInt(getContentResolver(),
                 Settings.System.DC_DIMMING_STATE, 0);
-        Log.d(TAG, "updateDcDimming: enabled=" + enabled);
+        if (DEBUG) Log.d(TAG, "updateDcDimming: enabled=" + enabled);
         try {
             DfWrapper.setDisplayFeature(
                     new DfWrapper.DfParams(/*DC_BACKLIGHT_STATE*/ 20, enabled, 0));
