@@ -127,6 +127,11 @@ class XiaomiSm8550UdfpsHander : public UdfpsHandler {
              * vendorCode = 22/23 waiting for fingerprint enroll
              */
             setFodStatus(FOD_STATUS_ON);
+        } else if (mSku == "fuxi" && vendorCode == 44){ 
+            /*
+             * (fuxi) vendorCode = 44 authentication fail
+             */
+            setFingerDown(false);
         }
     }
 
