@@ -1,10 +1,10 @@
 //
-// Copyright (C) 2023 Paranoid Android
+// Copyright (C) 2023-2024 Paranoid Android
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 runtime_resource_overlay {
-    name: "Xiaomi13SettingsNuwa",
+    name: "Xiaomi13Settings2210132G",
     product_specific: true,
 }
