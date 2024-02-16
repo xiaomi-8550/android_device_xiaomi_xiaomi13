@@ -322,8 +322,10 @@ vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/soundfx/libvolumelistener.so
 
 # Batterysecret
+vendor/bin/battery_stats
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc
+vendor/etc/init/vendor.qti.battery_stats.rc
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
