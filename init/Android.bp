@@ -52,12 +52,6 @@ prebuilt_etc {
     device_specific: true,
 }
 
-sh_binary {
-    name: "init.mi_perf.sh",
-    src: "init.mi_perf.sh",
-    vendor: true,
-}
-
 cc_library_static {
     name: "libinit_xiaomi13",
     srcs: ["init_xiaomi13.cpp"],

@@ -196,7 +196,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.mi_overlay.rc \
     init.mi_perf.rc \
-    init.mi_perf.sh \
     init.mi_service.rc \
     init.mi_udfps.rc \
     ueventd.xiaomi.rc
@@ -320,10 +319,6 @@ PRODUCT_PACKAGES += \
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# Perf
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 # RenderScript
 PRODUCT_PACKAGES += \

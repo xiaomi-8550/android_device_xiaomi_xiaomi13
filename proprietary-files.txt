@@ -2324,10 +2324,6 @@ vendor/bin/hw/android.hardware.ir-service.example
 vendor/etc/init/android.hardware.ir-service.example.rc
 vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml
 
-# IRQ Balance
-vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
-
 # Keymaster
 vendor/bin/hw/android.hardware.security.keymint-service-qti
 vendor/etc/init/android.hardware.security.keymint-service-qti.rc
