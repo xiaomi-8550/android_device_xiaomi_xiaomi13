@@ -391,6 +391,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
         </interface>
     </hal>
     <!-- IOP HAL service -->
+    <!--
     <hal format="hidl">
         <name>vendor.qti.hardware.iop</name>
         <transport>hwbinder</transport>
@@ -400,6 +401,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
             <instance>default</instance>
         </interface>
     </hal>
+    -->
     <!-- Secure image data processor HAL Service -->
     <hal format="hidl">
         <name>vendor.qti.hardware.secureprocessor.device</name>
