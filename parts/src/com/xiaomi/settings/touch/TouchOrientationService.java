@@ -10,6 +10,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.UserHandle;
 import android.util.Log;
@@ -18,6 +19,16 @@ public class TouchOrientationService extends Service {
 
     private static final String TAG = "XiaomiPartsTouchOrientationService";
     private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+
+    @Override
+    public void onCreate() {
+        if (Build.SKU.equals("nuwa")) {
+            if (DEBUG) Log.d(TAG, "Creating service: Stopping TouchOrientationService because device is " + Build.SKU);
+            stopSelf();
+        }
+        super.onCreate();
+        if (DEBUG) Log.d(TAG, "Creating service");
+    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
