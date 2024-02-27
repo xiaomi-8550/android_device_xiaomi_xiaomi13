@@ -300,6 +300,7 @@ PRODUCT_PACKAGES += \
     Xiaomi13FrameworksAOSPA \
     Xiaomi13FrameworksNuwa \
     Xiaomi13Nfc \
+    Xiaomi13SecureElement \
     Xiaomi13Settings \
     Xiaomi13Settings2210132C \
     Xiaomi13Settings2210132G \
@@ -314,11 +315,7 @@ PRODUCT_PACKAGES += \
     Xiaomi13WifiRes \
     Xiaomi13WifiResMainline \
     Xiaomi13WifiResNuwa \
-    Xiaomi13WifiResNuwaMainline \
-    Xiaomi13WifiResTarget \
-    Xiaomi13WifiResTargetMainline \
-    Xiaomi13WifiResTargetMainline_spf \
-    Xiaomi13WifiResTarget_spf
+    Xiaomi13WifiResNuwaMainline
 
 # Parts
 PRODUCT_PACKAGES += \

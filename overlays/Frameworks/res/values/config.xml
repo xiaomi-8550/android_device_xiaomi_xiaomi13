@@ -394,6 +394,11 @@
     <!-- Slow brightness animation ramp rate in brightness units per second-->
     <integer name="config_brightness_ramp_rate_slow">3946</integer>
 
+    <!-- The default refresh rate for a given device. If a non-zero value is set for
+         config_defaultPeakRefreshRate, then config_defaultRefreshRate may be set to 0, in that case
+         the value set for config_defaultPeakRefreshRate will act as the default peak frame rate -->
+    <integer name="config_defaultRefreshRate">0</integer>
+
     <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
          the framework from using higher refresh rates, even if display modes with higher refresh
          rates are available from hardware composer. Only has an effect if the value is
@@ -409,12 +414,6 @@
         <item>268</item> <!-- p3 -->
         <item>267</item> <!-- srgb -->
     </integer-array>
-
-
-    <!-- Control whether the always on display mode is available. This should only be enabled on
-         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
-         states. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
