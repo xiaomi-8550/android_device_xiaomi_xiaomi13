@@ -6,5 +6,5 @@
 
 runtime_resource_overlay {
     name: "Xiaomi13SettingsAOSPA",
-    product_specific: true,
+    device_specific: true,
 }

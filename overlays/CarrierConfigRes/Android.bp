@@ -6,6 +6,6 @@
 
 runtime_resource_overlay {
     name: "Xiaomi13CarrierConfigRes",
-    product_specific: true,
+    device_specific: true,
     aaptflags: ["--keep-raw-values"],
 }
