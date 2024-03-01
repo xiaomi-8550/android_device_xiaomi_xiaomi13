@@ -3124,6 +3124,7 @@ odm/etc/sensors/config/sx937x_0.json:odm/overlayfs/nuwa/odm/etc/sensors/config/s
 odm/etc/sensors/config/sx937x_reg_0.json:odm/overlayfs/nuwa/odm/etc/sensors/config/sx937x_reg_0.json|fef77e6e9d10ab1718868ebfdb83a8052af2f11f
 odm/etc/sensors/config/tcs3408.json:odm/overlayfs/nuwa/odm/etc/sensors/config/tcs3408.json|c01a8c4b49c11339e2983a87b8808053a0cc8f6f
 odm/etc/sensors/config/vl53l1_tof_0.json:odm/overlayfs/nuwa/odm/etc/sensors/config/vl53l1_tof_0.json|58bee2dfa1a2af29d34cf0a8483d9c453762ff29
+odm/lib64/subwaystate.hal.so:odm/overlayfs/nuwa/odm/lib64/subwaystate.hal.so|a2ac905205a7834cc766907042aa576bbe42d54b
 vendor/etc/sensors/config/chre_dynamic_sensors.json:odm/overlayfs/nuwa/vendor/etc/sensors/config/chre_dynamic_sensors.json|6264aca1501da2ff66b38135273b9c19a4268d1f
 
 # SLA
