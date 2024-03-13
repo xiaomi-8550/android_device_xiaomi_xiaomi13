@@ -68,3 +68,4 @@ ro.vendor.se.type=HCE,UICC
 
 # Telephony
 persist.vendor.radio.redir_party_num=0
+ro.vendor.radio.build_profile=u-stable
